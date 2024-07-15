@@ -19,4 +19,20 @@ code {
   --gradient2: #aa3fff;
   --gradient3: #f8522e;
   --gradient4: #fcaa4a;
+  --black: #171717;
+  --darkgray: #2d2d2d;
+  --gray: #6d6d6d;
+  --lightgray: #a8a8a8;
+  --white: #ffffff;
+  --titlefont: "Mary Poppins", sans-serif;
+  --descriptionfont: "Inter", sans-serif;
+  --smallfont: calc(0.65rem + 0.47vw);
+  --mediumfont: calc(0.8rem + 0.67vw);
+  --largefont: calc(0.9rem + 0.77vw);
+  --breakpoint: 1000px;
+}
+
+h1 {
+  font-size: calc(2.60714286rem + 2.89428571vw);
+  text-align: center;
 }

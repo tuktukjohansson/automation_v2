@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8 * 10px 7 * 10px;
+  align-items: center;
+}
+
+@media screen and (max-width: var(--breakpoint)) {
+  .container {
+    padding: 6 * 10px 2 * 10px;
+  }
+}

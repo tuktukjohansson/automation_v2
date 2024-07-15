@@ -1,0 +1,303 @@
+.navbar-container {
+  margin: 20px 10px 20px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  // Glass morph
+  background: rgba(255, 255, 255, 0.397);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.3px);
+  -webkit-backdrop-filter: blur(10.3px);
+  // Glass morph
+  height: 75px;
+  width: 80vw;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  position: fixed;
+  z-index: 100;
+}
+.logo-wrapper {
+  height: 60%;
+  margin-left: 40px;
+}
+.logo-img {
+  height: 100%;
+}
+
+.demo-button {
+  background-color: black;
+  text-decoration: none;
+  padding: 18px;
+  margin-right: 40px;
+  border-radius: 12px;
+  font-size: var(--smallfont);
+  position: relative;
+  color: var(--white);
+  overflow: hidden; /* Ensures the pseudo-element stays within the button */
+  transition: background 0.5s ease-in-out; /* For fallback in case gradient isn't supported */
+}
+
+.demo-button::after {
+  content: "Boka demo";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    var(--gradient1),
+    var(--gradient2) 30%,
+    var(--gradient3) 90%
+  );
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+  pointer-events: none; /* Ensures the pseudo-element doesn't interfere with button interactions */
+}
+
+.demo-button:hover::after {
+  opacity: 1;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-family: var(--titlefont);
+  font-weight: 400;
+  font-size: var(--smallfont);
+  .nav-link {
+    text-decoration: none;
+    color: var(--gray);
+  }
+}
+
+.navbar-dropdown {
+  position: relative;
+  list-style: none;
+  a {
+    color: var(--gray);
+    text-decoration: none;
+  }
+}
+
+.navbar-dropdown:hover .dropdown {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.navbar-dropdown .dropdown {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  padding-top: 30px;
+  top: 60%;
+  transform: translateY(-20px);
+  left: -50px;
+  width: 200px;
+  z-index: 111;
+  transition: 0.4s all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-dropdown .dropdown a {
+  padding: 20px;
+  width: 100px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.597);
+  backdrop-filter: blur(10.3px);
+  -webkit-backdrop-filter: blur(10.3px);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 400;
+  transition: 0.2s ease-in-out;
+}
+.navbar-dropdown .dropdown a:hover {
+  font-size: 22px;
+  transition: 0.2s ease-in-out;
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
+.navbar-dropdown .dropdown a:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.navbar-dropdown .dropdown a:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media (max-width: 1000px) {
+  .navbar-content {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .demo-button {
+    display: none;
+    width: 100px;
+    height: 100px;
+  }
+  .hamburger-container {
+    display: block !important;
+    margin-right: 40px;
+  }
+}
+
+.hamburger-container {
+  display: none;
+}
+
+.dropdown-content-mobile {
+  display: none;
+}
+
+// Dropdown mobile
+@media (max-width: 1000px) {
+  .dropdown-content-mobile {
+    display: flex;
+    opacity: 0;
+    display: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.5s ease-in-out, opacity 0.3s ease-in-out;
+    position: absolute;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 0;
+    border-width: 5px;
+    border: 5px;
+    border-color: gray;
+  }
+  .dropdown-content-mobile.open {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .dropdown-links-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 10vh;
+    gap: 25px;
+  }
+  .dropdown-text {
+    flex-direction: row;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 10px;
+  }
+  .dropdown-text:hover {
+    color: var(--gray);
+  }
+  .arrow-icon.open {
+    transition: 0.5s ease-in-out transform;
+    transform: rotate(-90deg);
+  }
+  .dropdown-link {
+    flex-direction: column;
+    display: flex;
+    width: 100px;
+    color: var(--gray);
+    font-weight: 300;
+    text-decoration: none;
+    cursor: pointer;
+    .arrow-icon {
+      transition: 0.5s ease-in-out transform;
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+      width: 15px;
+    }
+  }
+  .dropdown-text:hover,
+  .products-link:hover,
+  .sublink:hover {
+    color: var(--lightgray);
+  }
+  .products-link {
+    color: var(--gray);
+    text-decoration: none;
+  }
+  .sublink {
+    gap: 15px;
+    width: 100px;
+    color: var(--gray);
+    font-weight: 300;
+    text-decoration: none;
+  }
+  .demo-button-2 {
+    width: 70px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 18px;
+    margin-right: 40px;
+    border-radius: 12px;
+    font-size: 14px;
+    position: relative;
+    color: white;
+    overflow: hidden; /* Ensures the pseudo-element stays within the button */
+    background: black; /* Initial solid background color */
+    transition: background 0.5s ease-in-out; /* For fallback in case gradient isn't supported */
+  }
+
+  .demo-button-2::after {
+    content: "Boka demo";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      90deg,
+      var(--gradient1),
+      var(--gradient2) 30%,
+      var(--gradient3) 90%
+    );
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    pointer-events: none; /* Ensures the pseudo-element doesn't interfere with button interactions */
+  }
+
+  .demo-button-2:hover::after {
+    opacity: 1;
+  }
+  .products-content {
+    display: none;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .products-content.open {
+    transition: 1s ease-in-out;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .products-content.open .dropdown-content-mobile {
+    height: 700px !important; /* Adjusted height when products-content.open is active */
+  }
+}
