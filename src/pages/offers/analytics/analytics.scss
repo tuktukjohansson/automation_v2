@@ -1,0 +1,33 @@
+// ----------------------------- Block One ----------------------------- \\
+.gradient-one {
+  z-index: -1;
+  width: 100%;
+  height: 900px;
+  background-image: linear-gradient(
+    130deg,
+    var(--gradient1),
+    var(--gradient2) 30%,
+    var(--gradient3) 63%,
+    var(--gradient4) 81%
+  );
+  opacity: 0.3;
+  filter: blur(150px);
+  position: absolute;
+  top: 0%;
+  bottom: 40%;
+  left: 0%;
+  right: 0%;
+}
+
+.block-one-title {
+  margin-top: 100px;
+  font-family: var(--titlefont);
+}
+.block-one-description {
+  font-family: var(--titledescription);
+  font-size: var(--mediumfont);
+  font-weight: 300;
+  max-width: 800px;
+  text-align: center;
+}
+

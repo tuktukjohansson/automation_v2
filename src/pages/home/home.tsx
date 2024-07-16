@@ -1,14 +1,14 @@
 import React from "react";
 
 // Components
-import Container from "../components/container/container.tsx";
-import Gradienttext from "../components/gradient-text/gradient-text.tsx";
-import Slideshow from "../components/slideshow/slideshow.tsx";
-import ImageTextBox from "../components/image-text-container/image-text.tsx";
-import ThreeBoxes from "../components/three-boxes/three-boxes.tsx";
+import Container from "../../components/container/container.tsx";
+import Gradienttext from "../../components/gradient-text/gradient-text.tsx";
+import Slideshow from "../../components/slideshow/slideshow.tsx";
+import ImageTextBox from "../../components/image-text-container/image-text.tsx";
+import ThreeBoxes from "../../components/three-boxes/three-boxes.tsx";
 
 // Images
-import Sork from "../images/component-images/sork.png";
+import Sork from "../../images/component-images/sork.png";
 
 import "./home.scss";
 

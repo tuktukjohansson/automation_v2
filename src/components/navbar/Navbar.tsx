@@ -31,24 +31,36 @@ const Navbar = () => {
               </div>
             </div>
             <div className={`products-content ${isProductOpen ? "open" : ""}`}>
-              <Link onClick={toggleMenu} className="products-link" to="/">
+              <Link
+                onClick={toggleMenu}
+                className="products-link"
+                to="/offers/analytics"
+              >
                 Analys
               </Link>
-              <Link onClick={toggleMenu} className="products-link" to="/">
+              <Link
+                onClick={toggleMenu}
+                className="products-link"
+                to="/offers/workshop"
+              >
                 Workshop
               </Link>
-              <Link onClick={toggleMenu} className="products-link" to="/">
+              <Link
+                onClick={toggleMenu}
+                className="products-link"
+                to="/offers/orderflow"
+              >
                 OrderFlow
               </Link>
             </div>
           </div>
-          <Link className="sublink" onClick={toggleMenu} to="/">
+          <Link className="sublink" onClick={toggleMenu} to="/clients">
             Kunder
           </Link>
-          <Link className="sublink" onClick={toggleMenu} to="/">
+          <Link className="sublink" onClick={toggleMenu} to="/company">
             Företag
           </Link>
-          <Link className="sublink" onClick={toggleMenu} to="/">
+          <Link className="sublink" onClick={toggleMenu} to="/contact">
             Kontakt
           </Link>
           <Link className="demo-button-2" onClick={toggleMenu} to="/demo">
@@ -67,20 +79,20 @@ const Navbar = () => {
           </Link>
           <div className={`navbar-content ${isOpen ? "open" : ""}`}>
             <li className="navbar-dropdown">
-              <a href="#">Erbjudande</a>
+              <a>Erbjudande</a>
               <div className="dropdown">
-                <a href="#">Analys</a>
-                <a href="#">Workshop</a>
-                <a href="#">OrderFlow</a>
+                <a href="/offers/analytics">Analys</a>
+                <a href="/offers/workshop">Workshop</a>
+                <a href="/offers/orderflow">OrderFlow</a>
               </div>
             </li>
-            <Link className="nav-link" to="/demo">
+            <Link className="nav-link" to="/clients">
               Kunder
             </Link>
-            <Link className="nav-link" to="/demo">
+            <Link className="nav-link" to="/company">
               Företag
             </Link>
-            <Link className="nav-link" to="/demo">
+            <Link className="nav-link" to="/contact">
               Kontakt
             </Link>
           </div>
