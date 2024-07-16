@@ -6,9 +6,13 @@ import Gradienttext from "../../components/gradient-text/gradient-text.tsx";
 import Slideshow from "../../components/slideshow/slideshow.tsx";
 import ImageTextBox from "../../components/image-text-container/image-text.tsx";
 import ThreeBoxes from "../../components/three-boxes/three-boxes.tsx";
+import Customer from "../../components/customer-case/customer.tsx";
 
 // Images
 import Sork from "../../images/component-images/sork.png";
+import Sork1 from "../../images/component-images/sork1.png";
+import Sork2 from "../../images/component-images/sork2.png";
+import Sork3 from "../../images/component-images/sork3.png";
 
 import "./home.scss";
 
@@ -52,6 +56,26 @@ const Home = () => {
           box3title="Automation"
           box3description="Sorkar automate repetitive tasks and provide intelligent solutions, freeing up time for employees to focus on more strategic and creative work."
         />
+      </Container>
+      {/* ----------------------------- Block Four ----------------------------- */}
+      <Container>
+        <div className="flex-container">
+          <Customer
+            title="Gothes"
+            description="We automated Gothes' entire inventory management system, reducing manual work, minimizing errors, and significantly boosting overall efficiency."
+            img={Sork1}
+          />
+          <Customer
+            title="Debe"
+            description="Our automation solutions transformed Debe's invoicing process, enabling automatic generation, processing, and tracking of invoices to streamline their financial operations."
+            img={Sork2}
+          />
+          <Customer
+            title="Dirridoo"
+            description="We developed an AI-driven customer support system for Dirridoo, automating responses to common inquiries and freeing up their team to focus on complex issues."
+            img={Sork3}
+          />
+        </div>
       </Container>
     </>
   );
