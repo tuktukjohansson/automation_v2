@@ -7,35 +7,44 @@ import Slideshow from "../../components/slideshow/slideshow.tsx";
 import ImageTextBox from "../../components/image-text-container/image-text.tsx";
 import ThreeBoxes from "../../components/three-boxes/three-boxes.tsx";
 import Customer from "../../components/customer-case/customer.tsx";
+import RedirectButtons from "../../components/redirect-buttons/redirect-buttons.tsx";
 
 // Images
 import Sork from "../../images/component-images/sork.png";
 import Sork1 from "../../images/component-images/sork1.png";
 import Sork2 from "../../images/component-images/sork2.png";
 import Sork3 from "../../images/component-images/sork3.png";
-
 import "./home.scss";
+import { useTranslation, Trans } from "react-i18next";
 
 const Home = () => {
+  const { t } = useTranslation();
   return (
-    <>
+    <div className="homepage">
       {/* ----------------------------- Block One ----------------------------- */}
       <div className="gradient-one" />
       <Container>
-        <h1 className="block-one-title">
-          Real-time
+        <h1 className="gradient-title-one" style={{ marginTop: 200 }}>
+          {t("home.textbox1.gradienttitle.part1")}
           <br />
-          <Gradienttext text="sork-only" /> management
+          <Gradienttext text={t("home.textbox1.gradienttitle.part2")} />{" "}
+          {t("home.textbox1.gradienttitle.part3")}
         </h1>
         <div className="block-one-description">
-          Voles are known for their strong social bonds and affectionate nature,
-          providing companionship and emotional support, which can reduce stress
-          and promote overall well-being.
+          {t("home.textbox1.description")}
         </div>
+      </Container>
+      {/* ----------------------------- Block One and a half ----------------------------- */}
+      <Container>
+        <RedirectButtons
+          button1text={t("components.buttons.talk-to-us")}
+          button2text={t("components.buttons.how-does-it-work")}
+        ></RedirectButtons>
       </Container>
       <Container>
         <Slideshow />
       </Container>
+
       {/* ----------------------------- Block Two ----------------------------- */}
       <Container>
         <ImageTextBox
@@ -48,6 +57,16 @@ const Home = () => {
       </Container>
       {/* ----------------------------- Block Three ----------------------------- */}
       <Container>
+        <h1 className="gradient-title">
+          {t("home.textbox2.gradienttitle.part1")}{" "}
+          <Gradienttext
+            secondGradient={true}
+            text={t("home.textbox2.gradienttitle.part2")}
+          />
+        </h1>
+        <div className="description-left">
+          <p>{t("home.textbox2.description")}</p>
+        </div>
         <ThreeBoxes
           box1title="Analys"
           box1description="Sorkar facilitate clearer and more effective communication among team members, reducing misunderstandings and increasing productivity."
@@ -59,6 +78,16 @@ const Home = () => {
       </Container>
       {/* ----------------------------- Block Four ----------------------------- */}
       <Container>
+        <h1 className="gradient-title">
+          {t("home.textbox3.gradienttitle.part1")}{" "}
+          <Gradienttext
+            secondGradient={true}
+            text={t("home.textbox3.gradienttitle.part2")}
+          />
+        </h1>
+        <div className="description-left">
+          <p>{t("home.textbox3.description")}</p>
+        </div>
         <div className="flex-container">
           <Customer
             title="Gothes"
@@ -77,7 +106,7 @@ const Home = () => {
           />
         </div>
       </Container>
-    </>
+    </div>
   );
 };
 

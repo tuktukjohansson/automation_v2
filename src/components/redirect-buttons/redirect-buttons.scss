@@ -1,0 +1,43 @@
+.redirect-container {
+  display: flex;
+  gap: 50px;
+
+  .button1 {
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 15px 55px 15px 55px;
+    border-radius: var(--borderradiussmall);
+    .text {
+      color: white;
+      font-family: var(--titlefont);
+      font-size: var(--extrasmallfont);
+    }
+  }
+  .button1:hover {
+    transition: 0.2s ease-in-out;
+    background-color: rgb(83, 83, 83);
+  }
+  .button2 {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 15px 55px 15px 55px;
+    border-radius: var(--borderradiussmall);
+    transition: 0.5 ease-in-out;
+    .text {
+      color: black;
+      font-size: var(--extrasmallfont);
+      font-family: var(--titlefont);
+    }
+  }
+  .button2:hover {
+    transition: 0.2s ease-in-out;
+    background-color: rgb(243, 243, 243);
+  }
+}

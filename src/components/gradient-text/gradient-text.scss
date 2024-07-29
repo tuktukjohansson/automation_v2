@@ -3,3 +3,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.gradient-text-2 {
+  background: linear-gradient(to right, var(--gradient2), var(--gradient3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

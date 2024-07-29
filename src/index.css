@@ -26,13 +26,27 @@ code {
   --white: #ffffff;
   --titlefont: "Mary Poppins", sans-serif;
   --descriptionfont: "Inter", sans-serif;
+  --extrasmallfont: calc(0.67rem + 0.24vw);
   --smallfont: calc(0.65rem + 0.47vw);
   --mediumfont: calc(0.8rem + 0.67vw);
   --largefont: calc(0.9rem + 0.77vw);
-  --breakpoint: 1000px;
+  --borderradiussmall: 10px;
+  --borderradiusbig: 20px;
 }
 
 h1 {
-  font-size: calc(2.60714286rem + 2.89428571vw);
+  font-size: 65px;
   text-align: center;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 35px;
+  }
 }

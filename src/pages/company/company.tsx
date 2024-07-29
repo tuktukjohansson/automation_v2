@@ -12,7 +12,7 @@ const Company = () => {
     <>
       {/* ----------------------------- Block One ----------------------------- */}
       <Container>
-        <h1 className="block-one-title">
+        <h1 className="gradient-title">
           Company
           <br />
         </h1>

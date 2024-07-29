@@ -8,8 +8,9 @@
     /* From https://css.glass */
     background: #f8f9fc;
     border-radius: 10px;
-    width: 500px;
-    height: 280px;
+    max-width: 390px;
+    padding: 20px;
+    height: 230px;
     display: flex;
     justify-content: center;
     align-items: center;

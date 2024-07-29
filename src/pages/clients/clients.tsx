@@ -12,7 +12,7 @@ const Clients = () => {
     <>
       {/* ----------------------------- Block One ----------------------------- */}
       <Container>
-        <h1 className="block-one-title">
+        <h1 className="gradient-title">
           Clients
           <br />
         </h1>

@@ -41,9 +41,16 @@ const Navbar = () => {
               <Link
                 onClick={toggleMenu}
                 className="products-link"
-                to="/offers/workshop"
+                to="/offers/analytics"
               >
-                Workshop
+                Kunskap
+              </Link>
+              <Link
+                onClick={toggleMenu}
+                className="products-link"
+                to="/offers/Automation"
+              >
+                Automation
               </Link>
               <Link
                 onClick={toggleMenu}
@@ -64,7 +71,7 @@ const Navbar = () => {
             Kontakt
           </Link>
           <Link className="demo-button-2" onClick={toggleMenu} to="/demo">
-            Boka demo
+            Boka möte
           </Link>
         </div>
       </div>
@@ -82,8 +89,9 @@ const Navbar = () => {
               <a>Erbjudande</a>
               <div className="dropdown">
                 <a href="/offers/analytics">Analys</a>
-                <a href="/offers/workshop">Workshop</a>
+                <a href="/offers/Automation">Automation</a>
                 <a href="/offers/orderflow">OrderFlow</a>
+                <a href="/offers/orderflow">Kunskap</a>
               </div>
             </li>
             <Link className="nav-link" to="/clients">
@@ -97,7 +105,7 @@ const Navbar = () => {
             </Link>
           </div>
           <Link className="demo-button" to="/demo">
-            Boka demo
+            Boka möte
           </Link>
           <div className="hamburger-container">
             <Hamburger toggled={isOpen} toggle={setOpen} size={40} />

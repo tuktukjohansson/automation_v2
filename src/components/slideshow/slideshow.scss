@@ -1,4 +1,4 @@
-$animationSpeed: 40s;
+$animationSpeed: 30s;
 
 // Animation
 @keyframes scroll {
@@ -6,7 +6,7 @@ $animationSpeed: 40s;
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-300px * 12));
+    transform: translateX(calc(-375px * 12));
   }
 }
 
@@ -17,7 +17,7 @@ $animationSpeed: 40s;
   margin: auto;
   overflow: hidden;
   position: relative;
-  width: 1260px;
+  width: 1350px;
 
   &::after {
     right: 0;
@@ -33,7 +33,7 @@ $animationSpeed: 40s;
   .slide-track {
     animation: scroll $animationSpeed linear infinite;
     display: flex;
-    width: calc(500px * 16);
+    width: calc(750px * 12);
   }
 
   .slide {
@@ -46,15 +46,29 @@ $animationSpeed: 40s;
   }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
   .slider {
-    width: 800px !important;
+    width: 1050px !important;
   }
 }
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
   .slider {
-    width: 600px !important;
+    width: 750px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .slider {
+    width: 500px !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  .slider {
+    width: 400px !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .slider {
+    width: 300px !important;
   }
 }
 

@@ -1,0 +1,15 @@
+{
+  "home": {
+    "gradienttitle": {
+      "part1": "Sätt dina affärsprocesser på",
+      "part2": "autopilot",
+      "part3": "med artificiell intelligens"
+    }
+  },
+  "components": {
+    "buttons": {
+      "talk-to-us": "Prata med oss",
+      "how-does-it-work": "Så fungerar det"
+    }
+  }
+}
