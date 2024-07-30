@@ -9,8 +9,16 @@ import Automation from "./pages/offers/automation/automation.tsx";
 import Clients from "./pages/clients/clients.tsx";
 import Company from "./pages/company/company.tsx";
 import Contact from "./pages/contact/contact.tsx";
+import useKonamiCode from "./konami.js";
+import filmjolk from "./easter-egg/audio.mp3";
 
 function App() {
+  const playEasterEggSound = () => {
+    const audio = new Audio(filmjolk);
+    audio.play();
+  };
+
+  useKonamiCode(playEasterEggSound);
   return (
     <Router>
       <Navbar />
