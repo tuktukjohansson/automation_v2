@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import { useNavigate } from "react-router-dom";
 
 // Components
 import Container from "../../components/container/container.tsx";
@@ -8,23 +10,72 @@ import Container from "../../components/container/container.tsx";
 import "./contact.scss";
 
 const Contact = () => {
+  const form = useRef();
+  const [emailError, setEmailError] = useState("");
+  const navigate = useNavigate();
+
+  const validateEmail = email => {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(String(email).toLowerCase());
+  };
+  const sendEmail = e => {
+    e.preventDefault();
+    const email = form.current.user_email.value;
+
+    if (!validateEmail(email)) {
+      setEmailError("Please enter a valid email address.");
+      return;
+    }
+
+    setEmailError("");
+
+    emailjs
+      .sendForm("service_rstpq89", "template_bonczzb", form.current, {
+        publicKey: "h62aOe4zowAuSMPFz",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          navigate("/thank-you"); // Redirect to the "thank-you" page
+        },
+        error => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
+
   return (
-    <>
+    <div className="body-contact">
       {/* ----------------------------- Block One ----------------------------- */}
       <Container>
-        <h1 className="gradient-title">
-          Contact
-          <br />
-        </h1>
-        <div className="block-one-description">
-          Contact Contact Contact Contact Contact Contact Contact Contact
-          Contact Contact Contact Contact Contact Contact Contact Contact
-          Contact Contact Contact Contact Contact Contact Contact Contact
-          Contact Contact Contact Contact Contact Contact Contact Contact
-          Contact Contact Contact Contact
+        <div className="flex-container">
+          <div className="text-container">
+            <h1>Contact us</h1>
+            <p>Need help contacting us? Contact us</p>
+          </div>
+          <div className="contactform">
+            <form ref={form} onSubmit={sendEmail}>
+              <div className="inputgroup">
+                <label>Name*</label>
+                <input type="text" name="user_name" required />
+              </div>
+              <div className="inputgroup">
+                <label>Email*</label>
+                <input type="email" name="user_email" required />
+                {emailError && <p className="error">{emailError}</p>}
+              </div>
+              <div className="inputgroup">
+                <label>Message</label>
+                <textarea name="message" />
+              </div>
+              <div className="sendbutton">
+                <input type="submit" value="Send" />
+              </div>
+            </form>
+          </div>
         </div>
       </Container>
-    </>
+    </div>
   );
 };
 
