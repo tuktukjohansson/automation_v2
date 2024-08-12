@@ -30,7 +30,19 @@
     }
   },
   "footer": {
-    "titleRow1": "Hör av dig idag",
-    "titleRow2": "Automatisera era processer imorgon"
+    "text1": "Kungsgatan 26",
+    "text2": "111 35 Stockholm, Sweden"
+  },
+  "nav": {
+    "products": {
+      "category": "Erbjudande",
+      "product1": "Analys",
+      "product2": "Automation",
+      "product3": "OrderFlow",
+      "product4": "Kunskap"
+    },
+    "customers": "Kunder",
+    "company": "Företag",
+    "contact": "Kontakt"
   }
 }

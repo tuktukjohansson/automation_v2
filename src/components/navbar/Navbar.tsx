@@ -41,13 +41,6 @@ const Navbar = () => {
               <Link
                 onClick={toggleMenu}
                 className="products-link"
-                to="/offers/analytics"
-              >
-                Kunskap
-              </Link>
-              <Link
-                onClick={toggleMenu}
-                className="products-link"
                 to="/offers/Automation"
               >
                 Automation
@@ -91,9 +84,11 @@ const Navbar = () => {
                 <a href="/offers/analytics">Analys</a>
                 <a href="/offers/Automation">Automation</a>
                 <a href="/offers/orderflow">OrderFlow</a>
-                <a href="/offers/orderflow">Kunskap</a>
               </div>
             </li>
+            <Link className="nav-link" to="/knowledge">
+              Kunskap
+            </Link>
             <Link className="nav-link" to="/clients">
               Kunder
             </Link>

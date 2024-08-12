@@ -41,3 +41,9 @@
     background-color: rgb(243, 243, 243);
   }
 }
+@media (max-width: 800px) {
+  .redirect-container {
+    gap: 30px;
+    flex-direction: column-reverse;
+  }
+}

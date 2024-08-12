@@ -1,15 +1,48 @@
 {
   "home": {
-    "gradienttitle": {
-      "part1": "Sätt dina affärsprocesser på",
-      "part2": "autopilot",
-      "part3": "med artificiell intelligens"
+    "textbox1": {
+      "gradienttitle": {
+        "part1": "Sätt dina affärsprocesser på",
+        "part2": "autopilot",
+        "part3": "med artificiell intelligens"
+      },
+      "description": "Voles are known for their strong social bonds and affectionate nature, providing companionship and emotional support, which can reduce stress and promote overall well-being."
+    },
+    "textbox2": {
+      "gradienttitle": {
+        "part1": "Så",
+        "part2": "fungerar det"
+      },
+      "description": "Två meningar som beskriver hur enkelt och snabbt det är att komma igång med automation hos oss."
+    },
+    "textbox3": {
+      "gradienttitle": {
+        "part1": "Läs om våra",
+        "part2": "kundcase"
+      },
+      "description": "Se allt spännande vi har gjort för våra kunder och inspireras av alla sorkar vi har automatiserat"
     }
   },
   "components": {
     "buttons": {
-      "talk-to-us": "Prata med oss",
+      "talk-to-us": "Kontakta oss",
       "how-does-it-work": "Så fungerar det"
     }
+  },
+  "footer": {
+    "text1": "Kungsgatan 26",
+    "text2": "111 35 Stockholm, Sweden"
+  },
+  "nav": {
+    "products": {
+      "category": "Erbjudande",
+      "product1": "Analys",
+      "product2": "Automation",
+      "product3": "OrderFlow",
+      "product4": "Kunskap"
+    },
+    "customers": "Kunder",
+    "company": "Företag",
+    "contact": "Kontakt"
   }
 }

@@ -11,6 +11,81 @@
     align-items: center;
 
     .left-content {
+      img {
+        height: 80px;
+      }
+    }
+    .right-content {
+      .description {
+        font-family: var(--descriptionfont);
+        flex-direction: column;
+        display: flex;
+        font-weight: 550;
+        gap: 20px;
+      }
+      .mail {
+        color: black;
+        transition: 0.2s ease-in-out;
+      }
+      .mail:hover {
+        color: rgb(84, 84, 84);
+        transition: 0.2s ease-in-out;
+      }
+      .linkedinlink {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        text-decoration: none;
+        color: black;
+        transition: 0.2s ease-in-out;
+        .linkedin {
+          filter: invert(1);
+          height: 20px;
+          width: 20px;
+        }
+      }
+      .linkedinlink:hover {
+        transition: 0.2s ease-in-out;
+        filter: invert(0.2);
+        color: rgb(84, 84, 84);
+      }
+    }
+    .middle-content {
+      .linkwrapper {
+        font-family: var(--descriptionfont);
+        font-weight: 500;
+        display: flex;
+        gap: 19px;
+        flex-direction: column;
+        .link {
+          text-decoration: none;
+          color: black;
+        }
+        .link:hover {
+          color: rgb(110, 110, 110);
+        }
+      }
+    }
+  }
+}
+@media (max-width: 800px) {
+  .footer {
+    .content {
+      flex-direction: column;
+      .left-content {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+      .right-content {
+        width: 100%;
+        margin-top: 80px;
+      }
+      .middle-content {
+        width: 100%;
+        margin-top: 40px;
+        .linkwrapper {
+        }
+      }
     }
   }
 }

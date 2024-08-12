@@ -83,12 +83,16 @@
 @media (max-width: 1200px) {
   .flex-container {
     width: 100% !important;
-    justify-content: left !important;
+    justify-content: center !important;
   }
 }
 @media (max-width: 600px) {
   .contactform {
     width: 100% !important;
     padding: 20px !important;
+  }
+  .flex-container {
+    width: 100% !important;
+    justify-content: left !important;
   }
 }
