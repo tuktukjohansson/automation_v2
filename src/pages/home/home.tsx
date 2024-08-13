@@ -104,6 +104,7 @@ const Home = () => {
               title="Gothes"
               description="We automated Gothes' entire inventory management system, reducing manual work, minimizing errors, and significantly boosting overall efficiency."
               img={Sork1}
+              alt="Sork1"
             />
           </Fade>
           <Fade delay={300} duration={1000}>
@@ -111,6 +112,7 @@ const Home = () => {
               title="Debe"
               description="Our automation solutions transformed Debe's invoicing process, enabling automatic generation, processing, and tracking of invoices to streamline their financial operations."
               img={Sork2}
+              alt="Sork2"
             />
           </Fade>
           <Fade delay={400} duration={1000}>
@@ -118,6 +120,7 @@ const Home = () => {
               title="Dirridoo"
               description="We developed an AI-driven customer support system for Dirridoo, automating responses to common inquiries and freeing up their team to focus on complex issues."
               img={Sork3}
+              alt="Sork3"
             />
           </Fade>
         </div>

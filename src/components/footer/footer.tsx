@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="content">
           <div className="left-content">
             <div className="description">
-              <img src={violet_gradient_logo} />
+              <img alt="VioletLogo" src={violet_gradient_logo} />
             </div>
           </div>
           <div className="middle-content">
@@ -61,6 +61,7 @@ const Footer = () => {
                 <img
                   className="linkedin"
                   src="https://cdn.prod.website-files.com/6397169c23b54d0da1cd5447/639c72812f8b5fd3409e0fe2_Frame.svg"
+                  alt="linkedInLogo"
                 ></img>
                 LinkedIn
               </a>

@@ -5,7 +5,7 @@ const Customer = props => {
   return (
     <div className="customer">
       <div className="img-container">
-        <img className="img" src={props.img} />
+        <img className="img" alt={props.alt} src={props.img} />
       </div>
       <div className="text-container">
         <div className="title">{props.title}</div>

@@ -79,7 +79,7 @@ const Navbar = () => {
           </Link>
           <div className={`navbar-content ${isOpen ? "open" : ""}`}>
             <li className="navbar-dropdown">
-              <a>Erbjudande</a>
+              <div>Erbjudande</div>
               <div className="dropdown">
                 <a href="/offers/analytics">Analys</a>
                 <a href="/offers/Automation">Automation</a>
