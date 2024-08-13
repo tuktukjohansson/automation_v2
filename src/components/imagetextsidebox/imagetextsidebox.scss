@@ -1,0 +1,46 @@
+.imagetextsidebox {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  &.reverse {
+    flex-direction: row;
+  }
+  justify-content: space-between;
+  align-items: center;
+  .image {
+    width: 500px;
+    border-radius: 50px;
+  }
+  .text-overlay {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    .title {
+      display: flex;
+      width: 100%;
+      margin-bottom: 20px;
+      font-size: var(--fontmedium);
+      font-weight: 450;
+    }
+    .description {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .imagetextsidebox {
+    flex-direction: column !important;
+    gap: 50px;
+    .text-overlay {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .imagetextsidebox {
+    .image {
+      width: 100%;
+    }
+  }
+}

@@ -27,9 +27,9 @@ code {
   --titlefont: "Mary Poppins", sans-serif;
   --descriptionfont: "Inter", sans-serif;
   --extrasmallfont: calc(0.67rem + 0.24vw);
-  --smallfont: calc(0.65rem + 0.47vw);
-  --mediumfont: calc(0.8rem + 0.67vw);
-  --largefont: calc(0.9rem + 0.77vw);
+  --fontsmall: calc(0.65rem + 0.47vw);
+  --fontmedium: calc(0.8rem + 0.67vw);
+  --fontlarge: calc(0.9rem + 0.77vw);
   --borderradiussmall: 10px;
   --borderradiusbig: 20px;
 }

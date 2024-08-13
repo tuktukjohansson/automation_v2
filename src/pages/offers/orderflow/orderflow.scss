@@ -1,6 +1,22 @@
 .orderflowpage {
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100%;
+  .gradient-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .blockone {
+    margin-top: 100px;
+    gap: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
