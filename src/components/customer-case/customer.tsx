@@ -3,7 +3,7 @@ import "./customer.scss";
 
 const Customer = props => {
   return (
-    <div className="customer">
+    <a href={props.href} className="customer">
       <div className="img-container">
         <img className="img" alt={props.alt} src={props.img} />
       </div>
@@ -11,7 +11,7 @@ const Customer = props => {
         <div className="title">{props.title}</div>
         <div className="description">{props.description}</div>
       </div>
-    </div>
+    </a>
   );
 };
 

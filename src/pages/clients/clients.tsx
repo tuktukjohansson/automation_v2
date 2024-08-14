@@ -25,6 +25,7 @@ const Clients = () => {
           <div className="kundcases">
             <Fade delay={200} duration={1000}>
               <Customer
+                href="clients/gothes"
                 title="Gothes"
                 description="We automated Gothes' entire inventory management system, reducing manual work, minimizing errors, and significantly boosting overall efficiency."
                 img={Sork1}
@@ -33,6 +34,7 @@ const Clients = () => {
             </Fade>
             <Fade delay={300} duration={1000}>
               <Customer
+                href="clients/debe"
                 title="Debe"
                 description="Our automation solutions transformed Debe's invoicing process, enabling automatic generation, processing, and tracking of invoices to streamline their financial operations."
                 img={Sork2}
@@ -41,6 +43,7 @@ const Clients = () => {
             </Fade>
             <Fade delay={400} duration={1000}>
               <Customer
+                href="clients/max"
                 title="Max"
                 description="We developed an AI-driven customer support system for Dirridoo, automating responses to common inquiries and freeing up their team to focus on complex issues."
                 img={Sork3}
