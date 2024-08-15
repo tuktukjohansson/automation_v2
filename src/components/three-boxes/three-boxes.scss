@@ -17,7 +17,7 @@
     flex-direction: column;
     gap: 10px;
     .title {
-      font-family: var(--titlefont);
+      font-family: var(fontfamilytitle);
       font-size: var(--fontmedium);
       font-weight: bold;
       max-width: 400px;
@@ -26,7 +26,7 @@
 
     .description {
       text-align: center;
-      font-size: var(--descriptionfont);
+      font-size: var(fontfamilydescription);
       margin-top: 10px;
       max-width: 400px;
     }

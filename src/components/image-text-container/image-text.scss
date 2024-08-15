@@ -23,14 +23,14 @@
     color: white;
 
     .description {
-      font-family: var(--titlefont);
+      font-family: var(fontfamilytitle);
       margin-top: 100px;
       font-size: var(--fontmedium);
       font-weight: bold;
     }
 
     .small-description {
-      font-size: var(--descriptionfont);
+      font-size: var(fontfamilydescription);
       margin-top: 10px;
     }
   }

@@ -17,7 +17,7 @@
     }
     .right-content {
       .description {
-        font-family: var(--descriptionfont);
+        font-family: var(fontfamilydescription);
         flex-direction: column;
         display: flex;
         font-weight: 550;
@@ -52,7 +52,7 @@
     }
     .middle-content {
       .linkwrapper {
-        font-family: var(--descriptionfont);
+        font-family: var(fontfamilydescription);
         font-weight: 500;
         display: flex;
         gap: 19px;

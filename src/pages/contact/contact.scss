@@ -55,7 +55,7 @@
           color: white;
           font-weight: 600;
           font-size: 20px;
-          font-family: var(--descriptionfont);
+          font-family: var(fontfamilydescription);
           background-color: rgb(155, 96, 255);
           transition: 0.5s;
         }
@@ -70,7 +70,7 @@
           color: white;
           font-weight: 600;
           font-size: 20px;
-          font-family: var(--descriptionfont);
+          font-family: var(fontfamilydescription);
           background-color: rgb(100, 47, 192);
           transition: 0.5s;
           cursor: pointer;

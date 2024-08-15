@@ -13,6 +13,7 @@ code {
 }
 
 :root {
+  /* Common Colors */
   --blue: #1e90ff;
   --white: #ffffff;
   --gradient1: #6557ff;
@@ -24,12 +25,16 @@ code {
   --gray: #6d6d6d;
   --lightgray: #a8a8a8;
   --white: #ffffff;
-  --titlefont: "Mary Poppins", sans-serif;
-  --descriptionfont: "Inter", sans-serif;
-  --extrasmallfont: calc(0.67rem + 0.24vw);
+  /* Font Families */
+  --fontfamilytitle: "Mary Poppins", sans-serif;
+  --fontfamilydescription: "Inter", sans-serif;
+  /* Font Sizes */
+  --fontextrasmall: calc(0.67rem + 0.24vw);
   --fontsmall: calc(0.75rem + 0.27vw);
   --fontmedium: calc(0.8rem + 0.67vw);
   --fontlarge: calc(0.9rem + 0.77vw);
+  --fonthuge: 70px;
+  /* Border Radius */
   --borderradiussmall: 10px;
   --borderradiusbig: 20px;
 }
@@ -37,6 +42,22 @@ code {
 h1 {
   font-size: 65px;
   text-align: center;
+}
+
+@media (max-width: 1000px) {
+  :root {
+    --fonthuge: 60px;
+  }
+}
+@media (max-width: 800px) {
+  :root {
+    --fonthuge: 48px;
+  }
+}
+@media (max-width: 700px) {
+  :root {
+    --fonthuge: 40px;
+  }
 }
 
 @media (max-width: 1000px) {
