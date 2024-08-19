@@ -34,6 +34,7 @@ code {
   --fontmedium: calc(0.8rem + 0.67vw);
   --fontlarge: calc(0.9rem + 0.77vw);
   --fonthuge: 70px;
+  --navmargin: 80px;
   /* Border Radius */
   --borderradiussmall: 10px;
   --borderradiusbig: 20px;
@@ -52,11 +53,13 @@ h1 {
 @media (max-width: 800px) {
   :root {
     --fonthuge: 48px;
+    --navmargin: 75px !important;
   }
 }
 @media (max-width: 700px) {
   :root {
     --fonthuge: 40px;
+    --navmargin: 65px !important;
   }
 }
 
