@@ -1,0 +1,190 @@
+.toggle-view-container {
+  width: 100%;
+  overflow: hidden;
+  // The title
+  .toggle-view-title {
+    text-align: left;
+    font-size: 2.1rem;
+    border-radius: 35px;
+    font-weight: 700;
+    padding-top: 40px;
+    color: rgb(35, 15, 104);
+  }
+  .toggle-view-description {
+    text-align: left;
+    font-size: 1.2rem;
+    border-radius: 35px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+  }
+
+  // ---------- ---------- Button container ---------- ---------- \\
+  .button-wrapper {
+    margin-top: 70px;
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    // ---------- ---------- Buttons ---------- ---------- \\
+    .toggle-button {
+      padding: 10px 10px;
+      margin: 5px;
+      font-size: 1.6rem;
+      border: none;
+      border-radius: 100px;
+      background-color: #ffffff;
+      color: #777777;
+      font-weight: 900;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.1s;
+
+      &.selected {
+        background-color: #770bdc;
+        color: #fff;
+        &:hover {
+          background-color: #770bdc;
+          color: #ffffff;
+          cursor: default;
+        }
+      }
+      &:hover {
+        background-color: #bf8ffd;
+        color: #ffffff;
+      }
+      &:active {
+        background-color: #4f0793;
+        color: #ffffff;
+      }
+    }
+
+    // ---------- ---------- Dotted Spaces between buttons ---------- ---------- \\
+    .toggle-button-spacer {
+      width: 30px;
+      height: 1px;
+      border-bottom: dotted;
+      border-color: #888;
+    }
+  }
+  .flex-flow-container {
+    display: flex;
+    margin-top: 50px;
+    height: 500px;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    li {
+      text-align: left;
+      margin-bottom: 10px;
+    }
+    ul {
+      text-align: left;
+      margin-left: 0px;
+      p {
+        font-weight: 600;
+      }
+    }
+    .flow-text-container {
+      width: 400px;
+      .flow-title {
+        text-align: left;
+        font-size: 3rem;
+        font-weight: 900;
+        font-family: "Playfair Display", serif;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+      .flow-text {
+        text-align: left;
+        font-size: 1.4rem;
+        font-weight: 400;
+      }
+    }
+    .flow-img {
+      object-fit: fill;
+      height: 100%;
+    }
+  }
+}
+
+// ---------- ---------- Animations ---------- ---------- \\
+
+.slide-in {
+  animation: slideInRight 0.5s forwards;
+}
+
+.slide-out {
+  animation: slideOutLeft 0.5s forwards;
+}
+
+.slide-in-reverse {
+  animation: slideInLeft 0.5s forwards;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutLeft {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.toggle-view-description {
+  text-align: left;
+  width: 40vw;
+}
+
+.toggle-view-list {
+  > li {
+    text-align: left;
+  }
+}
+
+@media (max-width: 1100px) {
+  .toggle-view-container {
+    height: 1000px;
+    .flex-flow-container {
+      margin-top: 140px;
+      gap: 0px !important;
+      flex-direction: column !important;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+    }
+    .button-wrapper {
+      justify-content: center;
+    }
+    .toggle-view-description {
+      width: 100% !important;
+    }
+    .flow-text-container {
+      width: 100% !important;
+    }
+  }
+}

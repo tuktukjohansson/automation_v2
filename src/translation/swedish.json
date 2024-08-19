@@ -58,5 +58,35 @@
     "text2": "With the Vole-O-Meter, users can track vole populations over time, allowing for more effective management strategies in both natural and agricultural settings. This helps in preventing overpopulation and mitigating potential damage to crops and vegetation.",
     "text3": "The device aids in soil health monitoring by correlating vole activity with soil aeration and plant growth. By understanding how voles influence soil structure, farmers and ecologists can optimize land use and improve plant productivity.",
     "text4": "The Vole-O-Meter's versatility allows it to be used across various habitats, from forests to farmlands. Its adaptability makes it a valuable tool for environmental studies and conservation efforts, promoting a balanced ecosystem and supporting biodiversity."
+  },
+  "offersPage": {
+    "softwares-text": "OrderFlow har färdiga integrationer med flera ledande affärssystem vilket möjliggör en snabb och enkel installation. Vi lägger regelbundet till nya affärssystem för att säkerställa bred kompatibilitet.",
+    "benefits": {
+      "title": "What is an AI Journey with Voles?",
+      "item1": {
+        "title": "Natural Inspiration for AI Algorithms",
+        "description": "Voles' social behaviors and problem-solving techniques can inspire the development of more natural and efficient AI algorithms, particularly in areas like group dynamics and decision-making."
+      },
+      "item2": {
+        "title": "Understanding Social Intelligence",
+        "description": "Studying how voles interact socially can help AI researchers create systems that better understand and simulate complex social relationships, improving AI's ability to navigate human-like social environments."
+      },
+      "item3": {
+        "title": "Bio-inspired Robotics",
+        "description": "Voles’ movement patterns and environmental adaptations can inform the design of AI-driven robots, leading to more agile and adaptive robotic systems."
+      },
+      "item4": {
+        "title": "Advancing Behavioral AI",
+        "description": "By analyzing vole behavior, AI can be trained to recognize and predict similar behaviors in other species, enhancing the ability of AI systems to interact with the natural world."
+      },
+      "item5": {
+        "title": "Insights into Collective Intelligence",
+        "description": "Voles exhibit forms of collective intelligence in their communities, which can be modeled in AI systems to improve group-based decision-making processes in areas like swarm robotics."
+      },
+      "item6": {
+        "title": "Enhancing AI in Ecology",
+        "description": "Voles play a crucial role in ecosystems, and studying their interactions can help develop AI that better understands and predicts ecological dynamics, leading to more effective conservation efforts."
+      }
+    }
   }
 }

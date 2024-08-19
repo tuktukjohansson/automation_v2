@@ -1,0 +1,9 @@
+.benefits-component {
+  background-color: gray;
+  height: 400px;
+  width: 100%;
+  .title {
+    font-size: var(--fontlarge);
+    font-family: var(--fontfamilytitle);
+  }
+}
