@@ -1,9 +1,56 @@
 .benefits-component {
-  background-color: gray;
-  height: 400px;
   width: 100%;
   .title {
-    font-size: var(--fontlarge);
+    font-size: var(--fonthuge);
     font-family: var(--fontfamilytitle);
+  }
+  .benefits {
+    margin-top: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    gap: 70px;
+    .benefit {
+      height: 300px;
+      width: 400px;
+      .lordi {
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+      }
+      .title {
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: var(--fontmedium);
+        font-family: var(--fontfamilytitle);
+        font-weight: 700;
+      }
+      .description {
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+        color: gray;
+        font-size: var(--fontsmall);
+        font-family: var(--fontfamilydescription);
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .benefits-component {
+    .benefits {
+      gap: 0px;
+    }
   }
 }

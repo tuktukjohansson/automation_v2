@@ -34,7 +34,7 @@ code {
   --fontmedium: calc(0.8rem + 0.67vw);
   --fontlarge: calc(0.9rem + 0.77vw);
   --fonthuge: 70px;
-  --navmargin: 80px;
+  --navmargin: 0px;
   /* Border Radius */
   --borderradiussmall: 10px;
   --borderradiusbig: 20px;

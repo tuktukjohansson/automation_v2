@@ -61,31 +61,32 @@
   },
   "offersPage": {
     "softwares-text": "OrderFlow har färdiga integrationer med flera ledande affärssystem vilket möjliggör en snabb och enkel installation. Vi lägger regelbundet till nya affärssystem för att säkerställa bred kompatibilitet.",
+
     "benefits": {
-      "title": "What is an AI Journey with Voles?",
+      "title": "Fördelar",
       "item1": {
-        "title": "Natural Inspiration for AI Algorithms",
-        "description": "Voles' social behaviors and problem-solving techniques can inspire the development of more natural and efficient AI algorithms, particularly in areas like group dynamics and decision-making."
+        "title": "Sparad tid",
+        "description": "OrderFlows processautomation frigör tid till mer värdeskapande aktiviteter. Responstid till kundorder och identifikationstid för avvikelser på ordererkännanden kortas."
       },
       "item2": {
-        "title": "Understanding Social Intelligence",
-        "description": "Studying how voles interact socially can help AI researchers create systems that better understand and simulate complex social relationships, improving AI's ability to navigate human-like social environments."
+        "title": "Förbättrade relationer",
+        "description": "Sparad arbetstid och insikter från OrderFlows rapporter möjliggör mer fokus på försäljning och relationer med leverantörer och kunder."
       },
       "item3": {
-        "title": "Bio-inspired Robotics",
-        "description": "Voles’ movement patterns and environmental adaptations can inform the design of AI-driven robots, leading to more agile and adaptive robotic systems."
+        "title": "Färre fel",
+        "description": "Med färre manuella fel och automatisk identifiering av avvikelser genereras mer korrekt data i affärssystemet."
       },
       "item4": {
-        "title": "Advancing Behavioral AI",
-        "description": "By analyzing vole behavior, AI can be trained to recognize and predict similar behaviors in other species, enhancing the ability of AI systems to interact with the natural world."
+        "title": "Smidig implementation",
+        "description": "OrderFlow implementeras enkelt med färdiga integrationer till ledande affärssystem. Produkten anpassas till kundens önskemål, och är ett enkelt första steg på AI-resan."
       },
       "item5": {
-        "title": "Insights into Collective Intelligence",
-        "description": "Voles exhibit forms of collective intelligence in their communities, which can be modeled in AI systems to improve group-based decision-making processes in areas like swarm robotics."
+        "title": "Medarbetarvärde",
+        "description": "Minskad energikrävande admin leder till ökad trivsel för medarbetare och minskar personalberoendet."
       },
       "item6": {
-        "title": "Enhancing AI in Ecology",
-        "description": "Voles play a crucial role in ecosystems, and studying their interactions can help develop AI that better understands and predicts ecological dynamics, leading to more effective conservation efforts."
+        "title": "Övriga synergieffekter",
+        "description": "Implementationen av OrderFlow tenderar att förfina befintliga processer. Dessutom genererar OrderFlow nyckeltal som kan användas för uppföljning i verksamheten."
       }
     }
   }

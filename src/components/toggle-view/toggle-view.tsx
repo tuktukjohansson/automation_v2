@@ -13,19 +13,29 @@ import automationImage5 from "../../images/automation-steps-images/image-5.png";
 
 function ToggleButton({ onSelect }) {
   const [selectedButton, setSelectedButton] = useState("01");
+  const [cancelTimer, setCancelTimer] = useState(false);
 
   const handleToggle = buttonName => {
     setSelectedButton(buttonName);
     onSelect(buttonName);
+    setCancelTimer(true);
   };
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setSelectedButton(prev => {
-        const next = (parseInt(prev) % 5) + 1;
-        return `0${next}`;
-      });
-    }, 12000); // Change every 7 seconds
+    const timer = setInterval(
+      () => {
+        console.log(cancelTimer);
+        if (!cancelTimer) {
+          console.log("ran");
+          setSelectedButton(prev => {
+            const next = (parseInt(prev) % 5) + 1;
+            return `0${next}`;
+          });
+        }
+      },
+
+      12000
+    ); // Change every 7 seconds
 
     return () => clearInterval(timer);
   }, []);
