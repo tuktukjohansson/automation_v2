@@ -1,145 +1,207 @@
 .navbar-container {
-  margin-top: 20px;
-  height: 75px;
   display: flex;
   justify-content: center;
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
-
 .navbar {
-  // Glass morph
+  margin-top: 20px;
+  z-index: 1050;
   background: rgba(255, 255, 255, 0.397);
   border-radius: 50px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
-  // Glass morph
-
   height: 75px;
   width: 1350px;
   align-items: center;
   justify-content: space-between;
   display: flex;
   position: fixed;
-  z-index: 100;
-}
-.logo-wrapper {
-  height: 60%;
-  margin-left: 40px;
-}
-.logo-img {
-  height: 100%;
-}
-
-.demo-button {
-  background-color: black;
-  text-decoration: none;
-  padding: 15px;
-  margin-right: 40px;
-  border-radius: 12px;
-  font-size: var(--fontsmall);
-  position: relative;
-  color: var(--white);
-  overflow: hidden; /* Ensures the pseudo-element stays within the button */
-  transition: background 0.5s ease-in-out; /* For fallback in case gradient isn't supported */
-}
-
-.demo-button::after {
-  content: "Boka möte";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(
-    90deg,
-    var(--gradient1),
-    var(--gradient2) 30%,
-    var(--gradient3) 90%
-  );
-  transition: opacity 0.5s ease-in-out;
-  opacity: 0;
-  pointer-events: none; /* Ensures the pseudo-element doesn't interfere with button interactions */
-}
-
-.demo-button:hover::after {
-  opacity: 1;
-}
-
-.navbar-content {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  font-family: var(fontfamilytitle);
-  font-weight: 400;
-  font-size: var(--fontsmall);
-  .nav-link {
+  .logo-wrapper {
+    height: 60%;
+    margin-left: 40px;
+    .logo-img {
+      height: 100%;
+    }
+  }
+  .demo-button {
+    background-color: black;
     text-decoration: none;
-    color: var(--darkgray);
+    padding: 15px;
+    margin-right: 40px;
+    border-radius: 12px;
+    font-size: var(--fontsmall);
+    position: relative;
+    color: var(--white);
+    overflow: hidden; /* Ensures the pseudo-element stays within the button */
+    transition: background 0.5s ease-in-out; /* For fallback in case gradient isn't supported */
+    &::after {
+      content: "Boka möte";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(
+        90deg,
+        var(--gradient1),
+        var(--gradient2) 30%,
+        var(--gradient3) 90%
+      );
+      transition: opacity 0.5s ease-in-out;
+      opacity: 0;
+      pointer-events: none; /* Ensures the pseudo-element doesn't interfere with button interactions */
+    }
+    &:hover::after {
+      opacity: 1;
+    }
+  }
+  .navbar-content {
+    align-items: center;
+    height: 100%;
+    z-index: 1100;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: var(fontfamilytitle);
+    font-weight: 400;
+    font-size: var(--fontsmall);
+    .nav-link {
+      text-decoration: none;
+      color: var(--darkgray);
+    }
+    .navbar-dropdown {
+      height: 100%;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      a {
+        color: var(--darkgray);
+        text-decoration: none;
+      }
+      .dropping-item:hover,
+      .dropdown-item:hover {
+        cursor: pointer;
+      }
+      &:hover .dropdown {
+        // Animation please don't touch
+        transform: translateY(80px);
+        visibility: visible;
+        opacity: 1;
+        transition: 0.1s ease-in-out;
+        // Animation please don't touch
+      }
+
+      .dropdown {
+        // Animation please don't touch
+        transition: 0.1s ease-in-out;
+        transition-delay: 0.4s;
+        transform: translateY(70px);
+        visibility: hidden;
+        opacity: 0;
+        // Animation please don't touch
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        border-radius: 20px;
+        background-color: rgb(244, 242, 247);
+        // background-color: rgb(255, 250, 244);
+        // background-color: rgb(250, 237, 226);
+        // background-color: rgb(253, 245, 255);
+        padding: 50px 0px 50px 0px;
+        justify-content: center;
+        align-items: top;
+        z-index: 100;
+        gap: 50px;
+        .line {
+          width: 100%;
+          height: 1px;
+          background-color: rgb(235, 235, 235);
+          border-radius: 1px;
+        }
+        .dropdown-container {
+          width: 500px;
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          .dropdown-item {
+            height: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-weight: 400;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: left;
+            .image-container {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              > img {
+                width: 100px;
+                object-fit: contain;
+              }
+            }
+            .title {
+              font-size: var(--fontmedium);
+              font-weight: 500;
+            }
+            &:hover {
+              color: rgb(118, 118, 118) !important;
+              .image {
+                opacity: 0.6;
+              }
+            }
+          }
+        }
+      }
+      &:hover .dropdown-arrow {
+        // Animation please don't touch
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(54px) rotate(45deg);
+        transition-delay: 0.1s;
+        // Animation please don't touch
+      }
+
+      .dropdown-arrow {
+        z-index: 90;
+        // Animation please don't touch
+        transition: 0.1s ease-in;
+        opacity: 0;
+        // Animation please don't touch
+        position: absolute;
+        background-color: rgb(211, 201, 226);
+        width: 40px;
+        height: 40px;
+        visibility: hidden;
+        border-radius: 5px;
+        transform: translateY(70px) rotate(45deg);
+      }
+    }
   }
 }
 
-.navbar-dropdown {
-  position: relative;
-  list-style: none;
-  a {
-    color: var(--darkgray);
-    text-decoration: none;
-  }
+.hamburger-container {
+  display: none;
 }
 
-.navbar-dropdown:hover .dropdown {
-  visibility: visible;
-  opacity: 1;
-  transform: translateY(0px);
+.dropdown-content-mobile {
+  display: none;
 }
 
-.navbar-dropdown .dropdown {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  padding-top: 30px;
-  top: 60%;
-  transform: translateY(-20px);
-  left: -25px;
-  width: 100px;
-  z-index: 111;
-  transition: 0.4s all;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.navbar-dropdown .dropdown a {
-  padding: 20px;
-  width: 300px;
-  height: 30px;
-  background: rgba(255, 255, 255, 0.797);
-  backdrop-filter: blur(30.3px);
-  -webkit-backdrop-filter: blur(30.3px);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-weight: 400;
-  transition: 0.2s ease-in-out;
-}
-.navbar-dropdown .dropdown a:hover {
-  color: gray;
-  transition: 0.2s ease-in-out;
-}
-.dropdown {
-  display: flex;
-  flex-direction: column;
-}
-.navbar-dropdown .dropdown a:first-child {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-.navbar-dropdown .dropdown a:last-child {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
+// Dropdown mobile
 @media (max-width: 1100px) {
   .navbar-content {
     display: none;
@@ -156,18 +218,15 @@
     display: block !important;
     margin-right: 40px;
   }
-}
-
-.hamburger-container {
-  display: none;
-}
-
-.dropdown-content-mobile {
-  display: none;
-}
-
-// Dropdown mobile
-@media (max-width: 1000px) {
+  .navbar {
+    width: 750px !important;
+  }
+  .nav-link {
+    display: none;
+  }
+  .navbar-dropdown {
+    display: none !important;
+  }
   .dropdown-content-mobile {
     display: flex;
     opacity: 0;
@@ -181,7 +240,7 @@
     height: 500px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    z-index: 100;
+    z-index: 2;
     border-width: 5px;
     border: 5px;
     border-color: gray;
@@ -221,7 +280,7 @@
     color: var(--gray);
     font-weight: 300;
     text-decoration: none;
-    cursor: pointer;
+
     .arrow-icon {
       transition: 0.5s ease-in-out transform;
       flex-direction: row;
@@ -305,16 +364,18 @@
 
 @media screen and (max-width: 1400px) {
   .navbar {
-    width: 1050px;
+    width: 1050px !important;
   }
 }
+
 @media screen and (max-width: 1100px) {
   .navbar {
-    width: 750px;
+    width: 750px !important;
   }
 }
+
 @media screen and (max-width: 800px) {
   .navbar {
-    width: 90%;
+    width: 90% !important;
   }
 }

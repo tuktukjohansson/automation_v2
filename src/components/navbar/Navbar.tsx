@@ -79,12 +79,52 @@ const Navbar = () => {
           </Link>
           <div className={`navbar-content ${isOpen ? "open" : ""}`}>
             <li className="navbar-dropdown">
-              <div>Erbjudande</div>
+              <div className="dropping-item">Erbjudande</div>
               <div className="dropdown">
-                <a href="/offers/analytics">Analys</a>
-                <a href="/offers/Automation">Automation</a>
-                <a href="/offers/orderflow">OrderFlow</a>
+                <div className="dropdown-container">
+                  <a className="dropdown-item" href="/offers/orderflow">
+                    <div className="image-container">
+                      <img className="image" src={violet_gradient_logo} />
+                    </div>
+                    <div className="text-container">
+                      <div className="title">OrderFlow (Sales)</div>
+                      <div className="description">Analyse your workflow</div>
+                    </div>
+                  </a>
+                  <div className="line" />
+                  <a className="dropdown-item" href="/offers/orderflow">
+                    <div className="image-container">
+                      <img className="image" src={violet_gradient_logo} />
+                    </div>
+                    <div className="text-container">
+                      <div className="title">OrderFlow (Purchase)</div>
+                      <div className="description">Analyse your workflow</div>
+                    </div>
+                  </a>
+                </div>
+                <div className="dropdown-container">
+                  <a className="dropdown-item" href="/offers/analytics">
+                    <div className="image-container">
+                      <img className="image" src={violet_gradient_logo} />
+                    </div>
+                    <div className="text-container">
+                      <div className="title">Analys</div>
+                      <div className="description">Analyse your workflow</div>
+                    </div>
+                  </a>
+                  <div className="line" />
+                  <a className="dropdown-item" href="/offers/automation">
+                    <div className="image-container">
+                      <img className="image" src={violet_gradient_logo} />
+                    </div>
+                    <div className="text-container">
+                      <div className="title">Intelligent automation</div>
+                      <div className="description">Analyse your workflow</div>
+                    </div>
+                  </a>
+                </div>
               </div>
+              <div className="dropdown-arrow" />
             </li>
             <Link className="nav-link" to="/knowledge">
               Kunskap

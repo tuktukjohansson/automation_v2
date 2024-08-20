@@ -11,18 +11,30 @@ const Analytics = () => {
   return (
     <>
       {/* ----------------------------- Block One ----------------------------- */}
-      <Container>
-        <h1 className="gradient-title">
-          Analytics
-          <br />
-        </h1>
-        <div className="block-one-description">
-          Analys Analys Analys Analys Analys Analys Analys Analys Analys Analys
-          Analys Analys Analys Analys Analys Analys Analys Analys Analys Analys
-          Analys Analys Analys Analys Analys Analys Analys Analys Analys Analys
-          Analys Analys Analys Analys Analys Analys
+      <div className="analytics-double-gradient">
+        <div className="gradient-left" />
+        <div className="gradient-right" />
+      </div>
+      <div className="analyticsPage">
+        <div className="section-one">
+          <Container>
+            <div className="analytics-title">
+              Analys
+              <br />
+            </div>
+            <div className="analytics-description1">
+              Vet ni att ni vill komma igång med generativ AI och automation men
+              undrar vad som är första steget? Tvekar ni på om ni ska sätta
+              igång med förändringsresan nu eller vänta ett tag till?
+            </div>
+            <div className="analytics-description2">
+              Analys är Violet Automations konsulttjänster som analyserar och
+              rådger företag på AI-resan och kommer i två tappningar Strategisk
+              kartläggning och Processkartläggning.
+            </div>
+          </Container>
         </div>
-      </Container>
+      </div>
     </>
   );
 };

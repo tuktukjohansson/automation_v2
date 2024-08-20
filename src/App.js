@@ -1,3 +1,5 @@
+// Site made by Marcus Johansson :)
+
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
