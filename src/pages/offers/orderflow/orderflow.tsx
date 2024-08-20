@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 // Components
 import Container from "../../../components/container/container.tsx";
@@ -31,6 +32,7 @@ const Orderflow = () => {
         <Container>
           <Benefits />
         </Container>
+        <Analytics />
       </div>
     </>
   );
