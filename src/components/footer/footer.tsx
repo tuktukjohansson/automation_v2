@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./footer.scss";
 import Container from "../../components/container/container.tsx";
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 // Images
-import violet_gradient_logo from "../../images/logos/violet_automation_gradient.png";
+import violet_gradient_logo from "../../images/violet/logo/violet_automation_gradient.webp";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="content">
           <div className="left-content">
             <div className="description">
-              <img alt="VioletLogo" src={violet_gradient_logo} />
+              <img alt="Violet Automation" src={violet_gradient_logo} />
             </div>
           </div>
           <div className="middle-content">
@@ -29,20 +29,17 @@ const Footer = () => {
               <Link to="/offers/orderflow" className="link">
                 {t("nav.products.product3")}
               </Link>
-              <Link to="/offers/knowledge" className="link">
-                {t("nav.products.product4")}
-              </Link>
             </div>
           </div>
           <div className="middle-content">
             <div className="linkwrapper">
-              <Link to="/offers/clients" className="link">
+              <Link to="/clients" className="link">
                 {t("nav.customers")}
               </Link>
-              <Link to="/offers/company" className="link">
-                {t("nav.company")}
+              <Link to="/about" className="link">
+                {t("nav.about")}
               </Link>{" "}
-              <Link to="/offers/contact" className="link">
+              <Link to="/contact" className="link">
                 {t("nav.contact")}
               </Link>
             </div>
@@ -61,7 +58,7 @@ const Footer = () => {
                 <img
                   className="linkedin"
                   src="https://cdn.prod.website-files.com/6397169c23b54d0da1cd5447/639c72812f8b5fd3409e0fe2_Frame.svg"
-                  alt="linkedInLogo"
+                  alt="LinkedIn"
                 ></img>
                 LinkedIn
               </a>

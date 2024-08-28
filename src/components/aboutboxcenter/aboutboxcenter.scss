@@ -1,0 +1,31 @@
+.aboutbox {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .textcontainer {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    .title {
+      color: white;
+      font-size: var(--fontlarge);
+      font-family: var(--fontfamilytitle);
+    }
+    .desc {
+      color: rgb(232, 232, 232);
+      font-size: var(--fontsmall);
+      font-family: var(--fontfamilydescription);
+    }
+  }
+  .background {
+    border-radius: 30px;
+    width: 100%;
+  }
+}

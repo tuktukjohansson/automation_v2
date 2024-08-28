@@ -1,0 +1,65 @@
+.darktextbox-wrapper {
+  position: relative; /* Needed for absolute positioning of text */
+  background-color: black;
+  width: 100%;
+  border-radius: 30px;
+  .image {
+    object-position: bottom;
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+    border-radius: 30px;
+    display: block; /* Remove any default inline spacing */
+  }
+  .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-left: 100px;
+    width: 40%;
+    .title {
+      font-family: var(--fontfamilytitle);
+      font-size: var(--fontlarge);
+      font-weight: 500;
+    }
+    .description {
+      font-size: var(--fontfamilydescription);
+      margin-top: 10px;
+    }
+    .redirect {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: var(--fontsmall);
+      font-weight: 550;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 60px;
+      background-color: rgb(211, 213, 255);
+      height: 60px;
+      border-radius: 10px;
+      width: 190px;
+      &:hover {
+        background-color: rgb(180, 183, 238);
+      }
+      &:active {
+        background-color: rgb(132, 135, 197);
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .darktextbox-wrapper {
+    .text-overlay {
+      width: 90%;
+      margin-left: 10px !important;
+    }
+  }
+}

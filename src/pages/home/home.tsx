@@ -1,6 +1,8 @@
 import React from "react";
+import "./home.scss";
 
 // Components
+import { useTranslation } from "react-i18next";
 import Container from "../../components/container/container.tsx";
 import Gradienttext from "../../components/gradient-text/gradient-text.tsx";
 import Slideshow from "../../components/slideshow/slideshow.tsx";
@@ -8,85 +10,99 @@ import ImageTextBox from "../../components/image-text-container/image-text.tsx";
 import ThreeBoxes from "../../components/three-boxes/three-boxes.tsx";
 import Customer from "../../components/customer-case/customer.tsx";
 import RedirectButtons from "../../components/redirect-buttons/redirect-buttons.tsx";
+import FivePropContainer from "../../components/five-props-container/five-props-container.tsx";
+import DarkImageTextBox from "../../components/darkimgtextbox/darkimgtextbox.tsx";
 
 // Images
-import Sork from "../../images/component-images/sork.png";
-import Sork1 from "../../images/component-images/sork1.png";
-import Sork2 from "../../images/component-images/sork2.png";
-import Sork3 from "../../images/component-images/sork3.png";
-import "./home.scss";
-import { useTranslation, Trans } from "react-i18next";
-import { Fade } from "react-awesome-reveal";
+import DarkComponentImg from "../../images/components/darkcomponentimg.webp";
+import Gothes_logo from "../../images/clients/customs/gothes_logo_banner.webp";
+import Hsb_logo from "../../images/clients/customs/hsb_logo_banner.webp";
+import Maxm_logo from "../../images/clients/customs/maxm_logo_banner.webp";
+import Analytics_logo from "../../images/components/analytics.png";
 
 const Home = () => {
   const { t } = useTranslation();
   return (
     <div className="homepage">
-      {/* ----------------------------- Block One ----------------------------- */}
+      {/* ----------------------------- top title + gradient ----------------------------- */}
       <div className="gradient-one" />
-      <Fade delay={200} duration={1000}>
-        <Container>
-          <h1 className="gradient-title-one" style={{ marginTop: 200 }}>
-            {t("home.textbox1.gradienttitle.part1")}
-            <br />
-            <Gradienttext text={t("home.textbox1.gradienttitle.part2")} />{" "}
-            {t("home.textbox1.gradienttitle.part3")}
-          </h1>
+      <Container>
+        <h1 className="gradient-title-one" style={{ marginTop: 200 }}>
+          {t("home.textbox1.gradienttitle.part1")}
+          <br />
+          <Gradienttext text={t("home.textbox1.gradienttitle.part2")} />{" "}
+          {t("home.textbox1.gradienttitle.part3")}
+        </h1>
 
-          <div className="block-one-description">
-            {t("home.textbox1.description")}
-          </div>
-        </Container>
-      </Fade>
-      {/* ----------------------------- Block One and a half ----------------------------- */}
-      <Fade delay={400} duration={1000}>
-        <Container>
-          <RedirectButtons
-            button1text={t("components.buttons.talk-to-us")}
-            button2text={t("components.buttons.how-does-it-work")}
-          ></RedirectButtons>
-        </Container>
-      </Fade>
+        <div className="block-one-description">
+          {t("home.textbox1.description")}
+        </div>
+      </Container>
+      {/* ----------------------------- buttons+slideshow ----------------------------- */}
+      <Container>
+        <RedirectButtons
+          button1text={t("components.buttons.talk-to-us")}
+          button2text={t("components.buttons.how-does-it-work")}
+        ></RedirectButtons>
+      </Container>
       <Container>
         <Slideshow />
       </Container>
 
-      {/* ----------------------------- Block Two ----------------------------- */}
-      <Fade delay={500} duration={1000}>
-        <Container>
-          <ImageTextBox
-            img={Sork}
-            description={"Collabosorking and Sharing"}
-            description2={
-              "Users can share sorks or collaborate with sork members, assigning sorks, leaving sorks, or sharing sorks."
-            }
+      {/* ----------------------------- textimagebox ----------------------------- */}
+      <Container>
+        <ImageTextBox
+          img={Gothes_logo}
+          description={t("home.textimagebox.title")}
+          description2={t("home.textimagebox.description")}
+        />
+      </Container>
+      {/* ----------------------------- fivepropcontainer ----------------------------- */}
+      <Container>
+        <FivePropContainer
+          img1={Analytics_logo}
+          title1="Analys"
+          img2={Gothes_logo}
+          title2="Title thingy 2"
+          description2="Sorkidy sork"
+          img3={Gothes_logo}
+          title3="Title thingy 3"
+          description3="Sorkidy sork"
+          img4={Gothes_logo}
+          title4="Title thingy 4"
+          description4="Sorkidy sork"
+          img5={Gothes_logo}
+          title5="Title thingy 5"
+        />
+      </Container>
+      {/* ----------------------------- titleandthreeboxes ----------------------------- */}
+      <Container>
+        <h1 className="gradient-title">
+          {t("home.titleandthreeboxes.gradienttitle.part1")}{" "}
+          <Gradienttext
+            secondGradient={true}
+            text={t("home.titleandthreeboxes.gradienttitle.part2")}
           />
-        </Container>
-      </Fade>
-      {/* ----------------------------- Block Three ----------------------------- */}
-      <Fade delay={500} duration={1000}>
-        <Container>
-          <h1 className="gradient-title">
-            {t("home.textbox2.gradienttitle.part1")}{" "}
-            <Gradienttext
-              secondGradient={true}
-              text={t("home.textbox2.gradienttitle.part2")}
-            />
-          </h1>
-          <div className="description-left">
-            <p>{t("home.textbox2.description")}</p>
-          </div>
-          <ThreeBoxes
-            box1title="Analys"
-            box1description="Sorkar facilitate clearer and more effective communication among team members, reducing misunderstandings and increasing productivity."
-            box2title="Utveckling"
-            box2description="With Sorkar, teamwork is streamlined as these tools allow for seamless sharing of ideas and resources, fostering a more collaborative environment."
-            box3title="Automation"
-            box3description="Sorkar automate repetitive tasks and provide intelligent solutions, freeing up time for employees to focus on more strategic and creative work."
-          />
-        </Container>
-      </Fade>
-      {/* ----------------------------- Block Four ----------------------------- */}
+        </h1>
+        <div className="description-left">
+          <p>{t("home.titleandthreeboxes.description")}</p>
+        </div>
+        <ThreeBoxes
+          box1title={t("home.titleandthreeboxes.threeboxes.box1.title")}
+          box1description={t(
+            "home.titleandthreeboxes.threeboxes.box1.description"
+          )}
+          box2title={t("home.titleandthreeboxes.threeboxes.box2.title")}
+          box2description={t(
+            "home.titleandthreeboxes.threeboxes.box2.description"
+          )}
+          box3title={t("home.titleandthreeboxes.threeboxes.box3.title")}
+          box3description={t(
+            "home.titleandthreeboxes.threeboxes.box3.description"
+          )}
+        />
+      </Container>
+      {/* ----------------------------- threeimageboxes ----------------------------- */}
       <Container>
         <h1 className="gradient-title">
           {t("home.textbox3.gradienttitle.part1")}{" "}
@@ -99,34 +115,36 @@ const Home = () => {
           <p>{t("home.textbox3.description")}</p>
         </div>
         <div className="flex-container">
-          <Fade delay={200} duration={1000}>
-            <Customer
-              href="clients"
-              title="Gothes"
-              description="We automated Gothes' entire inventory management system, reducing manual work, minimizing errors, and significantly boosting overall efficiency."
-              img={Sork1}
-              alt="Sork1"
-            />
-          </Fade>
-          <Fade delay={300} duration={1000}>
-            <Customer
-              href="clients"
-              title="Debe"
-              description="Our automation solutions transformed Debe's invoicing process, enabling automatic generation, processing, and tracking of invoices to streamline their financial operations."
-              img={Sork2}
-              alt="Sork2"
-            />
-          </Fade>
-          <Fade delay={400} duration={1000}>
-            <Customer
-              href="clients"
-              title="Dirridoo"
-              description="We developed an AI-driven customer support system for Dirridoo, automating responses to common inquiries and freeing up their team to focus on complex issues."
-              img={Sork3}
-              alt="Sork3"
-            />
-          </Fade>
+          <Customer
+            href="clients"
+            title={t("home.threeimageboxes.box1.title")}
+            description={t("home.threeimageboxes.box1.description")}
+            img={Gothes_logo}
+            alt="Gothes"
+          />
+          <Customer
+            href="clients"
+            title={t("home.threeimageboxes.box2.title")}
+            description={t("home.threeimageboxes.box2.description")}
+            img={Hsb_logo}
+            alt="HSB"
+          />
+          <Customer
+            href="clients"
+            title={t("home.threeimageboxes.box3.title")}
+            description={t("home.threeimageboxes.box3.description")}
+            img={Maxm_logo}
+            alt="Max M"
+          />
         </div>
+      </Container>
+      {/* ----------------------------- Dark Img Text Box ----------------------------- */}
+      <Container>
+        <DarkImageTextBox
+          img={DarkComponentImg}
+          title={t("home.darkimgtextbox.title")}
+          description={t("home.darkimgtextbox.description")}
+        />
       </Container>
     </div>
   );

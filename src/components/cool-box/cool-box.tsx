@@ -1,8 +1,10 @@
 import React from "react";
 import "./cool-box.scss";
 import { useTranslation } from "react-i18next";
-import OrderFlowComputer from "../../images/component-images/orderflowlaptop.png";
 import Gradienttext from "../gradient-text/gradient-text.tsx";
+
+// Images
+import OrderFlowComputer from "../../images/components/orderflowmacbook.webp";
 
 const CoolBox = props => {
   const { t } = useTranslation();
@@ -24,7 +26,11 @@ const CoolBox = props => {
         </a>
       </div>
       <div className="imagecontainer">
-        <img src={OrderFlowComputer} className="image" />
+        <img
+          src={OrderFlowComputer}
+          alt="OrderFlow Computer"
+          className="image"
+        />
       </div>
     </div>
   );

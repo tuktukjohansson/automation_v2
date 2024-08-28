@@ -2,16 +2,10 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 8 * 10px 7 * 10px;
+  padding: 80px 0px 70px 0px;
   align-items: center;
   width: 1350px;
   max-width: 1350px;
-}
-
-@media screen and (max-width: 800px) {
-  .container {
-    padding: 6 * 10px 2 * 10px;
-  }
 }
 
 @media screen and (max-width: 1400px) {
@@ -27,6 +21,7 @@
 @media screen and (max-width: 800px) {
   .container {
     width: 500px;
+    padding: 6 * 10px 2 * 10px;
   }
 }
 @media screen and (max-width: 550px) {

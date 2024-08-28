@@ -3,14 +3,15 @@ import "./Navbar.scss";
 import { Link } from "react-router-dom";
 import { Sling as Hamburger } from "hamburger-react";
 import { IoMdArrowDropdownCircle } from "react-icons/io";
+import { useTranslation } from "react-i18next";
 
 // Images
-import violet_gradient_logo from "../../images/logos/violet_automation_gradient.png";
+import violet_gradient_logo from "../../images/violet/logo/violet_automation_gradient.webp";
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [isOpen, setOpen] = useState(false);
   const [isProductOpen, setProductOpen] = useState(false);
-
   const toggleMenu = () => {
     setOpen(!isOpen);
   };
@@ -57,8 +58,8 @@ const Navbar = () => {
           <Link className="sublink" onClick={toggleMenu} to="/clients">
             Kunder
           </Link>
-          <Link className="sublink" onClick={toggleMenu} to="/company">
-            Företag
+          <Link className="sublink" onClick={toggleMenu} to="/about">
+            About
           </Link>
           <Link className="sublink" onClick={toggleMenu} to="/contact">
             Kontakt
@@ -74,7 +75,7 @@ const Navbar = () => {
             <img
               className="logo-img"
               src={violet_gradient_logo}
-              alt="Violet "
+              alt="Violet Automation"
             ></img>
           </Link>
           <div className={`navbar-content ${isOpen ? "open" : ""}`}>
@@ -84,7 +85,11 @@ const Navbar = () => {
                 <div className="dropdown-container">
                   <a className="dropdown-item" href="/offers/orderflow">
                     <div className="image-container">
-                      <img className="image" src={violet_gradient_logo} />
+                      <img
+                        className="image"
+                        alt="Violet Automation"
+                        src={violet_gradient_logo}
+                      />
                     </div>
                     <div className="text-container">
                       <div className="title">OrderFlow (Sales)</div>
@@ -94,7 +99,11 @@ const Navbar = () => {
                   <div className="line" />
                   <a className="dropdown-item" href="/offers/orderflow">
                     <div className="image-container">
-                      <img className="image" src={violet_gradient_logo} />
+                      <img
+                        className="image"
+                        alt="Violet Automation"
+                        src={violet_gradient_logo}
+                      />
                     </div>
                     <div className="text-container">
                       <div className="title">OrderFlow (Purchase)</div>
@@ -105,7 +114,11 @@ const Navbar = () => {
                 <div className="dropdown-container">
                   <a className="dropdown-item" href="/offers/analytics">
                     <div className="image-container">
-                      <img className="image" src={violet_gradient_logo} />
+                      <img
+                        className="image"
+                        alt="Violet Automation"
+                        src={violet_gradient_logo}
+                      />
                     </div>
                     <div className="text-container">
                       <div className="title">Analys</div>
@@ -115,7 +128,11 @@ const Navbar = () => {
                   <div className="line" />
                   <a className="dropdown-item" href="/offers/automation">
                     <div className="image-container">
-                      <img className="image" src={violet_gradient_logo} />
+                      <img
+                        className="image"
+                        alt="Violet Automation"
+                        src={violet_gradient_logo}
+                      />
                     </div>
                     <div className="text-container">
                       <div className="title">Intelligent automation</div>
@@ -126,14 +143,11 @@ const Navbar = () => {
               </div>
               <div className="dropdown-arrow" />
             </li>
-            <Link className="nav-link" to="/knowledge">
-              Kunskap
-            </Link>
             <Link className="nav-link" to="/clients">
               Kunder
             </Link>
-            <Link className="nav-link" to="/company">
-              Företag
+            <Link className="nav-link" to="/about">
+              About
             </Link>
             <Link className="nav-link" to="/contact">
               Kontakt
@@ -143,7 +157,12 @@ const Navbar = () => {
             Boka möte
           </Link>
           <div className="hamburger-container">
-            <Hamburger toggled={isOpen} toggle={setOpen} size={40} />
+            <Hamburger
+              label="hamburger-button"
+              toggled={isOpen}
+              toggle={setOpen}
+              size={40}
+            />
           </div>
         </div>
       </div>

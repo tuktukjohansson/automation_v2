@@ -3,11 +3,11 @@ import "./toggle-view.scss";
 import React, { useState, useEffect } from "react";
 
 // Logos
-import automationImage1 from "../../images/automation-steps-images/image-1.png";
-import automationImage2 from "../../images/automation-steps-images/image-2.png";
-import automationImage3 from "../../images/automation-steps-images/image-3.png";
-import automationImage4 from "../../images/automation-steps-images/image-4.png";
-import automationImage5 from "../../images/automation-steps-images/image-5.png";
+import automationImage1 from "../../images/components/slideimage1.webp";
+import automationImage2 from "../../images/components/slideimage2.webp";
+import automationImage3 from "../../images/components/slideimage3.webp";
+import automationImage4 from "../../images/components/slideimage4.webp";
+import automationImage5 from "../../images/components/slideimage5.webp";
 
 // Components
 
@@ -120,11 +120,7 @@ function ToggleView() {
                   hämtar de mail som innehåller order.
                 </p>
               </div>
-              <img
-                className="flow-img"
-                src={automationImage1}
-                alt="Product Image 1"
-              />
+              <img className="flow-img" src={automationImage1} alt="Product1" />
             </div>
           </div>
         );
@@ -139,11 +135,7 @@ function ToggleView() {
                   all information som behövs från dokumenten.
                 </p>
               </div>
-              <img
-                className="flow-img"
-                src={automationImage2}
-                alt="Product Image 2"
-              />
+              <img className="flow-img" src={automationImage2} alt="Product2" />
             </div>
           </div>
         );
@@ -161,7 +153,7 @@ function ToggleView() {
               <img
                 className="flow-img"
                 src={automationImage3}
-                alt="Product Image 3a"
+                alt="Product3a"
               />
             </div>
           </div>
@@ -177,11 +169,7 @@ function ToggleView() {
                   regler sker löpande.
                 </p>
               </div>
-              <img
-                className="flow-img"
-                src={automationImage4}
-                alt="Product Image 4"
-              />
+              <img className="flow-img" src={automationImage4} alt="Product4" />
             </div>
           </div>
         );
@@ -196,11 +184,7 @@ function ToggleView() {
                   sammanställs och analyseras.
                 </p>
               </div>
-              <img
-                className="flow-img"
-                src={automationImage5}
-                alt="Product Image 5"
-              />
+              <img className="flow-img" src={automationImage5} alt="Product5" />
             </div>
           </div>
         );

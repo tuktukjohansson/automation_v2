@@ -1,18 +1,18 @@
 import React from "react";
 import "./slideshow.scss";
-import debe_logo from "../../images/customer-logos/debe_logo.png";
-import gothes_logo from "../../images/customer-logos/gothes_logo.png";
-import dirridoo_logo from "../../images/customer-logos/dirridoo_logo.png";
-import elbogen_logo from "../../images/customer-logos/elbogen_logo.png";
-import hsb_logo from "../../images/customer-logos/hsb_logo.png";
-import maxm_logo from "../../images/customer-logos/maxm_logo.png";
-import xr_logo from "../../images/customer-logos/xr_logo.png";
-import apt_logo from "../../images/customer-logos/apt_logo.png";
-import byggbeslag_logo from "../../images/customer-logos/byggbeslag_logo.png";
-import evidensia_logo from "../../images/customer-logos/evidensia_logo.png";
-import nordfarm_logo from "../../images/customer-logos/nordfarm_logo.png";
-import abus_logo from "../../images/customer-logos/abus_logo.png";
-import ah_logo from "../../images/customer-logos/ah_logo.png";
+import debe_logo from "../../images/clients/logos/debe_logo.webp";
+import gothes_logo from "../../images/clients/logos/gothes_logo.webp";
+import dirridoo_logo from "../../images/clients/logos/dirridoo_logo.webp";
+import elbogen_logo from "../../images/clients/logos/elbogen_logo.webp";
+import hsb_logo from "../../images/clients/logos/hsb_logo.webp";
+import maxm_logo from "../../images/clients/logos/maxm_logo.webp";
+import xr_logo from "../../images/clients/logos/xr_logo.webp";
+import apt_logo from "../../images/clients/logos/apt_logo.webp";
+import byggbeslag_logo from "../../images/clients/logos/byggbeslag_logo.webp";
+import evidensia_logo from "../../images/clients/logos/evidensia_logo.webp";
+import nordfarm_logo from "../../images/clients/logos/nordfarm_logo.webp";
+import abus_logo from "../../images/clients/logos/abus_logo.webp";
+import ah_logo from "../../images/clients/logos/ah_logo.webp";
 
 const Slideshow = () => {
   return (
@@ -21,77 +21,77 @@ const Slideshow = () => {
         <div className="slide-track">
           {/* Slide module 1 */}
           <div className="slide">
-            <img src={debe_logo} alt="" />
+            <img src={debe_logo} alt="Debe" />
           </div>
           <div className="slide">
-            <img src={gothes_logo} alt="" />
+            <img src={gothes_logo} alt="Gothes" />
           </div>
           <div className="slide">
-            <img src={dirridoo_logo} alt="" />
+            <img src={dirridoo_logo} alt="Didriksons" />
           </div>
           <div className="slide">
-            <img src={elbogen_logo} alt="" />
+            <img src={elbogen_logo} alt="Elbogen" />
           </div>
           <div className="slide">
-            <img src={hsb_logo} alt="" />
+            <img src={hsb_logo} alt="HSB" />
           </div>
           <div className="slide">
-            <img src={maxm_logo} alt="" />
+            <img src={maxm_logo} alt="MaxM" />
           </div>
           <div className="slide">
-            <img src={xr_logo} alt="" />
+            <img src={xr_logo} alt="XR" />
           </div>
           <div className="slide">
-            <img src={apt_logo} alt="" />
+            <img src={apt_logo} alt="AP&T" />
           </div>
           <div className="slide">
-            <img src={evidensia_logo} alt="" />
+            <img src={evidensia_logo} alt="Evidensia" />
           </div>
           <div className="slide">
-            <img src={nordfarm_logo} alt="" />
+            <img src={nordfarm_logo} alt="Nordfarm" />
           </div>
           <div className="slide">
-            <img src={abus_logo} alt="" />
+            <img src={abus_logo} alt="Abus" />
           </div>
           <div className="slide">
-            <img src={ah_logo} alt="" />
+            <img src={ah_logo} alt="AH" />
           </div>
           {/* Slide module 2 */}
           <div className="slide">
-            <img src={debe_logo} alt="" />
+            <img src={debe_logo} alt="Debe" />
           </div>
           <div className="slide">
-            <img src={gothes_logo} alt="" />
+            <img src={gothes_logo} alt="Gothes" />
           </div>
           <div className="slide">
-            <img src={dirridoo_logo} alt="" />
+            <img src={dirridoo_logo} alt="Didriksons" />
           </div>
           <div className="slide">
-            <img src={elbogen_logo} alt="" />
+            <img src={elbogen_logo} alt="Elbogen" />
           </div>
           <div className="slide">
-            <img src={hsb_logo} alt="" />
+            <img src={hsb_logo} alt="HSB" />
           </div>
           <div className="slide">
-            <img src={maxm_logo} alt="" />
+            <img src={maxm_logo} alt="MaxM" />
           </div>
           <div className="slide">
-            <img src={xr_logo} alt="" />
+            <img src={xr_logo} alt="XR" />
           </div>
           <div className="slide">
-            <img src={apt_logo} alt="" />
+            <img src={apt_logo} alt="AP&T" />
           </div>
           <div className="slide">
-            <img src={evidensia_logo} alt="" />
+            <img src={evidensia_logo} alt="Evidensia" />
           </div>
           <div className="slide">
-            <img src={nordfarm_logo} alt="" />
+            <img src={nordfarm_logo} alt="Nordfarm" />
           </div>
           <div className="slide">
-            <img src={abus_logo} alt="" />
+            <img src={abus_logo} alt="Abus" />
           </div>
           <div className="slide">
-            <img src={ah_logo} alt="" />
+            <img src={ah_logo} alt="AH" />
           </div>
         </div>
       </div>

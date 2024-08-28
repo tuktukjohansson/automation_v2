@@ -29,37 +29,37 @@ code {
   --fontfamilytitle: "Mary Poppins", sans-serif;
   --fontfamilydescription: "Inter", sans-serif;
   /* Font Sizes */
-  --fontextrasmall: calc(0.67rem + 0.24vw);
-  --fontsmall: calc(0.75rem + 0.27vw);
-  --fontmedium: calc(0.8rem + 0.67vw);
-  --fontlarge: calc(0.9rem + 0.77vw);
+  --fontextrasmall: 15px;
+  --fontsmall: 20px;
+  --fontmedium: 30px;
+  --fontbig: 40px;
+  --fontlarge: 55px;
   --fonthuge: 70px;
+  /* Margin Nav */
   --navmargin: 100px;
-  /* Border Radius */
-  --borderradiussmall: 10px;
-  --borderradiusbig: 20px;
+  /* Colors */
+  --color: #616161;
 }
 
-h1 {
-  font-size: 65px;
-  text-align: center;
-}
-
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   :root {
-    --fonthuge: 60px;
+    --fontextrasmall: 14px;
+    --fontsmall: 16px;
+    --fontmedium: 20px;
+    --fontbig: 25px;
+    --fontlarge: 40px;
+    --fonthuge: 70px;
   }
 }
 @media (max-width: 800px) {
   :root {
-    --fonthuge: 48px;
+    --fontextrasmall: 14px;
+    --fontsmall: 16px;
+    --fontmedium: 30px;
+    --fontbig: 25px;
+    --fontlarge: 25px;
+    --fonthuge: 70px;
     --navmargin: 75px !important;
-  }
-}
-@media (max-width: 700px) {
-  :root {
-    --fonthuge: 40px;
-    --navmargin: 65px !important;
   }
 }
 

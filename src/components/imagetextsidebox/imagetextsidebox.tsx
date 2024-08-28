@@ -8,9 +8,15 @@ const ImageTextSideBox = props => {
       <div className="text-overlay">
         <div className="title">{props.title}</div>
         <div className="description">{props.description}</div>
-        <div className="description">{props.description2}</div>
-        <div className="description">{props.description3}</div>
-        <div className="description">{props.description4}</div>
+        {props.description2 && (
+          <div className="description">{props.description2}</div>
+        )}
+        {props.description3 && (
+          <div className="description">{props.description3}</div>
+        )}
+        {props.description4 && (
+          <div className="description">{props.description4}</div>
+        )}
       </div>
     </div>
   );

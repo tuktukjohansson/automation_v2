@@ -1,16 +1,15 @@
 import React from "react";
+import "./clients.scss";
+import { Fade } from "react-awesome-reveal";
 
 // Components
 import Container from "../../components/container/container.tsx";
 import Customer from "../../components/customer-case/customer.tsx";
-import Sork1 from "../../images/component-images/sork1.png";
-import Sork2 from "../../images/component-images/sork2.png";
-import Sork3 from "../../images/component-images/sork3.png";
-import { Fade } from "react-awesome-reveal";
 
 // Images
-
-import "./clients.scss";
+import Gothes_logo from "../../images/clients/customs/gothes_logo_banner.webp";
+import Hsb_logo from "../../images/clients/customs/hsb_logo_banner.webp";
+import Maxm_logo from "../../images/clients/customs/maxm_logo_banner.webp";
 
 const Clients = () => {
   return (
@@ -28,26 +27,26 @@ const Clients = () => {
                 href="clients/gothes"
                 title="Gothes"
                 description="We automated Gothes' entire inventory management system, reducing manual work, minimizing errors, and significantly boosting overall efficiency."
-                img={Sork1}
-                alt="Sork1"
+                img={Gothes_logo}
+                alt="Gothes"
               />
             </Fade>
             <Fade delay={300} duration={1000}>
               <Customer
-                href="clients/debe"
-                title="Debe"
+                href="clients/hsb"
+                title="HSB"
                 description="Our automation solutions transformed Debe's invoicing process, enabling automatic generation, processing, and tracking of invoices to streamline their financial operations."
-                img={Sork2}
-                alt="Sork2"
+                img={Hsb_logo}
+                alt="Didriksons"
               />
             </Fade>
             <Fade delay={400} duration={1000}>
               <Customer
-                href="clients/max"
-                title="Max"
+                href="clients/maxm"
+                title="MaxM"
                 description="We developed an AI-driven customer support system for Dirridoo, automating responses to common inquiries and freeing up their team to focus on complex issues."
-                img={Sork3}
-                alt="Sork3"
+                img={Maxm_logo}
+                alt="MaxM"
               />
             </Fade>
           </div>

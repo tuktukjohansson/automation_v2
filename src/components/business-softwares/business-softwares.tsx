@@ -2,14 +2,14 @@ import React from "react";
 import "./business-softwares.scss";
 
 // Images
-import MonitorLogo from "../../images/software-partner-logos/monitor-logo.png";
-import JeevesLogo from "../../images/software-partner-logos/jeeves-logo.png";
-import PyramidLogo from "../../images/software-partner-logos/pyramid-logo.png";
-import BisonLogo from "../../images/software-partner-logos/bison-logo.png";
-import MsNavLogo from "../../images/software-partner-logos/msnav-logo.png";
-import SapLogo from "../../images/software-partner-logos/sap-logo.png";
-import Unit4Logo from "../../images/software-partner-logos/unit4-logo.png";
-import EpicorLogo from "../../images/software-partner-logos/epicor-logo.png";
+import MonitorLogo from "../../images/softwares/monitor-logo.webp";
+import JeevesLogo from "../../images/softwares/jeeves-logo.webp";
+import PyramidLogo from "../../images/softwares/pyramid-logo.webp";
+import BisonLogo from "../../images/softwares/bison-logo.webp";
+import MsNavLogo from "../../images/softwares/msnav-logo.webp";
+import SapLogo from "../../images/softwares/sap-logo.webp";
+import Unit4Logo from "../../images/softwares/unit4-logo.webp";
+import EpicorLogo from "../../images/softwares/epicor-logo.webp";
 
 // Libs
 import { useTranslation } from "react-i18next";
@@ -21,28 +21,28 @@ const BusinessSoftwares = () => {
     <div className="softwares-component">
       <div className="software-container">
         <div className="partner-logo-box">
-          <img src={MonitorLogo} />
+          <img src={MonitorLogo} alt="Monitor Logo" />
         </div>
         <div className="partner-logo-box">
-          <img src={JeevesLogo} />
+          <img src={JeevesLogo} alt="Jeeves Logo" />
         </div>
         <div className="partner-logo-box">
-          <img src={PyramidLogo} />
+          <img src={PyramidLogo} alt="Pyramid Logo" />
         </div>
         <div className="partner-logo-box">
-          <img src={BisonLogo} />
+          <img src={BisonLogo} alt="Bison Logo" />
         </div>
         <div className="partner-logo-box">
-          <img src={MsNavLogo} />
+          <img src={MsNavLogo} alt="Ms Nav Logo" />
         </div>
         <div className="partner-logo-box">
-          <img src={SapLogo} />
+          <img src={SapLogo} alt="SAP Logo" />
         </div>
         <div className="partner-logo-box">
-          <img src={Unit4Logo} />
+          <img src={Unit4Logo} alt="Unit4 Logo" />
         </div>
         <div className="partner-logo-box">
-          <img src={EpicorLogo} />
+          <img src={EpicorLogo} alt="Epicor Logo" />
         </div>
       </div>
       <div className="text-container">

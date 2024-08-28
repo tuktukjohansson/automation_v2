@@ -15,6 +15,7 @@ import { useTranslation, Trans } from "react-i18next";
 
 // Styling
 import "./orderflow.scss";
+import Form from "../../../components/form/form.tsx";
 
 const Orderflow = () => {
   const { t } = useTranslation();
@@ -32,6 +33,10 @@ const Orderflow = () => {
         <Container>
           <Benefits />
         </Container>
+        <Container>
+          <Form />
+        </Container>
+
         <Analytics />
       </div>
     </>

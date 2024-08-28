@@ -1,0 +1,15 @@
+.titleanddescription {
+  max-width: 864px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  .title {
+    font-size: var(--fontbig);
+  }
+  .description {
+    font-size: var(--fontsmall);
+    color: var(--color);
+    line-height: 1.6;
+  }
+}

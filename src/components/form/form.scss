@@ -1,0 +1,90 @@
+.form {
+  width: 100%;
+  border-radius: 30px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .titlecontainer {
+    width: 100%;
+    .title {
+      font-size: var(--fontbig);
+      font-weight: 300;
+      margin-top: 50px;
+      margin-left: 50px;
+      font-weight: 400;
+    }
+  }
+
+  .inputwrapper {
+    gap: 50px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0px 40px 0px;
+    .inputboxes {
+      height: 100%;
+      width: 330px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      .inputbox {
+        height: 29%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        input {
+          height: 40px;
+          border-style: solid;
+          border-color: rgb(188, 188, 188);
+          border-width: 1px;
+          border-radius: 6px;
+          background-color: rgb(236, 236, 236);
+          font-size: var(--fontsmall);
+          font-weight: 300;
+        }
+        > label {
+          font-weight: 350;
+          font-size: var(--fontsmall);
+        }
+      }
+    }
+  }
+  button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+
+    &:disabled {
+      background-color: #cccccc;
+      cursor: not-allowed;
+    }
+    .spinner {
+      width: 20px;
+      height: 20px;
+      border: 3px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      border-top-color: #fff;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+}

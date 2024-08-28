@@ -8,11 +8,11 @@
   justify-content: space-between;
   align-items: center;
   .image {
-    width: 500px;
-    border-radius: 50px;
+    width: 50%;
+    border-radius: 20px;
   }
   .text-overlay {
-    width: 750px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     .title {
@@ -24,6 +24,7 @@
     }
     .description {
       margin-bottom: 10px;
+      font-size: var(--fontsmall);
     }
   }
 }
@@ -37,7 +38,7 @@
     }
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .imagetextsidebox {
     .image {
       width: 100%;
