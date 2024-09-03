@@ -23,15 +23,17 @@
   left: 0%;
 }
 .gradient-title-one {
+  font-size: var(--fontlarge);
+  text-align: center;
   margin-top: 100px;
-  font-family: var(fontfamilytitle);
+  font-family: var(--fontfamilytitle);
 }
 
 .gradient-title {
   width: 100%;
   text-align: left;
   margin-top: 0px;
-  font-family: var(fontfamilytitle);
+  font-family: var(--fontfamilytitle);
 }
 .block-one-description {
   font-family: var(--titledescription);

@@ -58,8 +58,17 @@
 @media (max-width: 800px) {
   .darktextbox-wrapper {
     .text-overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 90%;
       margin-left: 10px !important;
+      .title {
+        text-align: center;
+      }
+      .description {
+        text-align: center;
+      }
     }
   }
 }

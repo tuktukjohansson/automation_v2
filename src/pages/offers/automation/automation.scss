@@ -1,34 +1,26 @@
-.automation-double-gradient {
-  position: absolute;
-  z-index: -100;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 1000px;
-  display: flex;
-  background: linear-gradient(
-    165deg,
-    rgba(81, 32, 228, 1) 0%,
-    rgba(233, 117, 255, 1) 100%
-  );
-}
-
 .automationPage {
   margin-top: var(--navmargin);
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: top;
+  align-items: center;
 
-  .automation-title {
-    color: white;
-  }
-  .section-one {
+  .gradient-container {
+    background: linear-gradient(
+      165deg,
+      rgba(81, 32, 228, 1) 0%,
+      rgba(233, 117, 255, 1) 100%
+    );
+    border-radius: 20px;
+    width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    padding: 70px 0px 90px 0px;
+  }
+  .automation-title {
+    color: white;
   }
   .section-two {
     display: flex;

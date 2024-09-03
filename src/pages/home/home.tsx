@@ -18,7 +18,7 @@ import DarkComponentImg from "../../images/components/darkcomponentimg.webp";
 import Gothes_logo from "../../images/clients/customs/gothes_logo_banner.webp";
 import Hsb_logo from "../../images/clients/customs/hsb_logo_banner.webp";
 import Maxm_logo from "../../images/clients/customs/maxm_logo_banner.webp";
-import Analytics_logo from "../../images/components/analytics.png";
+import aitrain from "../../images/components/aitrain.png";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -52,28 +52,14 @@ const Home = () => {
       {/* ----------------------------- textimagebox ----------------------------- */}
       <Container>
         <ImageTextBox
-          img={Gothes_logo}
+          img={aitrain}
           description={t("home.textimagebox.title")}
           description2={t("home.textimagebox.description")}
         />
       </Container>
       {/* ----------------------------- fivepropcontainer ----------------------------- */}
       <Container>
-        <FivePropContainer
-          img1={Analytics_logo}
-          title1="Analys"
-          img2={Gothes_logo}
-          title2="Title thingy 2"
-          description2="Sorkidy sork"
-          img3={Gothes_logo}
-          title3="Title thingy 3"
-          description3="Sorkidy sork"
-          img4={Gothes_logo}
-          title4="Title thingy 4"
-          description4="Sorkidy sork"
-          img5={Gothes_logo}
-          title5="Title thingy 5"
-        />
+        <FivePropContainer />
       </Container>
       {/* ----------------------------- titleandthreeboxes ----------------------------- */}
       <Container>

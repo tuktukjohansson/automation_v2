@@ -43,7 +43,7 @@ const Clients = () => {
             <Fade delay={400} duration={1000}>
               <Customer
                 href="clients/maxm"
-                title="MaxM"
+                title="Max Matthiessen"
                 description="We developed an AI-driven customer support system for Dirridoo, automating responses to common inquiries and freeing up their team to focus on complex issues."
                 img={Maxm_logo}
                 alt="MaxM"

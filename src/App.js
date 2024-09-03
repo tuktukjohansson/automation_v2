@@ -14,7 +14,10 @@ import About from "./pages/about/about.tsx";
 import Contact from "./pages/contact/contact.tsx";
 import useKonamiCode from "./konami.js";
 import filmjolk from "./easter-egg/audio.mp3";
-import Gothes from "./pages/clients/clientpages/gothes.tsx";
+import Gothes from "./pages/clients/clientpages/gothes/gothes.tsx";
+import Hsb from "./pages/clients/clientpages/hsb/hsb.tsx";
+import Maxm from "./pages/clients/clientpages/maxm/maxm.tsx";
+import Notfound from "./pages/notfound/notfound.tsx";
 
 function App() {
   const playEasterEggSound = () => {
@@ -33,10 +36,11 @@ function App() {
         <Route path="/offers/orderflow" element={<Orderflow />} />
         <Route path="/clients" element={<Clients />} />
         <Route path="/clients/gothes" element={<Gothes />} />
-        <Route path="/clients/hsb" element={<Gothes />} />
-        <Route path="/clients/maxm" element={<Gothes />} />
+        <Route path="/clients/hsb" element={<Hsb />} />
+        <Route path="/clients/maxm" element={<Maxm />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Notfound />} />
       </Routes>
       <Footer />
       <Analytics />

@@ -30,3 +30,20 @@
     }
   }
 }
+
+@media (max-width: 800px) {
+  .patrikview {
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    .patrikcontainer {
+      justify-content: center;
+      align-items: center;
+    }
+    .patrik {
+      width: 150px !important;
+    }
+  }
+}

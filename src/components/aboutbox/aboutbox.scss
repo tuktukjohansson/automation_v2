@@ -22,3 +22,17 @@
     width: 200px;
   }
 }
+
+@media (max-width: 800px) {
+  .aboutbox {
+    .text {
+      top: 20px;
+      left: 20px;
+    }
+    .logo {
+      width: 100px;
+      bottom: 20px;
+      right: 20px;
+    }
+  }
+}

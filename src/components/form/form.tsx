@@ -2,11 +2,16 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import Popup from "../../components/popup/popup.tsx";
 import "./form.scss";
 
 import Container from "../../components/container/container.tsx";
 
 const Form = () => {
+  const [showPopup, setShowPopup] = useState(false);
+  const togglePopup = () => {
+    setShowPopup(!showPopup);
+  };
   const { t } = useTranslation();
   const form = useRef();
   const [emailError, setEmailError] = useState("");
@@ -35,6 +40,7 @@ const Form = () => {
       .then(
         () => {
           console.log("Mail sent");
+          setShowPopup(true);
           setLoading(false);
         },
         error => {
@@ -44,7 +50,11 @@ const Form = () => {
       );
   };
   return (
-    <div className="form">
+    <form ref={form} onSubmit={sendEmail2} className="form">
+      <Popup show={showPopup} onClose={togglePopup}>
+        <h2>Thank You for Your Message!</h2>
+        <p>Your message has been received. We’ll get back to you shortly</p>
+      </Popup>
       <div className="titlecontainer">
         <div className="title">Få ett prisförslag för din process!</div>
       </div>
@@ -53,7 +63,10 @@ const Form = () => {
         <div className="inputboxes">
           <div className="inputbox">
             <label>Typ av process:</label>
-            <input type="text" name="category" required />
+            <select className="dropdown" name="category">
+              <option value="Sales">Sales</option>
+              <option value="Purchases">Purchases</option>
+            </select>
           </div>
           <div className="inputbox">
             <label>Antal FTE:</label>
@@ -82,41 +95,7 @@ const Form = () => {
       <button type="submit" disabled={loading}>
         {loading ? <div className="spinner"></div> : "Få prisförslag"}
       </button>
-      {/* <form ref={form} onSubmit={sendEmail2}>
-        <div className="flexrow">
-          <div className="inputgroup">
-            <label>Category</label>
-            <input type="text" name="category" required />
-          </div>
-          <div className="inputgroup">
-            <label>Antal FTE</label>
-            <input type="text" name="fte" required />
-          </div>
-          <div className="inputgroup">
-            <label>Antal orderrader per dag</label>
-            <input type="text" name="amount_rows" required />
-          </div>
-        </div>
-        <div className="flexrow">
-          <div className="inputgroup">
-            <label>Affärssystem</label>
-            <input type="text" name="system" required />
-          </div>
-          <div className="inputgroup">
-            <label>Ordrar i månaden</label>
-            <input type="text" name="amount_orders" required />
-          </div>
-          <div className="inputgroup">
-            <label>Mail</label>
-            <input type="text" name="mail" required />
-          </div>
-        </div> */}
-      {/* <div className="sendbutton"></div> */}
-      {/* <button type="submit" disabled={loading}>
-          {loading ? <div className="spinner"></div> : "Send"}
-        </button> */}
-      {/* </form> */}
-    </div>
+    </form>
   );
 };
 

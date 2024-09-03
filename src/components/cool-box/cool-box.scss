@@ -13,7 +13,6 @@
     flex-direction: column;
     justify-content: center;
     .titlecontainer {
-      line-height: 70px;
       font-size: var(--fonthuge);
       font-family: var(--fontfamilytitle);
       font-weight: 600;
@@ -141,7 +140,6 @@
     .titlecontainer {
       display: flex;
       flex-direction: column;
-      line-height: 50px !important;
     }
   }
 }

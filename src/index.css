@@ -48,17 +48,17 @@ code {
     --fontmedium: 20px;
     --fontbig: 25px;
     --fontlarge: 40px;
-    --fonthuge: 70px;
+    --fonthuge: 50px;
   }
 }
 @media (max-width: 800px) {
   :root {
     --fontextrasmall: 14px;
     --fontsmall: 16px;
-    --fontmedium: 30px;
+    --fontmedium: 20px;
     --fontbig: 25px;
     --fontlarge: 25px;
-    --fonthuge: 70px;
+    --fonthuge: 40px;
     --navmargin: 75px !important;
   }
 }
@@ -73,4 +73,13 @@ code {
   h1 {
     font-size: 35px;
   }
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
 }

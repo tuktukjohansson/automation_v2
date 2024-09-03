@@ -13,7 +13,7 @@
     border-radius: 15px;
     .text {
       color: white;
-      font-family: var(fontfamilytitle);
+      font-family: var(--fontfamilytitle);
       font-size: var(--fontextrasmall);
     }
   }
@@ -33,7 +33,7 @@
     .text {
       color: black;
       font-size: var(--fontextrasmall);
-      font-family: var(fontfamilytitle);
+      font-family: var(--fontfamilytitle);
     }
   }
   .button2:hover {
