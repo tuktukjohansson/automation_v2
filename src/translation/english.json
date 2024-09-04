@@ -11,9 +11,9 @@
     "textbox2": {
       "gradienttitle": {
         "part1": "Så",
-        "part2": "fungerar det"
+        "part2": "funkar det"
       },
-      "description": "Två meningar som beskriver hur enkelt och snabbt det är att komma igång med automation hos oss."
+      "description": "Vägen till implementerad AI i din organisation behöver inte vara lång. Den går i tre steg och bindningstiden aktiveras först efter en provperiod."
     },
     "textbox3": {
       "gradienttitle": {
@@ -26,7 +26,7 @@
   "components": {
     "buttons": {
       "talk-to-us": "Kontakta oss",
-      "how-does-it-work": "Så fungerar det"
+      "how-does-it-work": "Så funkar det"
     }
   },
   "footer": {

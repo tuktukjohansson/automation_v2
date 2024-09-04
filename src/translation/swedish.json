@@ -16,21 +16,21 @@
     "titleandthreeboxes": {
       "gradienttitle": {
         "part1": "Så",
-        "part2": "fungerar det"
+        "part2": "funkar det"
       },
-      "description": "Två meningar som beskriver hur enkelt och snabbt det är att komma igång med automation hos oss.",
+      "description": "Vägen till implementerad AI i din organisation behöver inte vara lång. Den går i tre steg och bindningstiden aktiveras först efter en provperiod.",
       "threeboxes": {
         "box1": {
           "title": "Analys",
-          "description": "Sorkar facilitate clearer and more effective communication among team members, reducing misunderstandings and increasing productivity."
+          "description": "Vi analyserar er process som ska automatiseras. Ni har ett konkret förslag på automation inom en månad från projektets start."
         },
         "box2": {
           "title": "Utveckling",
-          "description": "With Sorkar, teamwork is streamlined as these tools allow for seamless sharing of ideas and resources, fostering a more collaborative environment."
+          "description": "Vi anpassar produkten till era önskemål och testar den i ert arbetsflöde."
         },
         "box3": {
           "title": "Automation",
-          "description": "Sorkar automate repetitive tasks and provide intelligent solutions, freeing up time for employees to focus on more strategic and creative work."
+          "description": "Nu är ni igång! Vi går bredvid er och säkerställer en smidig övergång till ert nya arbetssätt med digitala medarbetare."
         }
       }
     },
@@ -156,7 +156,7 @@
   "components": {
     "buttons": {
       "talk-to-us": "Kontakta oss",
-      "how-does-it-work": "Så fungerar det"
+      "how-does-it-work": "Så funkar det"
     }
   },
   "footer": {

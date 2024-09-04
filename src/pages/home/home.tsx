@@ -42,7 +42,9 @@ const Home = () => {
       <Container>
         <RedirectButtons
           button1text={t("components.buttons.talk-to-us")}
+          href1="/"
           button2text={t("components.buttons.how-does-it-work")}
+          href2="/contact"
         ></RedirectButtons>
       </Container>
       <Container>
