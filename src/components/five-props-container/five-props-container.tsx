@@ -29,7 +29,12 @@ const FivePropContainer = () => {
       <div className="flexrow1">
         <a className="flexitem1" href="/home">
           <img src={office} alt="office" />
-          <div>Upptäck hur ni kan öka er produktivitet med AI</div>
+          <div>
+            <div className="title">Analys</div>
+            <div className="description">
+              Genomlys verksamheten och hitta processer att automatisera
+            </div>
+          </div>
         </a>
         <a className="flexitem2" href="/home">
           <div className="textcontainer">

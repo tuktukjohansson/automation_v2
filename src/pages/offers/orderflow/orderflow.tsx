@@ -28,7 +28,9 @@ const Orderflow = () => {
           <BusinessSoftwares />
         </Container>
         <Container>
-          <ToggleView />
+          <div className="toggleviewcontainer">
+            <ToggleView />
+          </div>
         </Container>
         <Container>
           <Benefits />

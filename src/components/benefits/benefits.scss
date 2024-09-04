@@ -1,7 +1,8 @@
 .benefits-component {
   width: 100%;
   .title {
-    font-size: var(--fonthuge);
+    font-size: var(--fontbig);
+    font-weight: 700;
     font-family: var(--fontfamilytitle);
   }
   .benefits {

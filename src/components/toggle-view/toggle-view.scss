@@ -3,12 +3,11 @@
   overflow: hidden;
   // The title
   .toggle-view-title {
+    margin: 0px;
     text-align: left;
-    font-size: 2.1rem;
-    border-radius: 35px;
+    font-size: var(--fontbig);
     font-weight: 700;
-    padding-top: 40px;
-    color: rgb(35, 15, 104);
+    border-radius: 35px;
   }
   .toggle-view-description {
     text-align: left;
@@ -69,7 +68,7 @@
   .flex-flow-container {
     display: flex;
     margin-top: 50px;
-    height: 500px;
+    height: 400px;
     gap: 100px;
     justify-content: center;
     align-items: center;
@@ -91,7 +90,7 @@
         text-align: left;
         font-size: 3rem;
         font-weight: 900;
-        font-family: "Playfair Display", serif;
+        font-family: var(--fontfamilytitle);
         margin-bottom: 0px;
         margin-top: 0px;
       }

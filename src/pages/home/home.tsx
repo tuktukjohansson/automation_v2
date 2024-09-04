@@ -59,6 +59,11 @@ const Home = () => {
       </Container>
       {/* ----------------------------- fivepropcontainer ----------------------------- */}
       <Container>
+        <h1 className="gradient-title">
+          Läs mer om hur ni kan{" "}
+          <Gradienttext secondGradient={true} text="öka er produktivitet" /> med
+          AI
+        </h1>
         <FivePropContainer />
       </Container>
       {/* ----------------------------- titleandthreeboxes ----------------------------- */}

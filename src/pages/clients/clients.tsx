@@ -10,6 +10,7 @@ import Customer from "../../components/customer-case/customer.tsx";
 import Gothes_logo from "../../images/clients/customs/gothes_logo_banner.webp";
 import Hsb_logo from "../../images/clients/customs/hsb_logo_banner.webp";
 import Maxm_logo from "../../images/clients/customs/maxm_logo_banner.webp";
+import Gradienttext from "../../components/gradient-text/gradient-text.tsx";
 
 const Clients = () => {
   return (
@@ -18,9 +19,14 @@ const Clients = () => {
       <div className="clientpage">
         <Container>
           <h1 className="gradient-title">
-            Kundcase
-            <br />
+            Läs mer om våra{" "}
+            <Gradienttext secondGradient={true} text="kundcases" />
           </h1>
+          <p className="clientdescription">
+            Här kan ni läsa mer om några av våra kunders fall där vi sorkar
+            loss, sorkar och sorkar ännu mer. Men viktigast av allt så sorkar
+            vi.
+          </p>
           <div className="kundcases">
             <Fade delay={200} duration={1000}>
               <Customer

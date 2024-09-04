@@ -83,3 +83,28 @@ a:visited {
   text-decoration: none;
   color: black;
 }
+
+div {
+  font-family: "Inter", sans-serif;
+}
+a {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-size: var(--fonthuge);
+  margin: 20px 0px 40px 0px;
+}
+
+h2 {
+  font-size: var(--fontbig);
+  margin: 20px 0px 40px 0px;
+}
+
+p {
+  width: 100%;
+  font-size: var(--fontsmall);
+  font-family: var(--fontfamilydescription);
+  margin: 0px 0px 0px 0px;
+  font-weight: 300;
+}

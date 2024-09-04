@@ -27,10 +27,15 @@
       }
       > div {
         color: white;
-        text-decoration: none;
         position: absolute;
-        font-weight: 600;
-        font-size: var(--fontmedium);
+        .title {
+          font-weight: 600;
+          font-size: var(--fontbig);
+        }
+        .description {
+          font-weight: 500;
+          font-size: var(--fontsmall);
+        }
       }
       &:hover {
         filter: brightness(80%);
