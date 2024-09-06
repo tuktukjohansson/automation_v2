@@ -1,6 +1,7 @@
 import React from "react";
 import "./clients.scss";
 import { Fade } from "react-awesome-reveal";
+import { useTranslation } from "react-i18next";
 
 // Components
 import Container from "../../components/container/container.tsx";
@@ -13,26 +14,27 @@ import Maxm_logo from "../../images/clients/customs/maxm_logo_banner.webp";
 import Gradienttext from "../../components/gradient-text/gradient-text.tsx";
 
 const Clients = () => {
+  const { t } = useTranslation();
   return (
     <>
       {/* ----------------------------- Block One ----------------------------- */}
       <div className="clientpage">
+        {/* ----------------------------- Container ----------------------------- */}
         <Container>
           <h1 className="gradient-title">
-            Läs mer om våra{" "}
-            <Gradienttext secondGradient={true} text="kundcases" />
+            {t("clients.titlepart1")}{" "}
+            <Gradienttext
+              secondGradient={true}
+              text={t("clients.titlepart2")}
+            />
           </h1>
-          <p className="clientdescription">
-            Här kan ni läsa mer om några av våra kunders fall där vi sorkar
-            loss, sorkar och sorkar ännu mer. Men viktigast av allt så sorkar
-            vi.
-          </p>
+          <p className="clientdescription">{t("clients.description")}</p>
           <div className="kundcases">
             <Fade delay={200} duration={1000}>
               <Customer
                 href="clients/gothes"
-                title="Gothes"
-                description="We automated Gothes' entire inventory management system, reducing manual work, minimizing errors, and significantly boosting overall efficiency."
+                title={t("clients.gothes.clientname")}
+                description={t("clients.gothes.result.description")}
                 img={Gothes_logo}
                 alt="Gothes"
               />
@@ -40,8 +42,8 @@ const Clients = () => {
             <Fade delay={300} duration={1000}>
               <Customer
                 href="clients/hsb"
-                title="HSB"
-                description="Our automation solutions transformed Debe's invoicing process, enabling automatic generation, processing, and tracking of invoices to streamline their financial operations."
+                title={t("clients.hsb.clientname")}
+                description={t("clients.gothes.result.description")}
                 img={Hsb_logo}
                 alt="Didriksons"
               />
@@ -49,8 +51,8 @@ const Clients = () => {
             <Fade delay={400} duration={1000}>
               <Customer
                 href="clients/maxm"
-                title="Max Matthiessen"
-                description="We developed an AI-driven customer support system for Dirridoo, automating responses to common inquiries and freeing up their team to focus on complex issues."
+                title={t("clients.maxm.clientname")}
+                description={t("clients.maxm.result.description")}
                 img={Maxm_logo}
                 alt="MaxM"
               />

@@ -3,15 +3,12 @@ import "./notfound.scss";
 
 // Components
 import Container from "../../components/container/container.tsx";
-import Sad_smiley from "../../images/404/404.png";
-import Gradienttext from "../../components/gradient-text/gradient-text.tsx";
 
 // Images
 
 const Clients = () => {
   return (
     <>
-      {/* ----------------------------- Block One ----------------------------- */}
       <div className="notfound">
         <Container>
           <div className="flexcontainer">

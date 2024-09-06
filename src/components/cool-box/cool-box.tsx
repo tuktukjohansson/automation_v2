@@ -13,16 +13,16 @@ const CoolBox = props => {
     <div className="oscar-är-sämst">
       <div className="textbox">
         <div className="titlecontainer">
-          <div className="title">Experience the Power of</div>
-          <Gradienttext text="Sork" />
+          <div className="title">
+            {t("orderflowsales.computerbox.titlepart1")}
+          </div>
+          <Gradienttext text={t("orderflowsales.computerbox.titlepart2")} />
         </div>
         <div className="description">
-          We believe in harnessing the potential of Sorks to provide you with
-          tools that empower your finacial decisions, so you can live life on
-          your terms .
+          {t("orderflowsales.computerbox.description")}
         </div>
         <a className="contactusbutton" href="/contact">
-          Sork with us
+          {t("orderflowsales.computerbox.button")}
         </a>
       </div>
       <div className="imagecontainer">

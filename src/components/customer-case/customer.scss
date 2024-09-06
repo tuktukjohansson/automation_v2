@@ -45,9 +45,14 @@
     }
     .description {
       margin: 20px 10px 0px 10px;
-      font-family: var(fontfamilydescription);
+      font-family: var(--fontfamilydescription);
       font-size: 20px;
       color: var(--gray);
+      display: -webkit-box; /* Required for line-clamp */
+      -webkit-line-clamp: 3; /* Number of lines before truncation */
+      -webkit-box-orient: vertical; /* Required for line-clamp */
+      overflow: hidden; /* Hides overflowed content */
+      text-overflow: ellipsis; /* Adds ellipsis at the end */
     }
   }
 }

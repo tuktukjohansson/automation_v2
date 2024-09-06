@@ -24,8 +24,8 @@ const Home = () => {
   const { t } = useTranslation();
   return (
     <div className="homepage">
-      {/* ----------------------------- top title + gradient ----------------------------- */}
       <div className="gradient-one" />
+      {/* ----------------------------- Container ----------------------------- */}
       <Container>
         <h1 className="gradient-title-one" style={{ marginTop: 200 }}>
           {t("home.textbox1.gradienttitle.part1")}
@@ -38,7 +38,7 @@ const Home = () => {
           {t("home.textbox1.description")}
         </div>
       </Container>
-      {/* ----------------------------- buttons+slideshow ----------------------------- */}
+      {/* ----------------------------- Container ----------------------------- */}
       <Container>
         <RedirectButtons
           button1text={t("components.buttons.talk-to-us")}
@@ -47,11 +47,11 @@ const Home = () => {
           href2="/contact"
         ></RedirectButtons>
       </Container>
+      {/* ----------------------------- Container ----------------------------- */}
       <Container>
         <Slideshow />
       </Container>
-
-      {/* ----------------------------- textimagebox ----------------------------- */}
+      {/* ----------------------------- Container ----------------------------- */}
       <Container>
         <ImageTextBox
           img={aitrain}
@@ -59,16 +59,19 @@ const Home = () => {
           description2={t("home.textimagebox.description")}
         />
       </Container>
-      {/* ----------------------------- fivepropcontainer ----------------------------- */}
+      {/* ----------------------------- Container ----------------------------- */}
       <Container>
         <h1 className="gradient-title">
-          Läs mer om hur ni kan{" "}
-          <Gradienttext secondGradient={true} text="öka er produktivitet" /> med
-          AI
+          {t("home.fiveimageboxes.titlepart1")}{" "}
+          <Gradienttext
+            secondGradient={true}
+            text={t("home.fiveimageboxes.titlepart2")}
+          />{" "}
+          {t("home.fiveimageboxes.titlepart3")}
         </h1>
         <FivePropContainer />
       </Container>
-      {/* ----------------------------- titleandthreeboxes ----------------------------- */}
+      {/* ----------------------------- Container ----------------------------- */}
       <Container>
         <h1 className="gradient-title">
           {t("home.titleandthreeboxes.gradienttitle.part1")}{" "}
@@ -95,7 +98,7 @@ const Home = () => {
           )}
         />
       </Container>
-      {/* ----------------------------- threeimageboxes ----------------------------- */}
+      {/* ----------------------------- Container ----------------------------- */}
       <Container>
         <h1 className="gradient-title">
           {t("home.textbox3.gradienttitle.part1")}{" "}
@@ -131,7 +134,7 @@ const Home = () => {
           />
         </div>
       </Container>
-      {/* ----------------------------- Dark Img Text Box ----------------------------- */}
+      {/* ----------------------------- Container ----------------------------- */}
       <Container>
         <DarkImageTextBox
           img={DarkComponentImg}

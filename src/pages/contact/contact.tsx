@@ -57,12 +57,12 @@ const Contact = () => {
 
   return (
     <div className="body-contact">
-      {/* ----------------------------- Block One ----------------------------- */}
+      {/* ----------------------------- Container ----------------------------- */}
       <Container>
         <div className="flex-container">
           <Popup show={showPopup} onClose={togglePopup}>
-            <h2>Thank You for Your Message!</h2>
-            <p>Your message has been received. We’ll get back to you shortly</p>
+            <h2>{t("contact.popup.title")}</h2>
+            <p>{t("contact.popup.description")}</p>
           </Popup>
           <div className="text-container">
             <h1>{t("contact.title")}</h1>
@@ -85,7 +85,11 @@ const Contact = () => {
               </div>
               <div className="sendbutton">
                 <button type="submit" disabled={loading}>
-                  {loading ? <div className="spinner"></div> : "Send"}
+                  {loading ? (
+                    <div className="spinner"></div>
+                  ) : (
+                    t("components.buttons.send")
+                  )}
                 </button>
               </div>
             </form>

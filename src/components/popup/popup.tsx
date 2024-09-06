@@ -1,5 +1,6 @@
 import React from "react";
 import "./popup.scss";
+import { useTranslation } from "react-i18next";
 
 interface PopupProps {
   show: boolean;
@@ -8,6 +9,7 @@ interface PopupProps {
 }
 
 const Popup: React.FC<PopupProps> = ({ show, onClose, children }) => {
+  const { t } = useTranslation();
   if (!show) {
     return null;
   }
@@ -18,7 +20,7 @@ const Popup: React.FC<PopupProps> = ({ show, onClose, children }) => {
         <div className="popup-content">
           {children}
           <a href="/" className="home-button">
-            Go back
+            {t("components.buttons.goback")}
           </a>
         </div>
       </div>

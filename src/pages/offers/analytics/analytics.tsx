@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 // Components
 import Container from "../../../components/container/container.tsx";
@@ -10,68 +11,61 @@ import "./analytics.scss";
 import AdminTaskImage from "../../../images/other/admin-task.webp";
 
 const Analytics = () => {
+  const { t } = useTranslation();
   return (
     <>
-      {/* ----------------------------- Block One ----------------------------- */}
       <div className="analyticsPage">
+        {/* ----------------------------- Container ----------------------------- */}
         <Container>
           <div className="gradient-container">
             <div className="analytics-title">
-              Analys
+              {t("analytics.title")}
               <br />
             </div>
             <div className="analytics-description1">
-              Vet ni att ni vill komma igång med generativ AI och automation men
-              undrar vad som är första steget? Tvekar ni på om ni ska sätta
-              igång med förändringsresan nu eller vänta ett tag till?
+              {t("analytics.description1")}
             </div>
             <div className="analytics-description2">
-              Analys är Violet Automations konsulttjänster som analyserar och
-              rådger företag på AI-resan och kommer i två tappningar Strategisk
-              kartläggning och Processkartläggning.
+              {t("analytics.description2")}
             </div>
           </div>
         </Container>
+        {/* ----------------------------- Container ----------------------------- */}
         <Container>
           <InformationBox
             reverse={true}
-            title={"Analys - Processkartläggning"}
-            description={
-              "Har ni identifierat ett område eller en specifik process som ni vill effektivisera? Då är vår kostnadsfria tjänst ProcessAnalys för er. Vi inleder med ett video introduktionsmöte där ni ger en överblick av processen. Vi gör en bedömning och finns förutsättningar bokar vi därefter upp en detaljerad kartläggning via videomöte där ni demonstrerar hur nuvarande manuella arbetsflödet sker det, vilka system använder ni, vilken data används och vilka aktiviteter som sker. Efter eventuella kompletterande frågor tar vi fram ett lösningsförslag till er, komplett med prisuppgift och implementeringsplan."
-            }
+            title={t("analytics.infobox1.title")}
+            description={t("analytics.infobox1.description")}
             img={AdminTaskImage}
-            point1title="Värde:"
-            point1text1="Hjälp att komma igång och veta vad som ska prioriteras."
-            point1text2="Inspiration? Öppna ögon för hur man kan göra."
-            point1text3="Konkreta förslag på vad som kan göras."
-            point2title="AI Transformation Insights innefattar:"
-            point2text1="Interaktiv workshop för att komma igång. Inspirera, utbilda och aktivera organisationen."
-            point2text2="Kartläggning med intervjuer."
-            point2text3="Rådgivning. Business Case med insikter."
-            point2text4="Implementation. Plan för implementation med tidsplaner och prisförslag."
+            point1title={t("analytics.infobox1.tableleft.title")}
+            point1text1={t("analytics.infobox1.tableleft.row1")}
+            point1text2={t("analytics.infobox1.tableleft.row2")}
+            point1text3={t("analytics.infobox1.tableleft.row3")}
+            point2title={t("analytics.infobox1.tableright.title")}
+            point2text1={t("analytics.infobox1.tableright.row1")}
+            point2text2={t("analytics.infobox1.tableright.row2")}
+            point2text3={t("analytics.infobox1.tableright.row3")}
+            point2text4={t("analytics.infobox1.tableright.row4")}
           />
         </Container>
+        {/* ----------------------------- Container ----------------------------- */}
         <Container>
           <InformationBox
             reverse={false}
-            title={"Analys - Strategisk kartläggning"}
-            description={
-              "Med AI Transformation Insights går ditt team igenom en noggrant strukturerad process som kombinerar workshops och djupgående intervjuer. Violet Automations erfarna konsulter hjälper er att identifiera områden för tillämpning av automation och generativ AI. Vi erbjuder ett enkelt och effektivt sätt att komma igång, där ni efter bara fyra veckor får konkreta förslag på åtgärder och produkter med potential att öka både produktivitet och lönsamhet på sista raden."
-            }
-            description2={
-              "Vi inleder processen med en strategisk workshop för att få en djupgående förståelse för era kärnprocesser och aktuella utmaningar. Efter workshopen väljer vi tillsammans ut ett par specifika intervjuer för att säkerställa en omfattande analys. Därefter presenterar vi ett första förslag för er att ta ställning till, inklusive flera idéer – både omedelbara automationer med tydlig ROI (Return on Investment) och spännande nya tjänster som har potential att transformera ert företag."
-            }
-            description3="Vi analyserar även hur tekniken och människan ska samverka och tar fram en roadmap som säkerställer en smidig implementering för era medarbetare. Genom denna strukturerade och snabba approach säkerställer vi att ni får de bästa lösningarna för att inte bara optimera er verksamhet, utan också positionera er för framtida tillväxt och innovation."
+            title={t("analytics.infobox2.title")}
+            description={t("analytics.infobox2.description1")}
+            description2={t("analytics.infobox2.description2")}
+            description3={t("analytics.infobox2.description3")}
             img={AdminTaskImage}
-            point1title="Värde:"
-            point1text1="Hjälp att komma igång och veta vad som ska prioriteras."
-            point1text2="Inspiration? Öppna ögon för hur man kan göra."
-            point1text3="Konkreta förslag på vad som kan göras."
-            point2title="AI Transformation Insights innefattar:"
-            point2text1="Interaktiv workshop för att komma igång. Inspirera, utbilda och aktivera organisationen."
-            point2text2="Kartläggning med intervjuer."
-            point2text3="Rådgivning. Business Case med insikter."
-            point2text4="Implementation. Plan för implementation med tidsplaner och prisförslag."
+            point1title={t("analytics.infobox2.tableleft.title")}
+            point1text1={t("analytics.infobox2.tableleft.row1")}
+            point1text2={t("analytics.infobox2.tableleft.row2")}
+            point1text3={t("analytics.infobox2.tableleft.row3")}
+            point2title={t("analytics.infobox2.tableright.title")}
+            point2text1={t("analytics.infobox2.tableright.row1")}
+            point2text2={t("analytics.infobox2.tableright.row2")}
+            point2text3={t("analytics.infobox2.tableright.row3")}
+            point2text4={t("analytics.infobox2.tableright.row4")}
           />
         </Container>
       </div>

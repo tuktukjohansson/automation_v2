@@ -1,6 +1,7 @@
 // Libraries and styles
 import "./toggle-view.scss";
 import React, { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 // Logos
 import automationImage1 from "../../images/components/slideimage1.webp";
@@ -81,6 +82,7 @@ function ToggleButton({ onSelect }) {
 }
 
 function ToggleView() {
+  const { t } = useTranslation();
   const [selectedContent, setSelectedContent] = useState("01");
   const [animationClass, setAnimationClass] = useState("slide-in");
 
@@ -116,8 +118,7 @@ function ToggleView() {
               <div className="flow-text-container">
                 <p className="flow-title">01.</p>
                 <p className="flow-text">
-                  Mailklienten installeras i Outlook eller annan mailprogram och
-                  hämtar de mail som innehåller order.
+                  {t("orderflowsales.toggleview.text1")}
                 </p>
               </div>
               <img className="flow-img" src={automationImage1} alt="Product1" />
@@ -131,8 +132,7 @@ function ToggleView() {
               <div className="flow-text-container">
                 <p className="flow-title">02.</p>
                 <p className="flow-text">
-                  En AI-modell tränas specifikt på era order och extraherar ut
-                  all information som behövs från dokumenten.
+                  {t("orderflowsales.toggleview.text2")}
                 </p>
               </div>
               <img className="flow-img" src={automationImage2} alt="Product2" />
@@ -146,8 +146,7 @@ function ToggleView() {
               <div className="flow-text-container">
                 <p className="flow-title">03.</p>
                 <p className="flow-text">
-                  Informationen registreras in till affärssystem enligt er
-                  specifika regler.
+                  {t("orderflowsales.toggleview.text3")}
                 </p>
               </div>
               <img
@@ -165,8 +164,7 @@ function ToggleView() {
               <div className="flow-text-container">
                 <p className="flow-title">04.</p>
                 <p className="flow-text">
-                  Rapportering på avklarade order och order som avviker från
-                  regler sker löpande.
+                  {t("orderflowsales.toggleview.text4")}
                 </p>
               </div>
               <img className="flow-img" src={automationImage4} alt="Product4" />
@@ -180,8 +178,7 @@ function ToggleView() {
               <div className="flow-text-container">
                 <p className="flow-title">05.</p>
                 <p className="flow-text">
-                  Värdefull data från kund och leverantörers orderbeteende
-                  sammanställs och analyseras.
+                  {t("orderflowsales.toggleview.text5")}
                 </p>
               </div>
               <img className="flow-img" src={automationImage5} alt="Product5" />
@@ -195,9 +192,11 @@ function ToggleView() {
 
   return (
     <div className="toggle-view-container">
-      <p className="toggle-view-title">Effektivisera era orderprocesser</p>
+      <p className="toggle-view-title">
+        {t("orderflowsales.toggleview.title")}
+      </p>
       <p className="toggle-view-description">
-        Genom AI-driven automation frigörs tid för mer värdeskapande aktiviteter
+        {t("orderflowsales.toggleview.description")}
       </p>
       <ToggleButton onSelect={handleSelectContent} />
       {renderSelectedContent()}

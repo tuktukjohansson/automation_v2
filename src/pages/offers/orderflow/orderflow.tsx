@@ -8,37 +8,33 @@ import BusinessSoftwares from "../../../components/business-softwares/business-s
 import ToggleView from "../../../components/toggle-view/toggle-view.tsx";
 import Benefits from "../../../components/benefits/benefits.tsx";
 
-// Images
-
-// Libs
-import { useTranslation, Trans } from "react-i18next";
-
 // Styling
 import "./orderflow.scss";
 import Form from "../../../components/form/form.tsx";
 
 const Orderflow = () => {
-  const { t } = useTranslation();
   return (
     <>
-      {/* ----------------------------- Block One ----------------------------- */}
       <div className="orderflowpage">
+        {/* ----------------------------- Container ----------------------------- */}
         <Container>
           <CoolBox />
           <BusinessSoftwares />
         </Container>
+        {/* ----------------------------- Container ----------------------------- */}
         <Container>
           <div className="toggleviewcontainer">
             <ToggleView />
           </div>
         </Container>
+        {/* ----------------------------- Container ----------------------------- */}
         <Container>
           <Benefits />
         </Container>
+        {/* ----------------------------- Container ----------------------------- */}
         <Container>
           <Form />
         </Container>
-
         <Analytics />
       </div>
     </>

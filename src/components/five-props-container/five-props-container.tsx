@@ -15,7 +15,7 @@ import blob from "../../images/components/blob1.png";
 import blob2 from "../../images/components/blob2.png";
 
 const FivePropContainer = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
   const orderFlowImages =
     currentLanguage === "sv" ? [o_sv, oe_sv] : [o_en, oe_en];
@@ -30,17 +30,21 @@ const FivePropContainer = () => {
         <a className="flexitem1" href="/home">
           <img src={office} alt="office" />
           <div>
-            <div className="title">Analys</div>
+            <div className="title">
+              {t("home.fiveimageboxes.imageboxes.imagebox1.title")}
+            </div>
             <div className="description">
-              Genomlys verksamheten och hitta processer att automatisera
+              {t("home.fiveimageboxes.imageboxes.imagebox1.description")}
             </div>
           </div>
         </a>
         <a className="flexitem2" href="/home">
           <div className="textcontainer">
-            <div className="title">OrderFlow</div>
+            <div className="title">
+              {t("home.fiveimageboxes.imageboxes.imagebox2.title")}
+            </div>
             <div className="description">
-              Automatisk registrering av PDF-data ger mer tid till kunderna
+              {t("home.fiveimageboxes.imageboxes.imagebox2.description")}
             </div>
           </div>
           <div className="imagecontainer">
@@ -54,10 +58,11 @@ const FivePropContainer = () => {
         <div className="flexitems">
           <a className="flexitem1" href="/home">
             <div className="textcontainer">
-              <div className="title">Intelligent Automation</div>
+              <div className="title">
+                {t("home.fiveimageboxes.imageboxes.imagebox3.title")}
+              </div>
               <div className="description">
-                Med Violet Automation är det enkelt och riskfritt att komma
-                igång med AI och eliminera admin
+                {t("home.fiveimageboxes.imageboxes.imagebox3.description")}
               </div>
             </div>
             <img
@@ -68,11 +73,11 @@ const FivePropContainer = () => {
           </a>
           <a className="flexitem2" href="/home">
             <div className="textcontainer">
-              <div className="title">Kontakta oss</div>
+              <div className="title">
+                {t("home.fiveimageboxes.imageboxes.imagebox4.title")}
+              </div>
               <div className="description">
-                Våra experter har erfarenhet från flera branscher och
-                funktioner. Boka en kartläggning idag - automatisera er
-                verksamhet imorgon.
+                {t("home.fiveimageboxes.imageboxes.imagebox4.description")}
               </div>
             </div>
             <img className="blob" src={blob} alt="intelligent automation" />
@@ -80,7 +85,7 @@ const FivePropContainer = () => {
           </a>
         </div>
         <a className="flexitem" href="/home">
-          <img src={us} alt="ngt" />
+          <img src={us} alt="us" />
         </a>
       </div>
     </div>

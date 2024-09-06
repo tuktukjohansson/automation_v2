@@ -46,7 +46,7 @@ const BusinessSoftwares = () => {
         </div>
       </div>
       <div className="text-container">
-        <div className="text">{t("offersPage.softwares-text")}</div>
+        <div className="text">{t("orderflowsales.softwarestext")}</div>
       </div>
     </div>
   );

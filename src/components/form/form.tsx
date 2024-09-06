@@ -52,8 +52,8 @@ const Form = () => {
   return (
     <form ref={form} onSubmit={sendEmail2} className="form">
       <Popup show={showPopup} onClose={togglePopup}>
-        <h2>Thank You for Your Message!</h2>
-        <p>Your message has been received. We’ll get back to you shortly</p>
+        <h2>{t("orderflowsales.form.popup.title")}</h2>
+        <p>{t("orderflowsales.form.popup.description")}</p>
       </Popup>
       <div className="titlecontainer">
         <div className="title">Få ett prisförslag för din process!</div>

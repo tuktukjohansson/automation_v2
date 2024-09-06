@@ -29,7 +29,7 @@ const Benefits = () => {
   const { t } = useTranslation();
   return (
     <div className="benefits-component">
-      <div className="title">{t("offersPage.benefits.title")}</div>
+      <div className="title">{t("orderflowsales.benefits.title")}</div>
       <div className="benefits">
         <div className="benefit">
           <div className="lordi">
@@ -41,9 +41,11 @@ const Benefits = () => {
               colors="primary:#2516c7,secondary:#e83a30"
             ></lord-icon>
           </div>
-          <div className="title">{t("offersPage.benefits.item1.title")}</div>
+          <div className="title">
+            {t("orderflowsales.benefits.item1.title")}
+          </div>
           <div className="description">
-            {t("offersPage.benefits.item1.description")}
+            {t("orderflowsales.benefits.item1.description")}
           </div>
         </div>
         <div className="benefit">
@@ -56,9 +58,11 @@ const Benefits = () => {
               colors="primary:#2516c7,secondary:#e83a30"
             ></lord-icon>
           </div>
-          <div className="title">{t("offersPage.benefits.item2.title")}</div>
+          <div className="title">
+            {t("orderflowsales.benefits.item2.title")}
+          </div>
           <div className="description">
-            {t("offersPage.benefits.item2.description")}
+            {t("orderflowsales.benefits.item2.description")}
           </div>
         </div>
         <div className="benefit">
@@ -71,9 +75,11 @@ const Benefits = () => {
               colors="primary:#2516c7,secondary:#e83a30"
             ></lord-icon>
           </div>
-          <div className="title">{t("offersPage.benefits.item3.title")}</div>
+          <div className="title">
+            {t("orderflowsales.benefits.item3.title")}
+          </div>
           <div className="description">
-            {t("offersPage.benefits.item3.description")}
+            {t("orderflowsales.benefits.item3.description")}
           </div>
         </div>
         <div className="benefit">
@@ -86,9 +92,11 @@ const Benefits = () => {
               colors="primary:#2516c7,secondary:#e83a30"
             ></lord-icon>
           </div>
-          <div className="title">{t("offersPage.benefits.item4.title")}</div>
+          <div className="title">
+            {t("orderflowsales.benefits.item4.title")}
+          </div>
           <div className="description">
-            {t("offersPage.benefits.item4.description")}
+            {t("orderflowsales.benefits.item4.description")}
           </div>
         </div>
         <div className="benefit">
@@ -101,9 +109,11 @@ const Benefits = () => {
               colors="primary:#2516c7,secondary:#e83a30"
             ></lord-icon>
           </div>
-          <div className="title">{t("offersPage.benefits.item5.title")}</div>
+          <div className="title">
+            {t("orderflowsales.benefits.item5.title")}
+          </div>
           <div className="description">
-            {t("offersPage.benefits.item5.description")}
+            {t("orderflowsales.benefits.item5.description")}
           </div>
         </div>
         <div className="benefit">
@@ -116,9 +126,11 @@ const Benefits = () => {
               colors="primary:#2516c7,secondary:#e83a30"
             ></lord-icon>
           </div>
-          <div className="title">{t("offersPage.benefits.item6.title")}</div>
+          <div className="title">
+            {t("orderflowsales.benefits.item6.title")}
+          </div>
           <div className="description">
-            {t("offersPage.benefits.item6.description")}
+            {t("orderflowsales.benefits.item6.description")}
           </div>
         </div>
       </div>

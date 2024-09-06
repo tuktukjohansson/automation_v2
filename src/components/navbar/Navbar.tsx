@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="dropdown-links-wrapper">
           <div className="dropdown-link" onClick={toggleProducts}>
             <div className="dropdown-text">
-              <div className="dropdown-title">Erbjudande</div>
+              <div className="dropdown-title">{t("nav.products.category")}</div>
               <div className={`arrow-icon ${isProductOpen ? "open" : ""}`}>
                 <IoMdArrowDropdownCircle />
               </div>
@@ -37,32 +37,39 @@ const Navbar = () => {
                 className="products-link"
                 to="/offers/analytics"
               >
-                Analys
+                {t("nav.products.product1.title")}
               </Link>
               <Link
                 onClick={toggleMenu}
                 className="products-link"
                 to="/offers/Automation"
               >
-                Automation
+                {t("nav.products.product2.title")}
               </Link>
               <Link
                 onClick={toggleMenu}
                 className="products-link"
-                to="/offers/orderflow"
+                to="/offers/orderflowsales"
               >
-                OrderFlow
+                {t("nav.products.product3.title")}
+              </Link>
+              <Link
+                onClick={toggleMenu}
+                className="products-link"
+                to="/offers/orderflowpurchase"
+              >
+                {t("nav.products.product4.title")}
               </Link>
             </div>
           </div>
           <Link className="sublink" onClick={toggleMenu} to="/clients">
-            Kunder
+            {t("nav.clients")}
           </Link>
           <Link className="sublink" onClick={toggleMenu} to="/about">
-            About
+            {t("nav.about")}
           </Link>
           <Link className="sublink" onClick={toggleMenu} to="/contact">
-            Kontakt
+            {t("nav.contact")}
           </Link>
           <Link className="demo-button-2" onClick={toggleMenu} to="/demo">
             Boka möte
@@ -80,7 +87,7 @@ const Navbar = () => {
           </Link>
           <div className={`navbar-content ${isOpen ? "open" : ""}`}>
             <li className="navbar-dropdown">
-              <div className="dropping-item">Erbjudande</div>
+              <div className="dropping-item">{t("nav.products.category")}</div>
               <div className="dropdown">
                 <div className="dropdown-container">
                   <a className="dropdown-item" href="/offers/orderflow">
@@ -92,8 +99,12 @@ const Navbar = () => {
                       />
                     </div>
                     <div className="text-container">
-                      <div className="title">OrderFlow (Sales)</div>
-                      <div className="description">Analyse your workflow</div>
+                      <div className="title">
+                        {t("nav.products.product3.title")}
+                      </div>
+                      <div className="description">
+                        {t("nav.products.product3.description")}
+                      </div>
                     </div>
                   </a>
                   <div className="line" />
@@ -106,8 +117,12 @@ const Navbar = () => {
                       />
                     </div>
                     <div className="text-container">
-                      <div className="title">OrderFlow (Purchase)</div>
-                      <div className="description">Analyse your workflow</div>
+                      <div className="title">
+                        {t("nav.products.product4.title")}
+                      </div>
+                      <div className="description">
+                        {t("nav.products.product4.description")}
+                      </div>
                     </div>
                   </a>
                 </div>
@@ -121,8 +136,12 @@ const Navbar = () => {
                       />
                     </div>
                     <div className="text-container">
-                      <div className="title">Analys</div>
-                      <div className="description">Analyse your workflow</div>
+                      <div className="title">
+                        {t("nav.products.product1.title")}
+                      </div>
+                      <div className="description">
+                        {t("nav.products.product1.description")}
+                      </div>
                     </div>
                   </a>
                   <div className="line" />
@@ -135,8 +154,12 @@ const Navbar = () => {
                       />
                     </div>
                     <div className="text-container">
-                      <div className="title">Intelligent automation</div>
-                      <div className="description">Analyse your workflow</div>
+                      <div className="title">
+                        {t("nav.products.product2.title")}
+                      </div>
+                      <div className="description">
+                        {t("nav.products.product2.description")}
+                      </div>
                     </div>
                   </a>
                 </div>
@@ -144,17 +167,17 @@ const Navbar = () => {
               <div className="dropdown-arrow" />
             </li>
             <Link className="nav-link" to="/clients">
-              Kunder
+              {t("nav.clients")}
             </Link>
             <Link className="nav-link" to="/about">
-              About
+              {t("nav.about")}
             </Link>
             <Link className="nav-link" to="/contact">
-              Kontakt
+              {t("nav.contact")}
             </Link>
           </div>
           <Link className="demo-button" to="/demo">
-            Boka möte
+            {t("nav.button")}
           </Link>
           <div className="hamburger-container">
             <Hamburger

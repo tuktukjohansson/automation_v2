@@ -21,35 +21,38 @@ const Footer = () => {
           <div className="middle-content">
             <div className="linkwrapper">
               <Link to="/offers/analytics" className="link">
-                {t("nav.products.product1")}
+                {t("footer.products.product1")}
               </Link>
               <Link to="/offers/automation" className="link">
-                {t("nav.products.product2")}
+                {t("footer.products.product2")}
               </Link>
-              <Link to="/offers/orderflow" className="link">
-                {t("nav.products.product3")}
+              <Link to="/offers/orderflowsales" className="link">
+                {t("footer.products.product3")}
+              </Link>
+              <Link to="/offers/orderflowpurchase" className="link">
+                {t("footer.products.product4")}
               </Link>
             </div>
           </div>
           <div className="middle-content">
             <div className="linkwrapper">
               <Link to="/clients" className="link">
-                {t("nav.customers")}
+                {t("footer.clients")}
               </Link>
               <Link to="/about" className="link">
-                {t("nav.about")}
+                {t("footer.about")}
               </Link>{" "}
               <Link to="/contact" className="link">
-                {t("nav.contact")}
+                {t("footer.contact")}
               </Link>
             </div>
           </div>
           <div className="right-content">
             <div className="description">
-              <div>{t("footer.text1")}</div>
-              <div>{t("footer.text2")}</div>
+              <div>{t("footer.adress")}</div>
+              <div>{t("footer.location")}</div>
               <a className="mail" href="mailto:support@violet.ai">
-                support@violet.ai
+                {t("footer.mail")}
               </a>
               <a
                 className="linkedinlink"

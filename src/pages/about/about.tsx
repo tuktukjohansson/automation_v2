@@ -22,28 +22,32 @@ const About = () => {
     <>
       {/* ----------------------------- Block One ----------------------------- */}
       <div className="companypage">
+        {/* ----------------------------- Container ----------------------------- */}
         <Container>
           <Aboutbox
-            text="Om Violet Automation"
+            text={t("about.title")}
             img={About_us_banner}
             img2={Violet_logo}
           />
-          <TAD description={t("about.ourview.description")} />
+          <TAD description={t("about.description")} />
         </Container>
+        {/* ----------------------------- Container ----------------------------- */}
         <Container>
           <Aboutboxcenter
-            title="We love ai, why?"
-            description="Cuz money"
+            title={t("about.textinimagebox.title")}
+            description={t("about.textinimagebox.description")}
             img={Ai_banner}
           />
         </Container>
+        {/* ----------------------------- Container ----------------------------- */}
         <Container>
           <ImageTextSideBox
             img={Optimus_prime}
-            title="Värderingar och ledord"
-            description="AI kommer autoamtisera en ny nivå av kunslapsarbete. Omvärldsanalys. Vår lösning på det är snabbt, enkelt och riskfritt och ni köper det på abbonemang.AI kommer autoamtisera en ny nivå av kunslapsarbete. Omvärldsanalys. Vår lösning på det är snabbt, enkelt och riskfritt och ni köper det på abbonemang.AI kommer autoamtisera en ny nivå av kunslapsarbete. Omvärldsanalys. Vår lösning på det är snabbt, enkelt och riskfritt och ni köper det på abbonemang.AI kommer autoamtisera en ny nivå av kunslapsarbete. Omvärldsanalys. Vår lösning på det är snabbt, enkelt och riskfritt och ni köper det på abbonemang.AI kommer autoamtisera en ny nivå av kunslapsarbete. Omvärldsanalys. Vår lösning på det är snabbt, enkelt och riskfritt och ni köper det på abbonemang.AI kommer autoamtisera en ny nivå av kunslapsarbete. Omvärldsanalys. Vår lösning på det är snabbt, enkelt och riskfritt och ni köper det på abbonemang."
+            title={t("about.sideimagebox1.title")}
+            description={t("about.sideimagebox1.description")}
           />
         </Container>
+        {/* ----------------------------- Container ----------------------------- */}
         <Container>
           <Patrikview />
         </Container>
