@@ -90,7 +90,7 @@ const Navbar = () => {
               <div className="dropping-item">{t("nav.products.category")}</div>
               <div className="dropdown">
                 <div className="dropdown-container">
-                  <a className="dropdown-item" href="/offers/orderflow">
+                  <a className="dropdown-item" href="/offers/orderflowsales">
                     <div className="image-container">
                       <img
                         className="image"
@@ -108,7 +108,7 @@ const Navbar = () => {
                     </div>
                   </a>
                   <div className="line" />
-                  <a className="dropdown-item" href="/offers/orderflow">
+                  <a className="dropdown-item" href="/offers/orderflowpurchase">
                     <div className="image-container">
                       <img
                         className="image"
