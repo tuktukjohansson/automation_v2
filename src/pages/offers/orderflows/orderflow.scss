@@ -22,10 +22,15 @@
     flex-direction: column;
   }
   .toggleviewcontainer {
-    background-color: rgb(248, 246, 246);
+    background-color: rgb(247, 247, 250);
     width: 100%;
     box-sizing: border-box;
-    padding: 50px;
+    padding: 30px;
     border-radius: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .toggleviewcontainer {
+    border-radius: 20px !important;
   }
 }

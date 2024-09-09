@@ -7,7 +7,8 @@ import Navbar from "./components/navbar/Navbar.tsx";
 import Footer from "./components/footer/footer.tsx";
 import Home from "./pages/home/home.tsx";
 import AnalyticsPage from "./pages/offers/analytics/analytics.tsx";
-import Orderflow from "./pages/offers/orderflow/orderflow.tsx";
+import Orderflowsales from "./pages/offers/orderflows/orderflowsales.tsx";
+import Orderflowpurchase from "./pages/offers/orderflows/orderflowpurchase.tsx";
 import Automation from "./pages/offers/automation/automation.tsx";
 import Clients from "./pages/clients/clients.tsx";
 import About from "./pages/about/about.tsx";
@@ -34,7 +35,11 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/offers/analytics" element={<AnalyticsPage />} />
         <Route path="/offers/automation" element={<Automation />} />
-        <Route path="/offers/orderflow" element={<Orderflow />} />
+        <Route path="/offers/orderflowsales" element={<Orderflowsales />} />
+        <Route
+          path="/offers/orderflowpurchase"
+          element={<Orderflowpurchase />}
+        />
         <Route path="/clients" element={<Clients />} />
         <Route path="/clients/gothes" element={<Gothes />} />
         <Route path="/clients/hsb" element={<Hsb />} />

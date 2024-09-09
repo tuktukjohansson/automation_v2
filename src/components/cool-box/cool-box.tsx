@@ -13,14 +13,10 @@ const CoolBox = props => {
     <div className="oscar-är-sämst">
       <div className="textbox">
         <div className="titlecontainer">
-          <div className="title">
-            {t("orderflowsales.computerbox.titlepart1")}
-          </div>
-          <Gradienttext text={t("orderflowsales.computerbox.titlepart2")} />
+          <div className="title">{props.titlepart1}</div>
+          <Gradienttext text={props.titlepart2} />
         </div>
-        <div className="description">
-          {t("orderflowsales.computerbox.description")}
-        </div>
+        <div className="description">{props.description}</div>
         <a className="contactusbutton" href="/contact">
           {t("orderflowsales.computerbox.button")}
         </a>

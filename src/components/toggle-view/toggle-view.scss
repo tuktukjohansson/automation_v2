@@ -101,7 +101,7 @@
       }
     }
     .flow-img {
-      object-fit: fill;
+      object-fit: contain;
       height: 100%;
     }
   }
@@ -167,14 +167,12 @@
 
 @media (max-width: 1100px) {
   .toggle-view-container {
-    height: 1000px;
     .flex-flow-container {
-      margin-top: 140px;
-      gap: 0px !important;
+      margin-top: 70px;
+      gap: 20px !important;
       flex-direction: column !important;
       justify-content: center;
       align-items: center;
-      height: 300px;
     }
     .button-wrapper {
       justify-content: center;
@@ -185,10 +183,10 @@
     .flow-text-container {
       width: 100% !important;
     }
-  }
-}
-@media (max-width: 1100px) {
-  .toggle-view-container {
-    height: 900px;
+    .flow-img {
+      object-fit: contain;
+      width: 100%;
+      margin-bottom: 20px;
+    }
   }
 }

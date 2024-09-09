@@ -1,5 +1,6 @@
 import React from "react";
 import { Analytics } from "@vercel/analytics/react";
+import { useTranslation } from "react-i18next";
 
 // Components
 import Container from "../../../components/container/container.tsx";
@@ -12,14 +13,19 @@ import Benefits from "../../../components/benefits/benefits.tsx";
 import "./orderflow.scss";
 import Form from "../../../components/form/form.tsx";
 
-const Orderflow = () => {
+const Orderflowsales = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className="orderflowpage">
         {/* ----------------------------- Container ----------------------------- */}
         <Container>
-          <CoolBox />
-          <BusinessSoftwares />
+          <CoolBox
+            titlepart1={t("orderflowsales.computerbox.titlepart1")}
+            titlepart2={t("orderflowsales.computerbox.titlepart2")}
+            description={t("orderflowsales.computerbox.description")}
+          />
+          <BusinessSoftwares description={t("orderflowsales.softwarestext")} />
         </Container>
         {/* ----------------------------- Container ----------------------------- */}
         <Container>
@@ -41,4 +47,4 @@ const Orderflow = () => {
   );
 };
 
-export default Orderflow;
+export default Orderflowsales;

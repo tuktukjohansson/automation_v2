@@ -14,7 +14,7 @@ import EpicorLogo from "../../images/softwares/epicor-logo.webp";
 // Libs
 import { useTranslation } from "react-i18next";
 
-const BusinessSoftwares = () => {
+const BusinessSoftwares = props => {
   const { t } = useTranslation();
 
   return (
@@ -46,7 +46,7 @@ const BusinessSoftwares = () => {
         </div>
       </div>
       <div className="text-container">
-        <div className="text">{t("orderflowsales.softwarestext")}</div>
+        <div className="text">{props.description}</div>
       </div>
     </div>
   );
