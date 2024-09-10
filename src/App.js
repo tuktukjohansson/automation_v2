@@ -20,6 +20,7 @@ import Hsb from "./pages/clients/clientpages/hsb/hsb.tsx";
 import Maxm from "./pages/clients/clientpages/maxm/maxm.tsx";
 import Notfound from "./pages/notfound/notfound.tsx";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import ScrollToTop from "./ScrollToTop.js";
 
 function App() {
   const playEasterEggSound = () => {
@@ -30,6 +31,7 @@ function App() {
   useKonamiCode(playEasterEggSound);
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />

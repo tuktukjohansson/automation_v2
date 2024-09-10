@@ -264,8 +264,8 @@
     gap: 10px;
   }
   .arrow-icon.open {
-    transition: 0.5s ease-in-out transform;
-    transform: rotate(-180deg);
+    transition: 0.2s ease-in-out transform;
+    transform: rotateX(180deg);
   }
   .sublink {
     width: 200px;
@@ -288,11 +288,11 @@
     text-decoration: none;
 
     .arrow-icon {
-      transition: 0.5s ease-in-out transform;
+      transition: 0.2s ease-in-out transform;
       flex-direction: row;
       display: flex;
       align-items: center;
-      width: 15px;
+      width: 25px;
     }
   }
   .dropdown-text:hover,

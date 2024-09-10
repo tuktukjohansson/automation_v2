@@ -17,40 +17,36 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 70px 0px 90px 0px;
+    padding: 70px 100px 90px 100px;
+    box-sizing: border-box;
+    .automation-title {
+      color: white;
+      width: 100%;
+      font-size: var(--fonthuge);
+      font-weight: 800;
+      text-align: center;
+    }
+    .automation-description1 {
+      margin-top: 20px;
+      color: white;
+      width: 100%;
+      font-size: var(--fontmedium);
+      font-weight: 600;
+      text-align: center;
+    }
+    .automation-description2 {
+      margin-top: 20px;
+      color: white;
+      width: 100%;
+      font-size: var(--fontsmall);
+      font-weight: 600;
+      text-align: center;
+    }
   }
-  .automation-title {
-    color: white;
-  }
-  .section-two {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 200px;
-    margin-bottom: 200px;
-  }
-  .automation-title {
-    color: white;
-    width: 800px;
-    font-size: var(--fonthuge);
-    font-weight: 800;
-    text-align: center;
-  }
-  .automation-description1 {
-    margin-top: 40px;
-    color: white;
-    width: 800px;
-    font-size: var(--fontmedium);
-    font-weight: 600;
-    text-align: center;
-  }
-  .automation-description2 {
-    margin-top: 30px;
-    color: white;
-    width: 800px;
-    font-size: var(--fontsmall);
-    font-weight: 600;
-    text-align: center;
+}
+
+@media (max-width: 700px) {
+  .gradient-container {
+    padding: 40px 30px 40px 30px !important;
   }
 }

@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 
 // Images
 import violet_gradient_logo from "../../images/violet/logo/violet_automation_gradient.webp";
+import arrow from "../../images/components/arrow.png";
 
 const Navbar = () => {
   const { t } = useTranslation();
@@ -27,9 +28,10 @@ const Navbar = () => {
           <div className="dropdown-link" onClick={toggleProducts}>
             <div className="dropdown-text">
               <div className="dropdown-title">{t("nav.products.category")}</div>
-              <div className={`arrow-icon ${isProductOpen ? "open" : ""}`}>
-                <IoMdArrowDropdownCircle />
-              </div>
+              <img
+                src={arrow}
+                className={`arrow-icon ${isProductOpen ? "open" : ""}`}
+              ></img>
             </div>
             <div className={`products-content ${isProductOpen ? "open" : ""}`}>
               <div className="product-category">PRODUKTER</div>
