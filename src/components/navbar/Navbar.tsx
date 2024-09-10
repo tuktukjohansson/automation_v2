@@ -32,20 +32,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className={`products-content ${isProductOpen ? "open" : ""}`}>
-              <Link
-                onClick={toggleMenu}
-                className="products-link"
-                to="/offers/analytics"
-              >
-                {t("nav.products.product1.title")}
-              </Link>
-              <Link
-                onClick={toggleMenu}
-                className="products-link"
-                to="/offers/Automation"
-              >
-                {t("nav.products.product2.title")}
-              </Link>
+              <div className="product-category">PRODUKTER</div>
               <Link
                 onClick={toggleMenu}
                 className="products-link"
@@ -60,6 +47,21 @@ const Navbar = () => {
               >
                 {t("nav.products.product4.title")}
               </Link>
+              <div className="product-category">INFO</div>
+              <Link
+                onClick={toggleMenu}
+                className="products-link"
+                to="/offers/analytics"
+              >
+                {t("nav.products.product1.title")}
+              </Link>
+              <Link
+                onClick={toggleMenu}
+                className="products-link"
+                to="/offers/Automation"
+              >
+                {t("nav.products.product2.title")}
+              </Link>
             </div>
           </div>
           <Link className="sublink" onClick={toggleMenu} to="/clients">
@@ -71,9 +73,9 @@ const Navbar = () => {
           <Link className="sublink" onClick={toggleMenu} to="/contact">
             {t("nav.contact")}
           </Link>
-          <Link className="demo-button-2" onClick={toggleMenu} to="/demo">
+          {/* <Link className="demo-button-2" onClick={toggleMenu} to="/demo">
             Boka möte
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className="navbar-container">

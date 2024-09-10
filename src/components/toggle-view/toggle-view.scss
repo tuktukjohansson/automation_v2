@@ -36,6 +36,7 @@
       color: #777777;
       font-weight: 900;
       cursor: pointer;
+      font-family: var(--fontfamilydescription);
       transition: background-color 0.3s, color 0.1s;
 
       &.selected {
@@ -54,6 +55,9 @@
       &:active {
         background-color: #4f0793;
         color: #ffffff;
+      }
+      > button {
+        font-family: var(--fontfamilydescription);
       }
     }
 

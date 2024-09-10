@@ -26,8 +26,10 @@ code {
   --lightgray: #a8a8a8;
   --white: #ffffff;
   /* Font Families */
-  --fontfamilytitle: "Mary Poppins", sans-serif;
-  --fontfamilydescription: "Inter", sans-serif;
+  /* --fontfamilytitle: "Mary Poppins", sans-serif;
+  --fontfamilydescription: "Inter", sans-serif; */
+  --fontfamilytitle: "Clarkson", Helvetica, sans-serif;
+  --fontfamilydescription: "Clarkson", Helvetica, sans-serif;
   /* Font Sizes */
   --fontextrasmall: 15px;
   --fontsmall: 20px;
@@ -57,7 +59,7 @@ code {
     --fontsmall: 16px;
     --fontmedium: 20px;
     --fontbig: 25px;
-    --fontlarge: 25px;
+    --fontlarge: 28px;
     --fonthuge: 40px;
     --navmargin: 75px !important;
   }
@@ -85,10 +87,10 @@ a:visited {
 }
 
 div {
-  font-family: "Inter", sans-serif;
+  font-family: "Clarkson", Helvetica, sans-serif;
 }
 a {
-  font-family: "Inter", sans-serif;
+  font-family: "Clarkson", Helvetica, sans-serif;
 }
 
 h1 {
