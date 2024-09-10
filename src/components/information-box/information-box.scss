@@ -26,9 +26,11 @@
     }
     .description {
       margin-bottom: 10px;
+      font-size: var(--fontsmall);
     }
   }
   .point-lists {
+    font-size: var(--fontsmall);
     display: flex;
     gap: 20px;
   }

@@ -39,7 +39,7 @@
     "titleandthreeboxes": {
       "gradienttitle": {
         "part1": "Så",
-        "part2": "funkar det"
+        "part2": "fungerar det"
       },
       "description": "Vägen till implementerad AI i din organisation behöver inte vara lång. Den går i tre steg och bindningstiden aktiveras först efter en provperiod.",
       "threeboxes": {
@@ -385,7 +385,7 @@
   "components": {
     "buttons": {
       "talk-to-us": "Kontakta oss",
-      "how-does-it-work": "Så funkar det",
+      "how-does-it-work": "Så fungerar det",
       "goback": "Go back",
       "send": "Send"
     }
