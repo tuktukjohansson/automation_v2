@@ -247,6 +247,7 @@
   .dropdown-content-mobile.open {
     opacity: 1;
     transform: translateY(0);
+    touch-action: none;
   }
   .dropdown-links-wrapper {
     display: flex;
@@ -358,18 +359,20 @@
     overflow: hidden;
     margin-top: 0;
     margin-bottom: 0;
+    will-change: opacity, max-height, margin-top, margin-bottom;
     transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out,
       margin-top 0.3s ease-in-out, margin-bottom 0.3s ease-in-out;
   }
-  .product-category {
-    color: darkgray;
-    font-size: var(--fontmedium);
-  }
+
   .products-content.open {
     margin-top: 25px;
     margin-bottom: 20px;
     opacity: 1;
     max-height: 500px;
+  }
+  .product-category {
+    color: darkgray;
+    font-size: var(--fontmedium);
   }
 }
 

@@ -57,6 +57,7 @@ const Home = () => {
           img={aitrain}
           description={t("home.textimagebox.title")}
           description2={t("home.textimagebox.description")}
+          alt="Ai Train"
         />
       </Container>
       {/* ----------------------------- Container ----------------------------- */}
@@ -140,6 +141,7 @@ const Home = () => {
           img={DarkComponentImg}
           title={t("home.darkimgtextbox.title")}
           description={t("home.darkimgtextbox.description")}
+          alt="Dark image with cloud"
         />
       </Container>
     </div>

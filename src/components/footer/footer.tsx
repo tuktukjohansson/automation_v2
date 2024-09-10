@@ -61,7 +61,7 @@ const Footer = () => {
                 <img
                   className="linkedin"
                   src="https://cdn.prod.website-files.com/6397169c23b54d0da1cd5447/639c72812f8b5fd3409e0fe2_Frame.svg"
-                  alt="LinkedIn"
+                  alt="linkedin"
                 ></img>
                 LinkedIn
               </a>

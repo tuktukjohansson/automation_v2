@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
 import { Sling as Hamburger } from "hamburger-react";
@@ -31,6 +31,7 @@ const Navbar = () => {
               <img
                 src={arrow}
                 className={`arrow-icon ${isProductOpen ? "open" : ""}`}
+                alt="arrow"
               ></img>
             </div>
             <div className={`products-content ${isProductOpen ? "open" : ""}`}>
