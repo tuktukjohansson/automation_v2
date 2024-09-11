@@ -21,6 +21,7 @@ import Maxm from "./pages/clients/clientpages/maxm/maxm.tsx";
 import Notfound from "./pages/notfound/notfound.tsx";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import ScrollToTop from "./ScrollToTop.js";
+import CareerPage from "./pages/career/career.tsx";
 
 function App() {
   const playEasterEggSound = () => {
@@ -36,11 +37,11 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/offers/analytics" element={<AnalyticsPage />} />
-        <Route path="/offers/automation" element={<Automation />} />
-        <Route path="/offers/orderflowsales" element={<Orderflowsales />} />
+        <Route path="/services/analytics" element={<AnalyticsPage />} />
+        <Route path="/services/automation" element={<Automation />} />
+        <Route path="/products/orderflowsales" element={<Orderflowsales />} />
         <Route
-          path="/offers/orderflowpurchase"
+          path="/products/orderflowpurchase"
           element={<Orderflowpurchase />}
         />
         <Route path="/clients" element={<Clients />} />
@@ -49,6 +50,7 @@ function App() {
         <Route path="/clients/maxm" element={<Maxm />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/career" element={<CareerPage />} />
         <Route path="*" element={<Notfound />} />
       </Routes>
       <Footer />

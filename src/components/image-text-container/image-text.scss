@@ -21,16 +21,17 @@
     align-items: center;
     text-align: center;
     color: white;
+    padding: 0px 100px 0px 100px;
+    box-sizing: border-box;
 
     .description {
       font-family: var(--fontfamilytitle);
-      margin-top: 100px;
       font-size: var(--fontmedium);
       font-weight: bold;
     }
 
     .small-description {
-      font-size: var(fontfamilydescription);
+      font-size: var(--fontsmall);
       margin-top: 10px;
     }
   }

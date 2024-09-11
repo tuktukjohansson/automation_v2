@@ -42,7 +42,7 @@ const Footer = () => {
               <Link to="/about" className="link">
                 {t("footer.about")}
               </Link>
-              <Link to="/career" className="link">
+              <Link to="/careerCDFV " className="link">
                 {t("footer.career")}
               </Link>
               <Link to="/contact" className="link">

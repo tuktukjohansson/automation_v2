@@ -4,6 +4,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  .gradient-title-scrollto {
+    scroll-margin: 200px;
+    width: 100%;
+    text-align: left;
+    margin-top: 0px;
+    font-family: var(--fontfamilytitle);
+  }
 }
 .gradient-one {
   z-index: -1;

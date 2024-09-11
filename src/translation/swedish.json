@@ -52,7 +52,7 @@
           "description": "Vi anpassar produkten till era önskemål och testar den i ert arbetsflöde."
         },
         "box3": {
-          "title": "Automation",
+          "title": "Intelligent Automation",
           "description": "Nu är ni igång! Vi går bredvid er och säkerställer en smidig övergång till ert nya arbetssätt med digitala medarbetare."
         }
       }
@@ -411,7 +411,7 @@
         "description": "Analyse your workflow"
       },
       "product2": {
-        "title": "Automation",
+        "title": "Intelligent Automation",
         "description": "Automate your workflow"
       }
     },

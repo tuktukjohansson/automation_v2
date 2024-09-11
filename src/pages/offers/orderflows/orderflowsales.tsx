@@ -11,7 +11,6 @@ import Benefits from "../../../components/benefits/benefits.tsx";
 
 // Styling
 import "./orderflow.scss";
-import Form from "../../../components/form/form.tsx";
 
 const Orderflowsales = () => {
   const { t } = useTranslation();
@@ -36,10 +35,6 @@ const Orderflowsales = () => {
         {/* ----------------------------- Container ----------------------------- */}
         <Container>
           <Benefits />
-        </Container>
-        {/* ----------------------------- Container ----------------------------- */}
-        <Container>
-          <Form />
         </Container>
         <Analytics />
       </div>

@@ -127,7 +127,7 @@ const Navbar = () => {
               <div className="dropping-item">{t("nav.products.category")}</div>
               <div className="dropdown">
                 <div className="dropdown-container">
-                  <a className="dropdown-item" href="/offers/orderflowsales">
+                  <a className="dropdown-item" href="/products/orderflowsales">
                     <div className="text-container">
                       <div className="title">
                         {t("nav.products.product1.title")}
@@ -139,7 +139,10 @@ const Navbar = () => {
                   </a>
                 </div>
                 <div className="dropdown-container">
-                  <a className="dropdown-item" href="/offers/orderflowpurchase">
+                  <a
+                    className="dropdown-item"
+                    href="/products/orderflowpurchase"
+                  >
                     <div className="text-container">
                       <div className="title">
                         {t("nav.products.product2.title")}
@@ -157,7 +160,7 @@ const Navbar = () => {
               <div className="dropping-item">{t("nav.services.category")}</div>
               <div className="dropdown">
                 <div className="dropdown-container">
-                  <a className="dropdown-item" href="/offers/orderflowsales">
+                  <a className="dropdown-item" href="/services/analytics">
                     <div className="text-container">
                       <div className="title">
                         {t("nav.services.product1.title")}
@@ -169,7 +172,7 @@ const Navbar = () => {
                   </a>
                 </div>
                 <div className="dropdown-container">
-                  <a className="dropdown-item" href="/offers/orderflowpurchase">
+                  <a className="dropdown-item" href="/services/automation">
                     <div className="text-container">
                       <div className="title">
                         {t("nav.services.product2.title")}

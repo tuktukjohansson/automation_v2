@@ -8,7 +8,8 @@ import Popup from "../../components/popup/popup.tsx";
 import Container from "../../components/container/container.tsx";
 
 // Images
-
+import blob3 from "../../images/components/blob3.png";
+import blob4 from "../../images/components/blob4.png";
 import "./contact.scss";
 
 const Contact = () => {
@@ -56,9 +57,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="body-contact">
+    <div className="contactpage">
       {/* ----------------------------- Container ----------------------------- */}
       <Container>
+        <div className="blobcontainer">
+          <img className="blob3" src={blob3} />
+          <img className="blob4" src={blob4} />
+        </div>
         <div className="flex-container">
           <Popup show={showPopup} onClose={togglePopup}>
             <h2>{t("contact.popup.title")}</h2>

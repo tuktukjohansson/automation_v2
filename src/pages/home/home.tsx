@@ -42,9 +42,9 @@ const Home = () => {
       <Container>
         <RedirectButtons
           button1text={t("components.buttons.talk-to-us")}
-          href1="/"
+          href1="/contact"
           button2text={t("components.buttons.how-does-it-work")}
-          href2="/contact"
+          href2="#howitworks"
         ></RedirectButtons>
       </Container>
       {/* ----------------------------- Container ----------------------------- */}
@@ -74,7 +74,7 @@ const Home = () => {
       </Container>
       {/* ----------------------------- Container ----------------------------- */}
       <Container>
-        <h1 className="gradient-title">
+        <h1 className="gradient-title-scrollto" id="howitworks">
           {t("home.titleandthreeboxes.gradienttitle.part1")}{" "}
           <Gradienttext
             secondGradient={true}
