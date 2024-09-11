@@ -13,12 +13,17 @@ const Navbar = () => {
   const { t } = useTranslation();
   const [isOpen, setOpen] = useState(false);
   const [isProductOpen, setProductOpen] = useState(false);
+  const [isServiceOpen, setServiceOpen] = useState(false);
   const toggleMenu = () => {
     setOpen(!isOpen);
   };
 
   const toggleProducts = () => {
     setProductOpen(!isProductOpen);
+  };
+
+  const toggleServices = () => {
+    setServiceOpen(!isServiceOpen);
   };
 
   return (
@@ -35,6 +40,33 @@ const Navbar = () => {
               ></img>
             </div>
             <div className={`products-content ${isProductOpen ? "open" : ""}`}>
+              <div className="product-category">PRODUKTER</div>
+              <Link
+                onClick={toggleMenu}
+                className="products-link"
+                to="/offers/analytics"
+              >
+                {t("nav.products.product1.title")}
+              </Link>
+              <Link
+                onClick={toggleMenu}
+                className="products-link"
+                to="/offers/Automation"
+              >
+                {t("nav.products.product2.title")}
+              </Link>
+            </div>
+          </div>
+          <div className="dropdown-link" onClick={toggleServices}>
+            <div className="dropdown-text">
+              <div className="dropdown-title">{t("nav.products.category")}</div>
+              <img
+                src={arrow}
+                className={`arrow-icon ${isServiceOpen ? "open" : ""}`}
+                alt="arrow"
+              ></img>
+            </div>
+            <div className={`products-content ${isServiceOpen ? "open" : ""}`}>
               <div className="product-category">PRODUKTER</div>
               <Link
                 onClick={toggleMenu}
@@ -96,50 +128,6 @@ const Navbar = () => {
               <div className="dropdown">
                 <div className="dropdown-container">
                   <a className="dropdown-item" href="/offers/orderflowsales">
-                    <div className="image-container">
-                      <img
-                        className="image"
-                        alt="Violet Automation"
-                        src={violet_gradient_logo}
-                      />
-                    </div>
-                    <div className="text-container">
-                      <div className="title">
-                        {t("nav.products.product3.title")}
-                      </div>
-                      <div className="description">
-                        {t("nav.products.product3.description")}
-                      </div>
-                    </div>
-                  </a>
-                  <div className="line" />
-                  <a className="dropdown-item" href="/offers/orderflowpurchase">
-                    <div className="image-container">
-                      <img
-                        className="image"
-                        alt="Violet Automation"
-                        src={violet_gradient_logo}
-                      />
-                    </div>
-                    <div className="text-container">
-                      <div className="title">
-                        {t("nav.products.product4.title")}
-                      </div>
-                      <div className="description">
-                        {t("nav.products.product4.description")}
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className="dropdown-container">
-                  <a className="dropdown-item" href="/offers/analytics">
-                    <div className="image-container">
-                      <img
-                        className="image"
-                        alt="Violet Automation"
-                        src={violet_gradient_logo}
-                      />
-                    </div>
                     <div className="text-container">
                       <div className="title">
                         {t("nav.products.product1.title")}
@@ -149,21 +137,45 @@ const Navbar = () => {
                       </div>
                     </div>
                   </a>
-                  <div className="line" />
-                  <a className="dropdown-item" href="/offers/automation">
-                    <div className="image-container">
-                      <img
-                        className="image"
-                        alt="Violet Automation"
-                        src={violet_gradient_logo}
-                      />
-                    </div>
+                </div>
+                <div className="dropdown-container">
+                  <a className="dropdown-item" href="/offers/orderflowpurchase">
                     <div className="text-container">
                       <div className="title">
                         {t("nav.products.product2.title")}
                       </div>
                       <div className="description">
                         {t("nav.products.product2.description")}
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div className="dropdown-arrow" />
+            </li>
+            <li className="navbar-dropdown">
+              <div className="dropping-item">{t("nav.services.category")}</div>
+              <div className="dropdown">
+                <div className="dropdown-container">
+                  <a className="dropdown-item" href="/offers/orderflowsales">
+                    <div className="text-container">
+                      <div className="title">
+                        {t("nav.services.product1.title")}
+                      </div>
+                      <div className="description">
+                        {t("nav.services.product1.description")}
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className="dropdown-container">
+                  <a className="dropdown-item" href="/offers/orderflowpurchase">
+                    <div className="text-container">
+                      <div className="title">
+                        {t("nav.services.product2.title")}
+                      </div>
+                      <div className="description">
+                        {t("nav.services.product2.description")}
                       </div>
                     </div>
                   </a>

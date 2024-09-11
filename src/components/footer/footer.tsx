@@ -41,7 +41,10 @@ const Footer = () => {
               </Link>
               <Link to="/about" className="link">
                 {t("footer.about")}
-              </Link>{" "}
+              </Link>
+              <Link to="/career" className="link">
+                {t("footer.career")}
+              </Link>
               <Link to="/contact" className="link">
                 {t("footer.contact")}
               </Link>

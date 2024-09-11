@@ -6,6 +6,7 @@ import { useTranslation, Trans } from "react-i18next";
 
 import lottie from "lottie-web";
 import { defineElement } from "@lordicon/element";
+import Gradienttext from "../gradient-text/gradient-text.tsx";
 
 defineElement(lottie.loadAnimation);
 
@@ -29,7 +30,10 @@ const Benefits = () => {
   const { t } = useTranslation();
   return (
     <div className="benefits-component">
-      <div className="title">{t("orderflowsales.benefits.title")}</div>
+      <h1 className="gradient-title-one" style={{ marginTop: 200 }}>
+        <Gradienttext text={t("orderflowsales.benefits.titlepart1")} />{" "}
+        {t("orderflowsales.benefits.titlepart2")}
+      </h1>
       <div className="benefits">
         <div className="benefit">
           <div className="lordi">

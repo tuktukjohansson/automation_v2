@@ -35,13 +35,13 @@
   },
   "nav": {
     "products": {
-      "category": "Erbjudande",
+      "category": "Produkter",
       "product1": "Analys",
       "product2": "Automation",
       "product3": "OrderFlow",
       "product4": "Kunskap"
     },
-    "customers": "Kunder",
+    "customers": "Kundcase",
     "company": "About",
     "contact": "Kontakt"
   },

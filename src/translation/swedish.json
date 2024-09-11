@@ -214,7 +214,8 @@
       "text5": "Värdefull data från kund och leverantörers orderbeteende sammanställs och analyseras."
     },
     "benefits": {
-      "title": "Fördelar",
+      "titlepart1": "Fördelar",
+      "titlepart2": "med automatiserad orderhantering",
       "item1": {
         "title": "Sparad tid",
         "description": "OrderFlows processautomation frigör tid till mer värdeskapande aktiviteter. Responstid till kundorder och identifikationstid för avvikelser på ordererkännanden kortas."
@@ -255,7 +256,7 @@
       }
     }
   },
-  "orderflowpurchasescomment": "---------------------------- OrderFlow Purchases ----------------------------",
+  "orderflowpurchasescomment": "---------------------------- OrderFlow Confirmation ----------------------------",
   "orderflowspurchases": {
     "computerbox": {
       "titlepart1": "Experience the Power of",
@@ -393,7 +394,18 @@
   "navcomment": "---------------------------- Nav ----------------------------",
   "nav": {
     "products": {
-      "category": "Erbjudande",
+      "category": "Produkter",
+      "product1": {
+        "title": "OrderFlow Sales",
+        "description": "Analyse your workflow"
+      },
+      "product2": {
+        "title": "OrderFlow Confirmation",
+        "description": "Analyse your workflow"
+      }
+    },
+    "services": {
+      "category": "Tjänster",
       "product1": {
         "title": "Analys",
         "description": "Analyse your workflow"
@@ -401,18 +413,10 @@
       "product2": {
         "title": "Automation",
         "description": "Automate your workflow"
-      },
-      "product3": {
-        "title": "OrderFlow Sales",
-        "description": "Analyse your workflow"
-      },
-      "product4": {
-        "title": "OrderFlow Purchase",
-        "description": "Analyse your workflow"
       }
     },
     "button": "Boka möte",
-    "clients": "Kunder",
+    "clients": "Kundcase",
     "about": "Om oss",
     "contact": "Kontakt"
   },
@@ -422,13 +426,16 @@
     "location": "111 35 Stockholm, Sweden",
     "mail": "support@violet.ai",
     "products": {
-      "category": "Erbjudande",
-      "product1": "Analys",
-      "product2": "Automation",
+      "category": "Produkter",
       "product3": "OrderFlow Sales",
-      "product4": "OrderFlow Purchase"
+      "product4": "OrderFlow Confirmation"
     },
-    "clients": "Kunder",
+    "services": {
+      "category": "Tjänster",
+      "product1": "Analys",
+      "product2": "Automation"
+    },
+    "clients": "Kundcase",
     "about": "Om oss",
     "contact": "Kontakt"
   }
