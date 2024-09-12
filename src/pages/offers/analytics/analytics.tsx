@@ -8,7 +8,7 @@ import InformationBox from "../../../components/information-box/information-box.
 // Images
 
 import "./analytics.scss";
-import AdminTaskImage from "../../../images/other/admin-task.webp";
+import AdminTaskImage from "../../../images/other/admin-task.png";
 
 const Analytics = () => {
   const { t } = useTranslation();

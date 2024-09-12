@@ -30,10 +30,12 @@
         color: rgb(0, 0, 0);
         position: absolute;
         .title {
+          color: white;
           font-weight: 600;
           font-size: var(--fontbig);
         }
         .description {
+          color: white;
           font-weight: 500;
           font-size: var(--fontsmall);
         }

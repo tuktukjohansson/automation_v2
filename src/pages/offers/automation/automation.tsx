@@ -7,7 +7,7 @@ import Container from "../../../components/container/container.tsx";
 import InformationBox from "../../../components/information-box/information-box.tsx";
 
 // Images
-import AdminTaskImage from "../../../images/other/admin-task.webp";
+import AdminTaskImage from "../../../images/other/admin-task.png";
 
 const Automation = () => {
   const { t } = useTranslation();

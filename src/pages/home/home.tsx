@@ -19,6 +19,7 @@ import Gothes_logo from "../../images/clients/customs/gothes_logo_banner.webp";
 import Hsb_logo from "../../images/clients/customs/hsb_logo_banner.webp";
 import Maxm_logo from "../../images/clients/customs/maxm_logo_banner.webp";
 import aitrain from "../../images/components/aitrain.png";
+import aiglasses from "../../images/components/aiglasses.png";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -54,7 +55,7 @@ const Home = () => {
       {/* ----------------------------- Container ----------------------------- */}
       <Container>
         <ImageTextBox
-          img={aitrain}
+          img={aiglasses}
           description={t("home.textimagebox.title")}
           description2={t("home.textimagebox.description")}
           alt="Ai Train"
