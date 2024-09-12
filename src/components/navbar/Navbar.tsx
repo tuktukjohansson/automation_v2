@@ -30,33 +30,6 @@ const Navbar = () => {
     <>
       <div className={`dropdown-content-mobile ${isOpen ? "open" : ""}`}>
         <div className="dropdown-links-wrapper">
-          <div className="dropdown-link" onClick={toggleProducts}>
-            <div className="dropdown-text">
-              <div className="dropdown-title">{t("nav.products.category")}</div>
-              <img
-                src={arrow}
-                className={`arrow-icon ${isProductOpen ? "open" : ""}`}
-                alt="arrow"
-              ></img>
-            </div>
-            <div className={`products-content ${isProductOpen ? "open" : ""}`}>
-              <div className="product-category">PRODUKTER</div>
-              <Link
-                onClick={toggleMenu}
-                className="products-link"
-                to="/offers/analytics"
-              >
-                {t("nav.products.product1.title")}
-              </Link>
-              <Link
-                onClick={toggleMenu}
-                className="products-link"
-                to="/offers/Automation"
-              >
-                {t("nav.products.product2.title")}
-              </Link>
-            </div>
-          </div>
           <div className="dropdown-link" onClick={toggleServices}>
             <div className="dropdown-text">
               <div className="dropdown-title">{t("nav.products.category")}</div>
@@ -99,6 +72,34 @@ const Navbar = () => {
               </Link>
             </div>
           </div>
+          <div className="dropdown-link" onClick={toggleProducts}>
+            <div className="dropdown-text">
+              <div className="dropdown-title">{t("nav.products.category")}</div>
+              <img
+                src={arrow}
+                className={`arrow-icon ${isProductOpen ? "open" : ""}`}
+                alt="arrow"
+              ></img>
+            </div>
+            <div className={`products-content ${isProductOpen ? "open" : ""}`}>
+              <div className="product-category">PRODUKTER</div>
+              <Link
+                onClick={toggleMenu}
+                className="products-link"
+                to="/offers/analytics"
+              >
+                {t("nav.products.product1.title")}
+              </Link>
+              <Link
+                onClick={toggleMenu}
+                className="products-link"
+                to="/offers/Automation"
+              >
+                {t("nav.products.product2.title")}
+              </Link>
+            </div>
+          </div>
+
           <Link className="sublink" onClick={toggleMenu} to="/clients">
             {t("nav.clients")}
           </Link>
@@ -123,6 +124,36 @@ const Navbar = () => {
             ></img>
           </Link>
           <div className={`navbar-content ${isOpen ? "open" : ""}`}>
+            <li className="navbar-dropdown">
+              <div className="dropping-item">{t("nav.services.category")}</div>
+              <div className="dropdown">
+                <div className="dropdown-container">
+                  <a className="dropdown-item" href="/services/analytics">
+                    <div className="text-container">
+                      <div className="title">
+                        {t("nav.services.product1.title")}
+                      </div>
+                      <div className="description">
+                        {t("nav.services.product1.description")}
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className="dropdown-container">
+                  <a className="dropdown-item" href="/services/automation">
+                    <div className="text-container">
+                      <div className="title">
+                        {t("nav.services.product2.title")}
+                      </div>
+                      <div className="description">
+                        {t("nav.services.product2.description")}
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div className="dropdown-arrow" />
+            </li>
             <li className="navbar-dropdown">
               <div className="dropping-item">{t("nav.products.category")}</div>
               <div className="dropdown">
@@ -156,36 +187,7 @@ const Navbar = () => {
               </div>
               <div className="dropdown-arrow" />
             </li>
-            <li className="navbar-dropdown">
-              <div className="dropping-item">{t("nav.services.category")}</div>
-              <div className="dropdown">
-                <div className="dropdown-container">
-                  <a className="dropdown-item" href="/services/analytics">
-                    <div className="text-container">
-                      <div className="title">
-                        {t("nav.services.product1.title")}
-                      </div>
-                      <div className="description">
-                        {t("nav.services.product1.description")}
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className="dropdown-container">
-                  <a className="dropdown-item" href="/services/automation">
-                    <div className="text-container">
-                      <div className="title">
-                        {t("nav.services.product2.title")}
-                      </div>
-                      <div className="description">
-                        {t("nav.services.product2.description")}
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div className="dropdown-arrow" />
-            </li>
+
             <Link className="nav-link" to="/clients">
               {t("nav.clients")}
             </Link>
