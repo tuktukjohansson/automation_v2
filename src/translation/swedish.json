@@ -447,8 +447,8 @@
     "mail": "support@violet.ai",
     "products": {
       "category": "Produkter",
-      "product3": "OrderFlow Sales",
-      "product4": "OrderFlow Confirmation"
+      "product1": "OrderFlow Sales",
+      "product2": "OrderFlow Confirmation"
     },
     "services": {
       "category": "Tjänster",
@@ -457,6 +457,7 @@
     },
     "clients": "Kundcase",
     "about": "Om oss",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "career": "Karriär"
   }
 }

@@ -27,10 +27,10 @@ const Footer = () => {
                 {t("footer.products.product2")}
               </Link>
               <Link to="/offers/orderflowsales" className="link">
-                {t("footer.products.product3")}
+                {t("footer.services.product1")}
               </Link>
               <Link to="/offers/orderflowpurchase" className="link">
-                {t("footer.products.product4")}
+                {t("footer.services.product2")}
               </Link>
             </div>
           </div>
