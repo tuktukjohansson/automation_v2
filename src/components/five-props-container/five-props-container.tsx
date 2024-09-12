@@ -7,12 +7,14 @@ import o_sv from "../../images/components/o_sv.png";
 import oe_sv from "../../images/components/oe_sv.png";
 import o_en from "../../images/components/o_en.png";
 import oe_en from "../../images/components/oe_en.png";
-import office from "../../images/components/ai-office-tinted.png";
+import office from "../../images/components/analytics.png";
 import intelligentautomation_sv from "../../images/components/intelligentautomation-sv.png";
 import intelligentautomation_en from "../../images/components/intelligentautomation-en.png";
 import us from "../../images/violet/about_us/us.png";
 import blob from "../../images/components/blob1.png";
 import blob2 from "../../images/components/blob2.png";
+import halftorderflow from "../../images/violet/orderflow/halftorderflow.png";
+import blobbackground from "../../images/components/backgroundblob.webp";
 
 const FivePropContainer = () => {
   const { t, i18n } = useTranslation();
@@ -52,6 +54,7 @@ const FivePropContainer = () => {
               <img key={index} src={image} alt={`order image ${index}`} />
             ))}
           </div>
+          <img className="orderflowimage" src={halftorderflow} />
         </a>
       </div>
       <div className="flexrow2">

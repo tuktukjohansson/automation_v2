@@ -3,15 +3,15 @@
   "home": {
     "textbox1": {
       "gradienttitle": {
-        "part1": "Sätt dina affärsprocesser på",
-        "part2": "autopilot",
-        "part3": "med artificiell intelligens"
+        "part1": "Automatisera affärsprocesser och",
+        "part2": "öka produktiviteten",
+        "part3": "med AI"
       },
-      "description": "Violet Automations AI-assistenter kan du vila i att processerna går som tåget och öka din produktivitet. Låt oss automatisera er verksamhet!"
+      "description": "Vi effektiviserar företags arbetsflöden och administrativa processer genom automation med AI-agenter och andra Intelligenta mjukvarulösningar. "
     },
     "textimagebox": {
-      "title": "Framtiden är automatiserad.",
-      "description": "Investera i ett abonnemang och kom igång på nolltid.  Violet Automation erbjuder färdiga och skräddarsydda produkter inom intelligent automation och är en given följeslagare på  AI-resan. Snabbt. Enkelt. Riskfritt."
+      "title": "AI driver transformation",
+      "description": "Den explosiva utvecklingen av artificiell intelligens förändrar företags verksamheter i grunden. Vi hjälper er att snabbt och effektivt få igång kraftfulla lösningar för ökad konkurrenskraft."
     },
     "fiveimageboxes": {
       "titlepart1": "Läs mer om hur ni kan",
@@ -20,7 +20,7 @@
       "imageboxes": {
         "imagebox1": {
           "title": "Analys",
-          "description": "Genomlys verksamheten och hitta processer att automatisera"
+          "description": "En effektiv genomgång av verksamheten för att identifiera och prioritera de bästa processerna för automation. "
         },
         "imagebox2": {
           "title": "OrderFlow",
@@ -28,11 +28,11 @@
         },
         "imagebox3": {
           "title": "Intelligent Automation",
-          "description": "Med Violet Automation är det enkelt och riskfritt att komma igång med AI och eliminera admin"
+          "description": "Från enkla repetitiva uppgifter till komplexa processer. Möjligheterna för automation via artificiell intelligens är många."
         },
         "imagebox4": {
           "title": "Kontakta oss",
-          "description": "Våra experter har erfarenhet från flera branscher och funktioner. Boka en kartläggning idag - automatisera er verksamhet imorgon."
+          "description": "Det bästa vi vet är att prata om möjligheterna med automation. Hör av dig idag"
         }
       }
     },
@@ -41,19 +41,19 @@
         "part1": "Så",
         "part2": "fungerar det"
       },
-      "description": "Vägen till implementerad AI i din organisation behöver inte vara lång. Den går i tre steg och bindningstiden aktiveras först efter en provperiod.",
+      "description": "Från noll till full AI-automation i tre steg",
       "threeboxes": {
         "box1": {
           "title": "Analys",
-          "description": "Vi analyserar er process som ska automatiseras. Ni har ett konkret förslag på automation inom en månad från projektets start."
+          "description": "Kartläggning av en specifik process eller en omfattande genomgång av verksamheten med framtagande av förslag på genomförande."
         },
         "box2": {
           "title": "Utveckling",
-          "description": "Vi anpassar produkten till era önskemål och testar den i ert arbetsflöde."
+          "description": "Implementation av våra färdiga produkter, anpassning av befintliga lösningar eller utveckling helt från grunden - beroende på vad ni behöver."
         },
         "box3": {
           "title": "Intelligent Automation",
-          "description": "Nu är ni igång! Vi går bredvid er och säkerställer en smidig övergång till ert nya arbetssätt med digitala medarbetare."
+          "description": "När lösningen är på plats och i drift hjälper vi er med optimering, förvaltning och löpande support för att säkerställa bästa möjliga resultat."
         }
       }
     },
@@ -112,6 +112,26 @@
     "patrikview": {
       "name": "Patrik Nyström, CEO",
       "description": "Vi är alltid på jakt efter talangfulla och drivna kollegor. Violet Automation är måna om ... kultur kultur kultur. Se våra lediga tjänster eller lämna in en spontan-ansökan!"
+    }
+  },
+  "careercomment": "---------------------------- Career ----------------------------",
+  "career": {
+    "title": {
+      "part1": "Kom till oss och var dig ",
+      "part2": "själv."
+    },
+    "description": "Så länge dig själv = sork",
+    "job1": {
+      "title": "Huvudsork",
+      "description": "Do you ever feel like a huvudsork, Drifting through the wind, wanting to start again?"
+    },
+    "job2": {
+      "title": "Business Sorkilyst",
+      "description": "Do you ever feel like a Business Sorkilyst, Drifting through the wind, wanting to start again?"
+    },
+    "job3": {
+      "title": "Sorkeloper",
+      "description": "Do you ever feel like a Sorkeloper, Drifting through the wind, wanting to start again?"
     }
   },
   "analyticscomment": "---------------------------- Analytics ----------------------------",
