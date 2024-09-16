@@ -1,0 +1,52 @@
+.automationPage {
+  margin-top: var(--navmargin);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .gradient-container {
+    background: linear-gradient(
+      165deg,
+      rgba(81, 32, 228, 1) 0%,
+      rgba(233, 117, 255, 1) 100%
+    );
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 100px 90px 100px;
+    box-sizing: border-box;
+    .automation-title {
+      color: white;
+      width: 100%;
+      font-size: var(--fonthuge);
+      font-weight: 800;
+      text-align: center;
+    }
+    .automation-description1 {
+      margin-top: 20px;
+      color: white;
+      width: 100%;
+      font-size: var(--fontmedium);
+      font-weight: 600;
+      text-align: center;
+    }
+    .automation-description2 {
+      margin-top: 20px;
+      color: white;
+      width: 100%;
+      font-size: var(--fontsmall);
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .gradient-container {
+    padding: 40px 30px 40px 30px !important;
+  }
+}

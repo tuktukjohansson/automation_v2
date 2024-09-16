@@ -1,0 +1,32 @@
+.expert {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  align-items: center;
+  .text-overlay {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .title {
+      font-size: var(--fontbig);
+    }
+    .description {
+      font-size: var(--fontsmall);
+    }
+    .buttoncontainer {
+      margin-top: 30px;
+      .button {
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        font-size: var(--fontsmall);
+        padding: 10px 20px 10px 20px;
+      }
+    }
+  }
+  .image {
+    width: 275px;
+    border-radius: 250px;
+  }
+}

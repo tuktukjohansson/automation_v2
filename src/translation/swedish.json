@@ -74,7 +74,7 @@
         "description": "Our automation solutions transformed Debe's invoicing process, enabling automatic generation, processing, and tracking of invoices to streamline their financial operations."
       },
       "box3": {
-        "title": "Max Matthiessen",
+        "title": "DIDRIKSONS",
         "description": "We developed an AI-driven customer support system for Dirridoo, automating responses to common inquiries and freeing up their team to focus on complex issues."
       }
     },
@@ -85,8 +85,8 @@
   },
   "contactcomment": "---------------------------- Contact ----------------------------",
   "contact": {
-    "title": "Contact us",
-    "description": "Need help contacting us? Contact us",
+    "title": "Varje resa börjar med ett första steg",
+    "description": "Vi är passionerade när det gäller automation och hjälper gärna till att utforska möjligheterna för affärsprocesserna. Kontakta oss, så ser vi var det kan leda.",
     "form": {
       "name": "Name*",
       "email": "Email*",
@@ -136,44 +136,17 @@
   },
   "analyticscomment": "---------------------------- Analytics ----------------------------",
   "analytics": {
-    "title": "Analys",
-    "description1": "Vet ni att ni vill komma igång med generativ AI och automation men undrar vad som är första steget? Tvekar ni på om ni ska sätta igång med förändringsresan nu eller vänta ett tag till?",
-    "description2": "Analys är Violet Automations konsulttjänster som analyserar och rådger företag på AI-resan och kommer i två tappningar Strategisk kartläggning och Processkartläggning.",
+    "title": "Utforska potentialen med AI och automation",
+    "description1": "Oavsett om ni är i början av er AI-resa eller vill fortsätta  inom specifika områden, kan våra analystjänster hjälpa er att maximera värdet. Upptäck de bästa möjligheterna för automation och börja effektivisera verksamheten på rätt sätt.",
     "infobox1": {
-      "title": "Analys - Processkartläggning",
-      "description": "Har ni identifierat ett område eller en specifik process som ni vill effektivisera? Då är vår kostnadsfria tjänst ProcessAnalys för er. Vi inleder med ett video introduktionsmöte där ni ger en överblick av processen. Vi gör en bedömning och finns förutsättningar bokar vi därefter upp en detaljerad kartläggning via videomöte där ni demonstrerar hur nuvarande manuella arbetsflödet sker det, vilka system använder ni, vilken data används och vilka aktiviteter som sker. Efter eventuella kompletterande frågor tar vi fram ett lösningsförslag till er, komplett med prisuppgift och implementeringsplan.",
-      "tableleft": {
-        "title": "Värde:",
-        "row1": "Hjälp att komma igång och veta vad som ska prioriteras.",
-        "row2": "Inspiration? Öppna ögon för hur man kan göra.",
-        "row3": "Konkreta förslag på vad som kan göras."
-      },
-      "tableright": {
-        "title": "AI Transformation Insights innefattar:",
-        "row1": "Interaktiv workshop för att komma igång. Inspirera, utbilda och aktivera organisationen.",
-        "row2": "Kartläggning med intervjuer.",
-        "row3": "Rådgivning. Business Case med insikter.",
-        "row4": "Implementation. Plan för implementation med tidsplaner och prisförslag."
-      }
+      "title": "ProcessAnalys",
+      "description": "Har ni identifierat ett område eller en specifik process som ni vill effektivisera? Då är vår kostnadsfria tjänst ProcessAnalys för er. Vi inleder med ett digitalt introduktionsmöte där ni ger en övergripande beskrivning av processen och vi stämmer av förutsättningar för automation.",
+      "description2": "Därefter bokar vi upp tid en detaljerad kartläggning via videomöte där ni mer i detalj demonstrerar hur nuvarande manuella arbetsflödet sker det, vilka system använder ni, vilken data används och vilka aktiviteter som sker. Efter eventuella kompletterande frågor tar vi fram ett lösningsförslag till er, komplett med prisuppgift och implementeringsplan."
     },
     "infobox2": {
-      "title": "Analys - Strategisk kartläggning",
-      "description1": "Med AI Transformation Insights går ditt team igenom en noggrant strukturerad process som kombinerar workshops och djupgående intervjuer. Violet Automations erfarna konsulter hjälper er att identifiera områden för tillämpning av automation och generativ AI. Vi erbjuder ett enkelt och effektivt sätt att komma igång, där ni efter bara fyra veckor får konkreta förslag på åtgärder och produkter med potential att öka både produktivitet och lönsamhet på sista raden.",
-      "description2": "Vi inleder processen med en strategisk workshop för att få en djupgående förståelse för era kärnprocesser och aktuella utmaningar. Efter workshopen väljer vi tillsammans ut ett par specifika intervjuer för att säkerställa en omfattande analys. Därefter presenterar vi ett första förslag för er att ta ställning till, inklusive flera idéer – både omedelbara automationer med tydlig ROI (Return on Investment) och spännande nya tjänster som har potential att transformera ert företag.",
-      "description3": "Vi analyserar även hur tekniken och människan ska samverka och tar fram en roadmap som säkerställer en smidig implementering för era medarbetare. Genom denna strukturerade och snabba approach säkerställer vi att ni får de bästa lösningarna för att inte bara optimera er verksamhet, utan också positionera er för framtida tillväxt och innovation.",
-      "tableleft": {
-        "title": "Värde:",
-        "row1": "Hjälp att komma igång och veta vad som ska prioriteras.",
-        "row2": "Inspiration? Öppna ögon för hur man kan göra.",
-        "row3": "Konkreta förslag på vad som kan göras."
-      },
-      "tableright": {
-        "title": "AI Transformation Insights innefattar:",
-        "row1": "Interaktiv workshop för att komma igång. Inspirera, utbilda och aktivera organisationen.",
-        "row2": "Kartläggning med intervjuer.",
-        "row3": "Rådgivning. Business Case med insikter.",
-        "row4": "Implementation. Plan för implementation med tidsplaner och prisförslag."
-      }
+      "title": "VerksamhetsAnalys",
+      "description1": "En analys av verksamheten eller ett affärsområde ger er en strategisk överblick och en lista på konkreta möjligheter som finns för produktivitetsökningar, kostnadsbesparingar, förbättrad upplevelse och utveckling av nya tjänster.",
+      "description2": "Analysen innefattar en effektiv process som kombinerar workshops och djupgående intervjuer där vi tillsammans med utvalda personer hos er kartlägger de processer och områden där AI och automation kan skapa störst värde. Vi sammanställer en rapport med prioriterade förslag och långsiktiga lösningar inklusive business case med mätbara effekter samt implementering och investeringsplan"
     }
   },
   "automationcomment": "---------------------------- Automation ----------------------------",
@@ -378,11 +351,11 @@
       },
       "result": {
         "title": "Resultat",
-        "description": "Göthes anlitade Violet Automation för två automationslösningar i deras affärssystem Bison. Med hjälp av intelligent dokumenttolkning och RPA gick lösningen live i samband med en senior medarbetares pensionsavgång under vintern 2023. Göthes har under våren kunnat fortsätta med befintlig arbetsstyrka på inköpsavdelningen och innesälj har fått ökad trivsel och mer tid med kunderna. Till hösten startar nya projekt som sparar tid i arbetet med Göthes webshop."
+        "description": "HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB "
       }
     },
-    "maxm": {
-      "clientname": "Max Matthiessen",
+    "didriksons": {
+      "clientname": "DIDRIKSONS",
       "overimgdescription": "Hur AI-assistenter hjälpte Göthes Industribeslag att navigera en pensionsavgång utan att nyanställa",
       "underimgdescription": "Göthes Industribeslag är en beslagsgrossist i Falun med fokus på lösningar för dörrar. De har implementerat två automationslösningar under 2023 och tar nu steget mot fler automationslösningar med hjälp av generativ AI och smart dokumenttolkning.",
       "quote": "Lättarbetat och det spar otroligt mycket tid åt oss. Violet Automations tillgänglighet och engagemang har gjort att det alltid känts tryggt och säkert när vi implementerade assistenterna.",
@@ -398,7 +371,7 @@
       },
       "result": {
         "title": "Resultat",
-        "description": "Göthes anlitade Violet Automation för två automationslösningar i deras affärssystem Bison. Med hjälp av intelligent dokumenttolkning och RPA gick lösningen live i samband med en senior medarbetares pensionsavgång under vintern 2023. Göthes har under våren kunnat fortsätta med befintlig arbetsstyrka på inköpsavdelningen och innesälj har fått ökad trivsel och mer tid med kunderna. Till hösten startar nya projekt som sparar tid i arbetet med Göthes webshop."
+        "description": "Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons "
       }
     }
   },
@@ -409,6 +382,18 @@
       "how-does-it-work": "Så fungerar det",
       "goback": "Go back",
       "send": "Send"
+    },
+    "experts": {
+      "gustav": {
+        "title": "Prata med en expert",
+        "description": "Boka ett möte med Gustav, expert inom OrderFlow",
+        "button": "Sorka loss"
+      },
+      "samuel": {
+        "title": "Prata med en expert",
+        "description": "Boka ett möte med Samuel, expert inom något",
+        "button": "Sorka loss"
+      }
     }
   },
   "navcomment": "---------------------------- Nav ----------------------------",
@@ -417,11 +402,11 @@
       "category": "Produkter",
       "product1": {
         "title": "OrderFlow Sales",
-        "description": "Analyse your workflow"
+        "description": "Automate your workflow"
       },
       "product2": {
         "title": "OrderFlow Confirmation",
-        "description": "Analyse your workflow"
+        "description": "Automate your workflow"
       }
     },
     "services": {

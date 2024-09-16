@@ -30,7 +30,7 @@ const Benefits = () => {
   const { t } = useTranslation();
   return (
     <div className="benefits-component">
-      <h1 className="gradient-title-one" style={{ marginTop: 200 }}>
+      <h1 className="gradient-title-one">
         <Gradienttext text={t("orderflowsales.benefits.titlepart1")} />{" "}
         {t("orderflowsales.benefits.titlepart2")}
       </h1>

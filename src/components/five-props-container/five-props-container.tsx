@@ -14,7 +14,6 @@ import us from "../../images/violet/about_us/us.png";
 import blob from "../../images/components/blob1.png";
 import blob2 from "../../images/components/blob2.png";
 import halftorderflow from "../../images/violet/orderflow/halftorderflow.png";
-import blobbackground from "../../images/components/backgroundblob.webp";
 
 const FivePropContainer = () => {
   const { t, i18n } = useTranslation();
@@ -29,7 +28,7 @@ const FivePropContainer = () => {
   return (
     <div className="FivePropContainer">
       <div className="flexrow1">
-        <a className="flexitem1" href="/home">
+        <a className="flexitem1" href="/analytics">
           <img src={office} alt="office" />
           <div>
             <div className="title">
@@ -40,7 +39,7 @@ const FivePropContainer = () => {
             </div>
           </div>
         </a>
-        <a className="flexitem2" href="/home">
+        <a className="flexitem2" href="/orderflowsales">
           <div className="textcontainer">
             <div className="title">
               {t("home.fiveimageboxes.imageboxes.imagebox2.title")}
@@ -59,7 +58,7 @@ const FivePropContainer = () => {
       </div>
       <div className="flexrow2">
         <div className="flexitems">
-          <a className="flexitem1" href="/home">
+          <a className="flexitem1" href="/services/automation">
             <div className="textcontainer">
               <div className="title">
                 {t("home.fiveimageboxes.imageboxes.imagebox3.title")}
@@ -74,7 +73,7 @@ const FivePropContainer = () => {
               alt="intelligent automation"
             />
           </a>
-          <a className="flexitem2" href="/home">
+          <a className="flexitem2" href="/contact">
             <div className="textcontainer">
               <div className="title">
                 {t("home.fiveimageboxes.imageboxes.imagebox4.title")}

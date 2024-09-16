@@ -10,7 +10,7 @@
   align-items: center;
   .image {
     width: 500px;
-    border-radius: 50px;
+    border-radius: 10px;
   }
   .text-overlay {
     gap: 10px;
@@ -27,6 +27,17 @@
     .description {
       margin-bottom: 10px;
       font-size: var(--fontsmall);
+    }
+    .buttoncontainer {
+      margin-top: 20px;
+      .button {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        padding: 15px 10px 15px 10px;
+        font-size: var(--fontsmall);
+        font-weight: 500;
+        border-radius: 5px;
+      }
     }
   }
   .point-lists {

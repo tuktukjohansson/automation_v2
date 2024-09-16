@@ -10,16 +10,8 @@ const InformationBox = ({
   description2 = "",
   description3 = "",
   description4 = "",
-  point1title = "",
-  point2title = "",
-  point1text1 = "",
-  point1text2 = "",
-  point1text3 = "",
-  point1text4 = "",
-  point2text1 = "",
-  point2text2 = "",
-  point2text3 = "",
-  point2text4 = "",
+  button = "",
+  buttonhref = "",
 }) => {
   return (
     <div className={`informationbox ${reverse ? "reverse" : ""}`}>
@@ -30,25 +22,12 @@ const InformationBox = ({
         {description2 && <div className="description">{description2}</div>}
         {description3 && <div className="description">{description3}</div>}
         {description4 && <div className="description">{description4}</div>}
-        <div className="point-lists">
-          <div className="point-list">
-            <div className="title">{point1title}</div>
-            <ul>
-              {point1text1 && <li>{point1text1}</li>}
-              {point1text2 && <li>{point1text2}</li>}
-              {point1text3 && <li>{point1text3}</li>}
-              {point1text4 && <li>{point1text4}</li>}
-            </ul>
-          </div>
-          <div className="point-list">
-            <div className="title">{point2title}</div>
-            <ol>
-              {point2text1 && <li>{point2text1}</li>}
-              {point2text2 && <li>{point2text2}</li>}
-              {point2text3 && <li>{point2text3}</li>}
-              {point2text4 && <li>{point2text4}</li>}
-            </ol>
-          </div>
+        <div className="buttoncontainer">
+          {button && (
+            <a target="_blank" href={buttonhref} className="button">
+              {button}
+            </a>
+          )}
         </div>
       </div>
     </div>

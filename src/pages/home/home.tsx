@@ -15,9 +15,9 @@ import DarkImageTextBox from "../../components/darkimgtextbox/darkimgtextbox.tsx
 
 // Images
 import DarkComponentImg from "../../images/components/darkcomponentimg.webp";
-import Gothes_logo from "../../images/clients/customs/gothes_logo_banner.webp";
+import Gothes_logo from "../../images/clients/customs/gothes_logo_banner.png";
 import Hsb_logo from "../../images/clients/customs/hsb_logo_banner.webp";
-import Maxm_logo from "../../images/clients/customs/maxm_logo_banner.webp";
+import Didriksons_logo from "../../images/clients/customs/didriksons_logo_banner.png";
 import aitrain from "../../images/components/aitrain.png";
 import aiglasses from "../../images/components/aiglasses.png";
 
@@ -114,25 +114,25 @@ const Home = () => {
         </div>
         <div className="flex-container">
           <Customer
-            href="clients"
+            href="/clients/gothes"
             title={t("home.threeimageboxes.box1.title")}
             description={t("home.threeimageboxes.box1.description")}
             img={Gothes_logo}
             alt="Gothes"
           />
           <Customer
-            href="clients"
+            href="/clients/hsb"
             title={t("home.threeimageboxes.box2.title")}
             description={t("home.threeimageboxes.box2.description")}
             img={Hsb_logo}
             alt="HSB"
           />
           <Customer
-            href="clients"
+            href="/clients/didriksons"
             title={t("home.threeimageboxes.box3.title")}
             description={t("home.threeimageboxes.box3.description")}
-            img={Maxm_logo}
-            alt="Max M"
+            img={Didriksons_logo}
+            alt="Didriksons"
           />
         </div>
       </Container>
