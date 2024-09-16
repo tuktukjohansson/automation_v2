@@ -10,7 +10,7 @@ import Expert from "../../../components/expert/expert.tsx";
 // Images
 import AdminTaskImage from "../../../images/other/admin-task.png";
 import AnalyticsImg from "../../../images/components/analytics.png";
-import Samuel from "../../../images/violet/us/amuel.png";
+import Samuel from "../../../images/violet/us/samuel.png";
 
 const Analytics = () => {
   const { t } = useTranslation();
