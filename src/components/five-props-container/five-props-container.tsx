@@ -8,11 +8,10 @@ import oe_sv from "../../images/components/oe_sv.png";
 import o_en from "../../images/components/o_en.png";
 import oe_en from "../../images/components/oe_en.png";
 import office from "../../images/components/analytics.png";
-import intelligentautomation_sv from "../../images/components/intelligentautomation-sv.png";
-import intelligentautomation_en from "../../images/components/intelligentautomation-en.png";
-import us from "../../images/violet/about_us/us.png";
+import us from "../../images/violet/about_us/us2.png";
 import blob from "../../images/components/blob1.png";
 import blob2 from "../../images/components/blob2.png";
+import analyticsbanner from "../../images/components/analyticsbanner.png";
 import halftorderflow from "../../images/violet/orderflow/halftorderflow.png";
 
 const FivePropContainer = () => {
@@ -20,10 +19,6 @@ const FivePropContainer = () => {
   const currentLanguage = i18n.language;
   const orderFlowImages =
     currentLanguage === "sv" ? [o_sv, oe_sv] : [o_en, oe_en];
-  const intelligentAutomationImage =
-    currentLanguage === "sv"
-      ? intelligentautomation_sv
-      : intelligentautomation_en;
   console.log(currentLanguage);
   return (
     <div className="FivePropContainer">
@@ -69,7 +64,7 @@ const FivePropContainer = () => {
             </div>
             <img
               className="blob"
-              src={intelligentAutomationImage}
+              src={analyticsbanner}
               alt="intelligent automation"
             />
           </a>
@@ -87,6 +82,7 @@ const FivePropContainer = () => {
           </a>
         </div>
         <a className="flexitem" href="/home">
+          <div className="title">Om oss</div>
           <img src={us} alt="us" />
         </a>
       </div>

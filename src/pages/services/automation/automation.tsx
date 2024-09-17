@@ -8,6 +8,7 @@ import InformationBox from "../../../components/information-box/information-box.
 
 // Images
 import AdminTaskImage from "../../../images/other/admin-task.png";
+import AutomationBanner from "../../../images/components/automationbanner.png";
 
 const Automation = () => {
   const { t } = useTranslation();
@@ -17,6 +18,7 @@ const Automation = () => {
         {/* ----------------------------- Container ----------------------------- */}
         <Container>
           <div className="gradient-container">
+            <img src={AutomationBanner} className="wallpaper" />
             <div className="automation-title">
               {t("automation.title")}
               <br />

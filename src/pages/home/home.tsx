@@ -115,22 +115,22 @@ const Home = () => {
         <div className="flex-container">
           <Customer
             href="/clients/gothes"
-            title={t("home.threeimageboxes.box1.title")}
-            description={t("home.threeimageboxes.box1.description")}
+            title={t("clients.gothes.clientname")}
+            description={t("clients.gothes.result.description")}
             img={Gothes_logo}
             alt="Gothes"
           />
           <Customer
             href="/clients/hsb"
-            title={t("home.threeimageboxes.box2.title")}
-            description={t("home.threeimageboxes.box2.description")}
+            title={t("clients.hsb.clientname")}
+            description={t("clients.hsb.result.description")}
             img={Hsb_logo}
             alt="HSB"
           />
           <Customer
             href="/clients/didriksons"
-            title={t("home.threeimageboxes.box3.title")}
-            description={t("home.threeimageboxes.box3.description")}
+            title={t("clients.didriksons.clientname")}
+            description={t("clients.didriksons.result.description")}
             img={Didriksons_logo}
             alt="Didriksons"
           />

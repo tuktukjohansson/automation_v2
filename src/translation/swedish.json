@@ -62,20 +62,20 @@
         "part1": "Våra",
         "part2": "kundcase"
       },
-      "description": "Se allt spännande vi har gjort för våra kunder och inspireras av alla sorkar vi har automatiserat"
+      "description": "Vår drivkraft är att dela våra kunders glädje när arbetsuppgifter automatiseras och tid och fokus frigörs till mer värdeskapande aktiviteter. Läs mer om hur vi gör detta i våra kundcase."
     },
     "threeimageboxes": {
       "box1": {
-        "title": "Gothes",
-        "description": "We automated Gothes' entire inventory management system, reducing manual work, minimizing errors, and significantly boosting overall efficiency."
+        "title": "Göthes Industribeslag",
+        "description": "Genom OrderFlow automatiserade OrderFlow sin hantering av både kundordrar och ordererkännanden och frigjorde både sälj och inköpsresurser. "
       },
       "box2": {
         "title": "HSB",
-        "description": "Our automation solutions transformed Debe's invoicing process, enabling automatic generation, processing, and tracking of invoices to streamline their financial operations."
+        "description": "Vi avlastar HSB med automatisk hantering av olika typer av cykliska medlemsärenden. Med Violet Automations lösningar har HSB sparat många timmar i början av året och varje månad. "
       },
       "box3": {
-        "title": "DIDRIKSONS",
-        "description": "We developed an AI-driven customer support system for Dirridoo, automating responses to common inquiries and freeing up their team to focus on complex issues."
+        "title": "Didriksons",
+        "description": "Didriksons automation sammanställer transaktionsdata från e-handeln och matar in den i Didriksons affärssystem utan mänsklig mellanhand"
       }
     },
     "darkimgtextbox": {
@@ -166,25 +166,7 @@
       },
       "tableright": {
         "title": "AI Transformation Insights innefattar:",
-        "row1": "Interaktiv workshop för att komma igång. Inspirera, utbilda och aktivera organisationen.",
-        "row2": "Kartläggning med intervjuer.",
-        "row3": "Rådgivning. Business Case med insikter.",
-        "row4": "Implementation. Plan för implementation med tidsplaner och prisförslag."
-      }
-    },
-    "infobox2": {
-      "title": "Komplexa uppgifter",
-      "description1": "Revolutionera era affärsprocesser genom att utnyttja kraften i stora språkmodeller (LLM) och AI-agenter. Våra lösningar går bortom traditionell automation genom att använda AI som resonemang för att hantera komplexa arbetsflöden. Genom direkt integration med era företagsdatakällor och applikationer utför vår AI inte bara analyser – den agerar.",
-      "description2": "T.ex intern AI-agent som fungerar som säljassistent som ger era säljare omedelbar tillgång till detaljerad teknisk produktinformation, svarar på komplexa förfrågningar med precision och automatiskt genererar skräddarsydda offerter baserade på kundens specifika behov.",
-      "tableleft": {
-        "title": "Värde:",
-        "row1": "Hjälp att komma igång och veta vad som ska prioriteras.",
-        "row2": "Inspiration? Öppna ögon för hur man kan göra.",
-        "row3": "Konkreta förslag på vad som kan göras."
-      },
-      "tableright": {
-        "title": "Processkartläggning innefattar:",
-        "row1": "Har ni redan en färdig process som ni vet behöver automatiseras! Boka en kostnadsfri processkartläggning här!"
+        "row1": "Interaktiv workshop för att komma igång. Inspirera, utbilda och aktivera organisationen."
       }
     }
   },
@@ -315,7 +297,7 @@
     "titlepart2": "kundcases",
     "description": "Här kan ni läsa mer om några av våra kunders fall där vi sorkar loss, sorkar och sorkar ännu mer. Men viktigast av allt så sorkar vi.",
     "gothes": {
-      "clientname": "Göthes",
+      "clientname": "Göthes Industribeslag",
       "overimgdescription": "Hur AI-assistenter hjälpte Göthes Industribeslag att navigera en pensionsavgång utan att nyanställa",
       "underimgdescription": "Göthes Industribeslag är en beslagsgrossist i Falun med fokus på lösningar för dörrar. De har implementerat två automationslösningar under 2023 och tar nu steget mot fler automationslösningar med hjälp av generativ AI och smart dokumenttolkning.",
       "quote": "Lättarbetat och det spar otroligt mycket tid åt oss. Violet Automations tillgänglighet och engagemang har gjort att det alltid känts tryggt och säkert när vi implementerade assistenterna.",
@@ -331,7 +313,7 @@
       },
       "result": {
         "title": "Resultat",
-        "description": "Göthes anlitade Violet Automation för två automationslösningar i deras affärssystem Bison. Med hjälp av intelligent dokumenttolkning och RPA gick lösningen live i samband med en senior medarbetares pensionsavgång under vintern 2023. Göthes har under våren kunnat fortsätta med befintlig arbetsstyrka på inköpsavdelningen och innesälj har fått ökad trivsel och mer tid med kunderna. Till hösten startar nya projekt som sparar tid i arbetet med Göthes webshop."
+        "description": "Genom OrderFlow automatiserade OrderFlow sin hantering av både kundordrar och ordererkännanden och frigjorde både sälj och inköpsresurser."
       }
     },
     "hsb": {
@@ -351,11 +333,11 @@
       },
       "result": {
         "title": "Resultat",
-        "description": "HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB HSB "
+        "description": "Vi avlastar HSB med automatisk hantering av olika typer av cykliska medlemsärenden. Med Violet Automations lösningar har HSB sparat många timmar i början av året och varje månad."
       }
     },
     "didriksons": {
-      "clientname": "DIDRIKSONS",
+      "clientname": "Didriksons",
       "overimgdescription": "Hur AI-assistenter hjälpte Göthes Industribeslag att navigera en pensionsavgång utan att nyanställa",
       "underimgdescription": "Göthes Industribeslag är en beslagsgrossist i Falun med fokus på lösningar för dörrar. De har implementerat två automationslösningar under 2023 och tar nu steget mot fler automationslösningar med hjälp av generativ AI och smart dokumenttolkning.",
       "quote": "Lättarbetat och det spar otroligt mycket tid åt oss. Violet Automations tillgänglighet och engagemang har gjort att det alltid känts tryggt och säkert när vi implementerade assistenterna.",
@@ -371,14 +353,14 @@
       },
       "result": {
         "title": "Resultat",
-        "description": "Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons Didriksons "
+        "description": "Didriksons automation sammanställer transaktionsdata från e-handeln och matar in den i Didriksons affärssystem utan mänsklig mellanhand"
       }
     }
   },
   "componentscomment": "---------------------------- Components ----------------------------",
   "components": {
     "buttons": {
-      "talk-to-us": "Kontakta oss",
+      "talk-to-us": "Kom igång",
       "how-does-it-work": "Så fungerar det",
       "goback": "Go back",
       "send": "Send"
@@ -420,7 +402,7 @@
         "description": "Automate your workflow"
       }
     },
-    "button": "Boka möte",
+    "button": "Boka ett möte",
     "clients": "Kundcase",
     "about": "Om oss",
     "contact": "Kontakt"

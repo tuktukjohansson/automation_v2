@@ -7,7 +7,7 @@
   .gradient-title-scrollto {
     scroll-margin: 200px;
     width: 100%;
-    text-align: left;
+    text-align: center;
     margin-top: 0px;
     font-family: var(--fontfamilytitle);
   }
@@ -37,12 +37,12 @@
 
 .gradient-title {
   width: 100%;
-  text-align: left;
+  text-align: center;
   margin-top: 0px;
   font-family: var(--fontfamilytitle);
 }
 .block-one-description {
-  font-family: var(--titledescription);
+  font-family: var(--fontfamilytitle);
   font-size: var(--fontmedium);
   font-weight: 300;
   max-width: 800px;
@@ -50,14 +50,11 @@
 }
 .description-left {
   width: 100%;
-  font-family: var(--titledescription);
+  font-family: var(--fontfamilydescription);
   font-size: var(--fontmedium);
   font-weight: 300;
-  text-align: left;
+  text-align: center;
   margin-bottom: 50px;
-  p {
-    max-width: 800px;
-  }
 }
 .flex-container {
   justify-content: center;

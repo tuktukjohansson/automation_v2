@@ -31,10 +31,12 @@ html {
   /* Font Families */
   /* --fontfamilytitle: "Mary Poppins", sans-serif;
   --fontfamilydescription: "Inter", sans-serif; */
-  --fontfamilytitle: "Clarkson", Helvetica, sans-serif;
-  --fontfamilydescription: "Clarkson", Helvetica, sans-serif;
+  /* --fontfamilytitle: "Clarkson", Helvetica, sans-serif; */
+  --fontfamilytitle: Epilogue, sans-serif;
+  --fontfamilydescription: Epilogue, sans-serif;
+  /* --fontfamilydescription: "Clarkson", Helvetica, sans-serif; */
   /* Font Sizes */
-  --fontextrasmall: 15px;
+  --fontextrasmall: 16px;
   --fontsmall: 20px;
   --fontmedium: 30px;
   --fontbig: 40px;
@@ -90,10 +92,10 @@ a:visited {
 }
 
 div {
-  font-family: "Clarkson", Helvetica, sans-serif;
+  font-family: Epilogue, sans-serif;
 }
 a {
-  font-family: "Clarkson", Helvetica, sans-serif;
+  font-family: Epilogue, sans-serif;
 }
 
 h1 {

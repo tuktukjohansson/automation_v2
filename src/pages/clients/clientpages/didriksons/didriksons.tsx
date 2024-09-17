@@ -19,17 +19,17 @@ const Didriksons = () => {
       <div className="maxmpage">
         <Container>
           <Clientpage
-            overimgdescription={t("clients.maxm.overimgdescription")}
-            underimgdescription={t("clients.maxm.underimgdescription")}
-            quote={t("clients.maxm.quote")}
-            nameandposition={t("clients.maxm.nameandposition")}
-            discover={t("clients.maxm.discover")}
-            challengetitle={t("clients.maxm.challenge.title")}
-            challengedescription={t("clients.maxm.challenge.description")}
-            solutiontitle={t("clients.maxm.solution.title")}
-            solutiondescription={t("clients.maxm.solution.description")}
-            resulttitle={t("clients.maxm.result.title")}
-            resultdescription={t("clients.maxm.result.description")}
+            overimgdescription={t("clients.didriksons.overimgdescription")}
+            underimgdescription={t("clients.didriksons.underimgdescription")}
+            quote={t("clients.didriksons.quote")}
+            nameandposition={t("clients.madidriksonsxm.nameandposition")}
+            discover={t("clients.didriksons.discover")}
+            challengetitle={t("clients.didriksons.challenge.title")}
+            challengedescription={t("clients.didriksons.challenge.description")}
+            solutiontitle={t("clients.didriksons.solution.title")}
+            solutiondescription={t("clients.didriksons.solution.description")}
+            resulttitle={t("clients.didriksons.result.title")}
+            resultdescription={t("clients.didriksons.result.description")}
             img={Maxm_banner}
             imgtech={Maxm_Tech}
           />
