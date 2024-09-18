@@ -168,6 +168,21 @@
         "title": "AI Transformation Insights innefattar:",
         "row1": "Interaktiv workshop för att komma igång. Inspirera, utbilda och aktivera organisationen."
       }
+    },
+    "infobox2": {
+      "title": "",
+      "description1": "",
+      "description2": "",
+      "tableleft": {
+        "title": "",
+        "row1": "",
+        "row2": "",
+        "row3": ""
+      },
+      "tableright": {
+        "title": "",
+        "row1": ""
+      }
     }
   },
   "orderflowsalescomment": "---------------------------- OrderFlow Sales ----------------------------",

@@ -8,11 +8,11 @@ import oe_sv from "../../images/components/oe_sv.png";
 import o_en from "../../images/components/o_en.png";
 import oe_en from "../../images/components/oe_en.png";
 import office from "../../images/components/analytics.png";
-import us from "../../images/violet/about_us/us2.png";
 import blob from "../../images/components/blob1.png";
 import blob2 from "../../images/components/blob2.png";
 import analyticsbanner from "../../images/components/analyticsbanner.png";
 import halftorderflow from "../../images/violet/orderflow/halftorderflow.png";
+import us from "../../images/components/gvoghcfdb.png";
 
 const FivePropContainer = () => {
   const { t, i18n } = useTranslation();
@@ -68,7 +68,7 @@ const FivePropContainer = () => {
               alt="intelligent automation"
             />
           </a>
-          <a className="flexitem2" href="/contact">
+          <div className="flexitem2">
             <div className="textcontainer">
               <div className="title">
                 {t("home.fiveimageboxes.imageboxes.imagebox4.title")}
@@ -79,9 +79,12 @@ const FivePropContainer = () => {
             </div>
             <img className="blob" src={blob} alt="intelligent automation" />
             <img className="blob2" src={blob2} alt="intelligent automation" />
-          </a>
+            <a className="contactbutton" href="/contact">
+              Contact us
+            </a>
+          </div>
         </div>
-        <a className="flexitem" href="/home">
+        <a className="flexitem" href="/about">
           <div className="title">Om oss</div>
           <img src={us} alt="us" />
         </a>
