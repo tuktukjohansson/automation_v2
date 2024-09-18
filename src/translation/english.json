@@ -234,7 +234,7 @@
       }
     }
   },
-  "orderflowpurchasescomment": "---------------------------- OrderFlow Confirmation ----------------------------",
+  "orderflowconfirmationscomment": "---------------------------- OrderFlow Confirmation ----------------------------",
   "orderflowspurchases": {
     "computerbox": {
       "titlepart1": "Put order confirmation handling on",

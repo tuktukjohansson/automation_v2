@@ -52,7 +52,7 @@ const Navbar = () => {
               <Link
                 onClick={toggleMenu}
                 className="products-link"
-                to="/offers/orderflowpurchase"
+                to="/offers/orderflowconfirmation"
               >
                 {t("nav.products.product4.title")}
               </Link>
@@ -173,7 +173,7 @@ const Navbar = () => {
                 <div className="dropdown-container">
                   <a
                     className="dropdown-item"
-                    href="/products/orderflowpurchase"
+                    href="/products/orderflowconfirmation"
                   >
                     <div className="text-container">
                       <div className="title">

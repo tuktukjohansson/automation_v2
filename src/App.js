@@ -8,7 +8,7 @@ import Footer from "./components/footer/footer.tsx";
 import Home from "./pages/home/home.tsx";
 import AnalyticsPage from "./pages/services/analytics/analytics.tsx";
 import Orderflowsales from "./pages/products/orderflowsales.tsx";
-import Orderflowpurchase from "./pages/products/orderflowpurchase.tsx";
+import Orderflowconfirmation from "./pages/products/orderflowconfirmation.tsx";
 import Automation from "./pages/services/automation/automation.tsx";
 import Clients from "./pages/clients/clients.tsx";
 import About from "./pages/about/about.tsx";
@@ -41,8 +41,8 @@ function App() {
         <Route path="/services/automation" element={<Automation />} />
         <Route path="/products/orderflowsales" element={<Orderflowsales />} />
         <Route
-          path="/products/orderflowpurchase"
-          element={<Orderflowpurchase />}
+          path="/products/orderflowconfirmation"
+          element={<Orderflowconfirmation />}
         />
         <Route path="/clients" element={<Clients />} />
         <Route path="/clients/gothes" element={<Gothes />} />

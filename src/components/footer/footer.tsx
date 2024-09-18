@@ -20,16 +20,16 @@ const Footer = () => {
           </div>
           <div className="middle-content">
             <div className="linkwrapper">
-              <Link to="/offers/analytics" className="link">
+              <Link to="/products/orderflowsales" className="link">
                 {t("footer.products.product1")}
               </Link>
-              <Link to="/offers/automation" className="link">
+              <Link to="/products/orderflowconfirmation" className="link">
                 {t("footer.products.product2")}
               </Link>
-              <Link to="/offers/orderflowsales" className="link">
+              <Link to="/services/analytics" className="link">
                 {t("footer.services.product1")}
               </Link>
-              <Link to="/offers/orderflowpurchase" className="link">
+              <Link to="/services/automation" className="link">
                 {t("footer.services.product2")}
               </Link>
             </div>

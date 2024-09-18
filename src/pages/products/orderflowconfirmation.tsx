@@ -14,7 +14,7 @@ import "./orderflow.scss";
 import Expert from "../../components/expert/expert.tsx";
 import Gustav from "../../images/violet/us/gustav.png";
 
-const Orderflowpurchase = () => {
+const Orderflowconfirmation = () => {
   const { t } = useTranslation();
   return (
     <>
@@ -54,4 +54,4 @@ const Orderflowpurchase = () => {
   );
 };
 
-export default Orderflowpurchase;
+export default Orderflowconfirmation;

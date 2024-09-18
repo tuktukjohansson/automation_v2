@@ -255,8 +255,8 @@
       }
     }
   },
-  "orderflowpurchasescomment": "---------------------------- OrderFlow Confirmation ----------------------------",
-  "orderflowspurchases": {
+  "orderflowconfirmationscomment": "---------------------------- OrderFlow Confirmation ----------------------------",
+  "orderflowconfirmation": {
     "computerbox": {
       "titlepart1": "Sätt hanteringen av ordererkännanden på",
       "titlepart2": "autopilot",
