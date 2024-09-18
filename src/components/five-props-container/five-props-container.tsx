@@ -85,7 +85,9 @@ const FivePropContainer = () => {
           </div>
         </div>
         <a className="flexitem" href="/about">
-          <div className="title">Om oss</div>
+          <div className="title">
+            {t("home.fiveimageboxes.imageboxes.imagebox5.title")}
+          </div>
           <img src={us} alt="us" />
         </a>
       </div>

@@ -22,7 +22,7 @@ const Didriksons = () => {
             overimgdescription={t("clients.didriksons.overimgdescription")}
             underimgdescription={t("clients.didriksons.underimgdescription")}
             quote={t("clients.didriksons.quote")}
-            nameandposition={t("clients.madidriksonsxm.nameandposition")}
+            nameandposition={t("clients.didriksons.nameandposition")}
             discover={t("clients.didriksons.discover")}
             challengetitle={t("clients.didriksons.challenge.title")}
             challengedescription={t("clients.didriksons.challenge.description")}

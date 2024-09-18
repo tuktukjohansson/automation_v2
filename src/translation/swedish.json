@@ -33,6 +33,9 @@
         "imagebox4": {
           "title": "Kontakta oss",
           "description": "Det bästa vi vet är att prata om möjligheterna med automation. Hör av dig idag"
+        },
+        "imagebox5": {
+          "title": "Om oss"
         }
       }
     },
@@ -80,7 +83,8 @@
     },
     "darkimgtextbox": {
       "title": "Upptäck fler användningsområden för automation",
-      "description": "När ögonen väl öppnas för möjligheterna med automation vill våra kunder bara ha mer. Våra experter hjälper dig att komma igång!."
+      "description": "När ögonen väl öppnas för möjligheterna med automation vill våra kunder bara ha mer. Våra experter hjälper dig att komma igång!.",
+      "contact": "Kontakta oss"
     }
   },
   "contactcomment": "---------------------------- Contact ----------------------------",
@@ -88,9 +92,9 @@
     "title": "Varje resa börjar med ett första steg",
     "description": "Vi är passionerade när det gäller automation och hjälper gärna till att utforska möjligheterna för affärsprocesserna. Kontakta oss, så ser vi var det kan leda.",
     "form": {
-      "name": "Name*",
-      "email": "Email*",
-      "message": "Message"
+      "name": "Namn*",
+      "email": "Mailadress*",
+      "message": "Meddelande"
     },
     "popup": {
       "title": "Thank You for Your Message!",
@@ -141,12 +145,14 @@
     "infobox1": {
       "title": "ProcessAnalys",
       "description": "Har ni identifierat ett område eller en specifik process som ni vill effektivisera? Då är vår kostnadsfria tjänst ProcessAnalys för er. Vi inleder med ett digitalt introduktionsmöte där ni ger en övergripande beskrivning av processen och vi stämmer av förutsättningar för automation.",
-      "description2": "Därefter bokar vi upp tid en detaljerad kartläggning via videomöte där ni mer i detalj demonstrerar hur nuvarande manuella arbetsflödet sker det, vilka system använder ni, vilken data används och vilka aktiviteter som sker. Efter eventuella kompletterande frågor tar vi fram ett lösningsförslag till er, komplett med prisuppgift och implementeringsplan."
+      "description2": "Därefter bokar vi upp tid en detaljerad kartläggning via videomöte där ni mer i detalj demonstrerar hur nuvarande manuella arbetsflödet sker det, vilka system använder ni, vilken data används och vilka aktiviteter som sker. Efter eventuella kompletterande frågor tar vi fram ett lösningsförslag till er, komplett med prisuppgift och implementeringsplan.",
+      "button": "Boka Introduktionsmöte"
     },
     "infobox2": {
       "title": "VerksamhetsAnalys",
       "description1": "En analys av verksamheten eller ett affärsområde ger er en strategisk överblick och en lista på konkreta möjligheter som finns för produktivitetsökningar, kostnadsbesparingar, förbättrad upplevelse och utveckling av nya tjänster.",
-      "description2": "Analysen innefattar en effektiv process som kombinerar workshops och djupgående intervjuer där vi tillsammans med utvalda personer hos er kartlägger de processer och områden där AI och automation kan skapa störst värde. Vi sammanställer en rapport med prioriterade förslag och långsiktiga lösningar inklusive business case med mätbara effekter samt implementering och investeringsplan"
+      "description2": "Analysen innefattar en effektiv process som kombinerar workshops och djupgående intervjuer där vi tillsammans med utvalda personer hos er kartlägger de processer och områden där AI och automation kan skapa störst värde. Vi sammanställer en rapport med prioriterade förslag och långsiktiga lösningar inklusive business case med mätbara effekter samt implementering och investeringsplan",
+      "button": "Vill du veta mer?"
     }
   },
   "automationcomment": "---------------------------- Automation ----------------------------",
@@ -382,18 +388,18 @@
       "talk-to-us": "Kom igång",
       "how-does-it-work": "Så fungerar det",
       "goback": "Go back",
-      "send": "Send"
+      "send": "Skicka"
     },
     "experts": {
       "gustav": {
         "title": "Prata med en expert",
-        "description": "Boka ett möte med Gustav, expert inom OrderFlow",
-        "button": "Sorka loss"
+        "description": "Gustav har implementerat OrderFlow hos flertalet kunder och hjälper er gärna med era frågor kring order-automation",
+        "button": "Boka ett möte"
       },
       "samuel": {
         "title": "Prata med en expert",
-        "description": "Boka ett möte med Samuel, expert inom något",
-        "button": "Sorka loss"
+        "description": "Samuel har gedigen erfarenhet av processkartläggning och automation och hjälper er gärna med era frågor kring analys",
+        "button": "Boka ett möte"
       }
     }
   },
@@ -445,5 +451,9 @@
     "about": "Om oss",
     "contact": "Kontakt",
     "career": "Karriär"
+  },
+  "404": {
+    "title": "Looks like we are missing some page, or you typed something wrong in the URL, heres a way to get back",
+    "button": "Get back home"
   }
 }

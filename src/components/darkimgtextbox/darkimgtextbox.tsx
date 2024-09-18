@@ -1,7 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./darkimgtextbox.scss";
 
 const DarkImageTextBox = props => {
+  const { t } = useTranslation();
   return (
     <div className="darktextbox-wrapper">
       <img className="image" src={props.img} alt={props.alt} />
@@ -9,7 +11,7 @@ const DarkImageTextBox = props => {
         <div className="title">{props.title}</div>
         <div className="description">{props.description}</div>
         <a className="redirect" href="/contact">
-          Kontakta oss
+          {props.button}
         </a>
       </div>
     </div>

@@ -142,6 +142,7 @@ const Home = () => {
           img={DarkComponentImg}
           title={t("home.darkimgtextbox.title")}
           description={t("home.darkimgtextbox.description")}
+          button={t("home.darkimgtextbox.contact")}
           alt="Dark blob wallpaper"
         />
       </Container>

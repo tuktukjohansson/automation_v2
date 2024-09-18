@@ -39,7 +39,7 @@ const Analytics = () => {
             description={t("analytics.infobox1.description")}
             description2={t("analytics.infobox1.description2")}
             img={Smartboard}
-            button="Boka Introduktionsmöte"
+            button={t("analytics.infobox1.button")}
             buttonhref="https://calendly.com/patrik-violetautomation"
           />
         </Container>
@@ -61,7 +61,7 @@ const Analytics = () => {
             description={t("analytics.infobox2.description1")}
             description2={t("analytics.infobox2.description2")}
             img={Meeting}
-            button="Vill du veta mer?"
+            button={t("analytics.infobox2.button")}
             buttonhref="https://calendly.com/patrik-violetautomation"
           />
         </Container>
