@@ -29,6 +29,7 @@ const Orderflowsales = () => {
           <BusinessSoftwares description={t("orderflowsales.softwarestext")} />
         </Container>
         {/* ----------------------------- Container ----------------------------- */}
+        <div className="scrolltocomponent" id="howdoesitwork" />
         <Container>
           <div className="toggleviewcontainer">
             <ToggleView />

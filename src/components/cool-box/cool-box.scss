@@ -29,28 +29,24 @@
       font-family: var(--fontfamilydescription);
       font-size: var(--fontsmall);
     }
-    .contactusbutton {
-      display: flex;
-      font-weight: 600;
-      align-items: center;
-      justify-content: center;
-      font-family: var(--fontfamilytitle);
+    .buttoncontainer {
       margin-top: 20px;
-      border-radius: 5px;
-      border: none;
-      color: white;
-      height: 40px;
-      text-decoration: none;
-      background-color: lightgray;
-      width: 120px;
-      transition: 0.15s ease-in-out;
-      &:hover {
-        transition: 0.15s ease-in-out;
-        background-color: rgb(183, 183, 183);
+      display: flex;
+      gap: 20px;
+      .button1 {
+        background-color: white;
+        border: 1px solid #ebebeb;
+        border-radius: 5px;
+        padding: 10px 20px;
+        &:hover {
+          background-color: #ebebeb;
+        }
       }
-      &:active {
-        transition: 0.15s ease-in-out;
-        background-color: rgb(138, 138, 138);
+      .button2 {
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        padding: 10px 20px;
       }
     }
   }

@@ -8,7 +8,8 @@ import InformationBox from "../../../components/information-box/information-box.
 import Expert from "../../../components/expert/expert.tsx";
 
 // Images
-import AdminTaskImage from "../../../images/other/admin-task.png";
+import Smartboard from "../../../images/components/analytics/smartboard.png";
+import Meeting from "../../../images/components/analytics/meeting.png";
 import AnalyticsImg from "../../../images/components/analytics.png";
 import Samuel from "../../../images/violet/us/samuel.png";
 
@@ -37,7 +38,7 @@ const Analytics = () => {
             title={t("analytics.infobox1.title")}
             description={t("analytics.infobox1.description")}
             description2={t("analytics.infobox1.description2")}
-            img={AdminTaskImage}
+            img={Smartboard}
             button="Boka Introduktionsmöte"
             buttonhref="https://calendly.com/patrik-violetautomation"
           />
@@ -59,7 +60,7 @@ const Analytics = () => {
             title={t("analytics.infobox2.title")}
             description={t("analytics.infobox2.description1")}
             description2={t("analytics.infobox2.description2")}
-            img={AdminTaskImage}
+            img={Meeting}
             button="Vill du veta mer?"
             buttonhref="https://calendly.com/patrik-violetautomation"
           />

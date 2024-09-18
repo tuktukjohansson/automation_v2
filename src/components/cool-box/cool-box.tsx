@@ -17,9 +17,14 @@ const CoolBox = props => {
           <Gradienttext text={props.titlepart2} />
         </div>
         <div className="description">{props.description}</div>
-        <a className="contactusbutton" href="/contact">
-          {t("orderflowsales.computerbox.button")}
-        </a>
+        <div className="buttoncontainer">
+          <a className="button1" href="#howdoesitwork">
+            {t("orderflowsales.computerbox.button")}
+          </a>
+          <a className="button2" href="/contact">
+            {t("orderflowsales.computerbox.button2")}
+          </a>
+        </div>
       </div>
       <div className="imagecontainer">
         <img

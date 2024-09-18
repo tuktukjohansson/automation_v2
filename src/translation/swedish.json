@@ -188,47 +188,50 @@
   "orderflowsalescomment": "---------------------------- OrderFlow Sales ----------------------------",
   "orderflowsales": {
     "computerbox": {
-      "titlepart1": "Experience the Power of",
-      "titlepart2": "Sork",
-      "description": "We believe in harnessing the potential of Sorks to provide you with tools that empower your finacial decisions, so you can live life on your terms.",
-      "button": "Sork with us"
+      "titlepart1": "OrderFlow Sales",
+      "titlepart2": "frigör mer tid",
+      "titlepart3": "till försäljning",
+      "description": "Vi tror att tillämpad AI kommer revolutionera arbetslivet. Med OrderFlow är det enkelt att komma igång med AI, eliminera admin och få mer tid med kunderna.",
+      "button": "Så fungerar det",
+      "button2": "Beställ här"
     },
-    "softwarestext": "OrderFlow har färdiga integrationer med flera ledande affärssystem vilket möjliggör en snabb och enkel installation. Vi lägger regelbundet till nya affärssystem för att säkerställa bred kompatibilitet.",
+    "softwarestext": "Framtagen tillsammans med säljare på svenska grossister och tillverkande bolag har OrderFlow färdiga integrationer med flertalet affärssystem för snabb och enkel installation. Vi lägger regelbundet till nya affärssystem för att säkerställa bred kompatibilitet.",
     "toggleview": {
-      "title": "Effektivisera era orderprocesser",
-      "description": "Genom AI-driven automation frigörs tid för mer värdeskapande aktiviteter",
-      "text1": "Mailklienten installeras i Outlook eller annan mailprogram och hämtar de mail som innehåller order.",
-      "text2": "En AI-modell tränas specifikt på era order och extraherar ut all information som behövs från dokumenten.",
-      "text3": "Informationen registreras in till affärssystem enligt er specifika regler.",
-      "text4": "Rapportering på avklarade order och order som avviker från regler sker löpande.",
-      "text5": "Värdefull data från kund och leverantörers orderbeteende sammanställs och analyseras."
+      "title": "Så fungerar OrderFlow Sales",
+      "description": "Genom AI-driven automation frigörs tid för mer värdeskapande aktiviteter. Låt OrderFlow Sales ta emot och skriva era ordrar.",
+      "text1": "OrderFlow läser mail och hämtar orderbilagor i er mailapplikation och skickar till vår AI",
+      "text2": "PDF och mailinnehåll tolkas med hjälp av AI. Datan tvättas, struktureras och tillgängliggörs för eventuell mänsklig validering.",
+      "text3": "Datan skrivs in i affärssystemet med hänsyn till de affärsregler ni önskar. OrderFlow skickar sedan ordererkännande eller parkerar ordern för mänsklig validering. ",
+      "text4": "När en order är klar skickas feedback på mail eller direkt i affärssystemet. Samma sak gäller när avvikelser detekteras.",
+      "text5": "Datan som genereras under processen sammanställs och tillgängliggörs för analys och uppföljning"
     },
     "benefits": {
-      "titlepart1": "Fördelar",
-      "titlepart2": "med automatiserad orderhantering",
+      "titlepart1": "Några av",
+      "titlepart2": "fördelarna",
+      "titlepart3": "med OrderFlow Sales",
       "item1": {
         "title": "Sparad tid",
-        "description": "OrderFlows processautomation frigör tid till mer värdeskapande aktiviteter. Responstid till kundorder och identifikationstid för avvikelser på ordererkännanden kortas."
+        "description": "OrderFlow Sales kortar responstiden på inkommande ordrar. Automationen frigör också tid som kan läggas på mer värdeskapande uppgifter."
       },
       "item2": {
         "title": "Förbättrade relationer",
-        "description": "Sparad arbetstid och insikter från OrderFlows rapporter möjliggör mer fokus på försäljning och relationer med leverantörer och kunder."
+        "description": "Sparad tid genom minskad administrativt arbete möjliggör mer fokus på försäljning och kundrelationer."
       },
       "item3": {
         "title": "Färre fel",
-        "description": "Med färre manuella fel och automatisk identifiering av avvikelser genereras mer korrekt data i affärssystemet."
+        "description": "Med färre fel på ordererkännanden och automatisk identifiering av avvikelser minskar mängden felaktig data i affärssystemet."
       },
       "item4": {
         "title": "Smidig implementation",
-        "description": "OrderFlow implementeras enkelt med färdiga integrationer till ledande affärssystem. Produkten anpassas till kundens önskemål, och är ett enkelt första steg på AI-resan."
+        "description": "OrderFlow gör det enkelt att komma igång med AI. Produkten implementeras enkelt med färdiga integrationer till ledande affärssystem och anpassas till era önskemål."
       },
       "item5": {
         "title": "Medarbetarvärde",
-        "description": "Minskad energikrävande admin leder till ökad trivsel för medarbetare och minskar personalberoendet."
+        "description": "Mindre energikrävande admin innebär ökad trivsel för medarbetare och minskar personalberoendet."
       },
       "item6": {
         "title": "Övriga synergieffekter",
-        "description": "Implementationen av OrderFlow tenderar att förfina befintliga processer. Dessutom genererar OrderFlow nyckeltal som kan användas för uppföljning i verksamheten."
+        "description": "OrderFlow genererar nyckeltal som kan användas för uppföljning i verksamheten. Dessutom tenderar implementationen av OrderFlow att förfina befintliga arbetsprocesser."
       }
     },
     "form": {
@@ -249,46 +252,47 @@
   "orderflowpurchasescomment": "---------------------------- OrderFlow Confirmation ----------------------------",
   "orderflowspurchases": {
     "computerbox": {
-      "titlepart1": "Experience the Power of",
-      "titlepart2": "Sork",
-      "description": "We believe in harnessing the potential of Sorks to provide you with tools that empower your finacial decisions, so you can live life on your terms.",
-      "button": "Sork with us"
+      "titlepart1": "Sätt hanteringen av ordererkännanden på",
+      "titlepart2": "autopilot",
+      "description": "OrderFlow Confirmation jämför och uppdaterar inköpsdata automatiskt så att du kan glömma CTRL+C CTRL+V. De enda orderbekräftelser du ser är de som avviker från inköpsorder.",
+      "button": "Så fungerar det",
+      "button2": "Beställ här"
     },
-    "softwarestext": "OrderFlow har färdiga integrationer med flera ledande affärssystem vilket möjliggör en snabb och enkel installation. Vi lägger regelbundet till nya affärssystem för att säkerställa bred kompatibilitet.",
+    "softwarestext": "Framtagen tillsammans med inköpare på svenska grossister och tillverkande bolag har OrderFlow färdiga integrationer med flertalet affärssystem för snabb och enkel installation. Vi lägger regelbundet till nya affärssystem för att säkerställa bred kompatibilitet.",
     "toggleview": {
-      "title": "Effektivisera era orderprocesser",
-      "description": "Genom AI-driven automation frigörs tid för mer värdeskapande aktiviteter",
-      "text1": "Mailklienten installeras i Outlook eller annan mailprogram och hämtar de mail som innehåller order.",
-      "text2": "En AI-modell tränas specifikt på era order och extraherar ut all information som behövs från dokumenten.",
-      "text3": "Informationen registreras in till affärssystem enligt er specifika regler.",
-      "text4": "Rapportering på avklarade order och order som avviker från regler sker löpande.",
-      "text5": "Värdefull data från kund och leverantörers orderbeteende sammanställs och analyseras."
+      "title": "Så fungerar OrderFlow Confirmation",
+      "description": "Genom AI-driven automation frigörs tid för mer värdeskapande aktiviteter. Låt OrderFlow Confirmation ta emot och uppdatera era inköp.",
+      "text1": "OrderFlow läser mail och hämtar orderbilagor i er mailapplikation och skickar till vår AI",
+      "text2": " PDF och mailinnehåll tolkas med hjälp av AI. Datan tvättas och jämförs med datan på inköpet. Alla diffar noteras.",
+      "text3": "Leveransdatum och kvantiteter uppdateras på inköpet i ert affärssystem. Diffar mellan OB och inköp (delleveranser, förseningar och prisavvikelser) identifieras och hanteras enligt de affärsregler ni önskar.",
+      "text4": "Löpande rapportering av avvikelser skickas ut till berörd inköpare för manuell uppföljning.",
+      "text5": "Datan som genereras under processen sammanställs till relevanta nyckeltal och tillgängliggörs för analys och uppföljning av både leverantörer och inköpsverksamhet"
     },
     "benefits": {
       "title": "Fördelar",
       "item1": {
         "title": "Sparad tid",
-        "description": "OrderFlows processautomation frigör tid till mer värdeskapande aktiviteter. Responstid till kundorder och identifikationstid för avvikelser på ordererkännanden kortas."
+        "description": "OrderFlow Confirmation frigör tid som kan läggas på mer värdeskapande uppgifter och säkrar snabb uppdatering av leveransdata i ert affärssystem."
       },
       "item2": {
         "title": "Förbättrade relationer",
-        "description": "Sparad arbetstid och insikter från OrderFlows rapporter möjliggör mer fokus på försäljning och relationer med leverantörer och kunder."
+        "description": "Sparad arbetstid och insikter från OrderFlows rapporter möjliggör mer fokus på era leverantörer."
       },
       "item3": {
         "title": "Färre fel",
-        "description": "Med färre manuella fel och automatisk identifiering av avvikelser genereras mer korrekt data i affärssystemet."
+        "description": "Med färre manuella fel och automatisk identifiering av avvikelser säkerställs att datan på inköpen är korrekt, på nolltid."
       },
       "item4": {
         "title": "Smidig implementation",
-        "description": "OrderFlow implementeras enkelt med färdiga integrationer till ledande affärssystem. Produkten anpassas till kundens önskemål, och är ett enkelt första steg på AI-resan."
+        "description": "OrderFlow gör det enkelt att komma igång med AI. Produkten implementeras enkelt med färdiga integrationer till ledande affärssystem och anpassas till era önskemål."
       },
       "item5": {
         "title": "Medarbetarvärde",
-        "description": "Minskad energikrävande admin leder till ökad trivsel för medarbetare och minskar personalberoendet."
+        "description": "Mindre energikrävande admin innebär ökad trivsel för medarbetare och minskar personalberoendet."
       },
       "item6": {
         "title": "Övriga synergieffekter",
-        "description": "Implementationen av OrderFlow tenderar att förfina befintliga processer. Dessutom genererar OrderFlow nyckeltal som kan användas för uppföljning i verksamheten."
+        "description": "OrderFlow genererar nyckeltal som kan användas för uppföljning i verksamheten. Dessutom tenderar implementationen av OrderFlow att förfina befintliga arbetsprocesser."
       }
     },
     "form": {
@@ -399,22 +403,22 @@
       "category": "Produkter",
       "product1": {
         "title": "OrderFlow Sales",
-        "description": "Automate your workflow"
+        "description": "Automatisk registrering av inkommande order på PDF. För säljavdelningen."
       },
       "product2": {
         "title": "OrderFlow Confirmation",
-        "description": "Automate your workflow"
+        "description": "Automatisk registrering av inkommande ordererkännanden på PDF. För inköpsavdelningen."
       }
     },
     "services": {
       "category": "Tjänster",
       "product1": {
         "title": "Analys",
-        "description": "Analyse your workflow"
+        "description": "Kartläggning och analys av hur processer och verksamheter kan automatiseras"
       },
       "product2": {
         "title": "Intelligent Automation",
-        "description": "Automate your workflow"
+        "description": "Automation av administrativa och komplexa uppgifter med hjälp av artificiell intelligens"
       }
     },
     "button": "Boka ett möte",

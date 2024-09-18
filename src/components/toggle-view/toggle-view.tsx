@@ -1,6 +1,6 @@
 // Libraries and styles
 import "./toggle-view.scss";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
 // Logos
@@ -14,31 +14,32 @@ import automationImage5 from "../../images/components/slideimage5.webp";
 
 function ToggleButton({ onSelect }) {
   const [selectedButton, setSelectedButton] = useState("01");
-  const [cancelTimer, setCancelTimer] = useState(false);
+  const intervalRef = useRef<number | null>(null); // Use number type for the interval ID
 
   const handleToggle = buttonName => {
     setSelectedButton(buttonName);
     onSelect(buttonName);
-    setCancelTimer(true);
+
+    // Clear the interval when a button is clicked
+    if (intervalRef.current !== null) {
+      clearInterval(intervalRef.current);
+    }
   };
 
   useEffect(() => {
-    const timer = setInterval(
-      () => {
-        console.log(cancelTimer);
-        if (!cancelTimer) {
-          console.log("ran");
-          setSelectedButton(prev => {
-            const next = (parseInt(prev) % 5) + 1;
-            return `0${next}`;
-          });
-        }
-      },
+    intervalRef.current = window.setInterval(() => {
+      // Use window.setInterval for correct typing
+      setSelectedButton(prev => {
+        const next = (parseInt(prev) % 5) + 1;
+        return `0${next}`;
+      });
+    }, 8000);
 
-      12000
-    ); // Change every 7 seconds
-
-    return () => clearInterval(timer);
+    return () => {
+      if (intervalRef.current !== null) {
+        clearInterval(intervalRef.current); // Clear interval on unmount
+      }
+    };
   }, []);
 
   return (
@@ -80,11 +81,11 @@ function ToggleButton({ onSelect }) {
     </div>
   );
 }
-
 function ToggleView() {
   const { t } = useTranslation();
   const [selectedContent, setSelectedContent] = useState("01");
   const [animationClass, setAnimationClass] = useState("slide-in");
+  const intervalRef = useRef<number | null>(null); // Use ref to store the interval ID
 
   const handleSelectContent = content => {
     setAnimationClass("slide-out");
@@ -92,10 +93,15 @@ function ToggleView() {
       setSelectedContent(content);
       setAnimationClass("slide-in");
     }, 200); // Duration of the slide-out animation
+
+    // Clear the interval when a button is clicked
+    if (intervalRef.current !== null) {
+      clearInterval(intervalRef.current);
+    }
   };
 
   useEffect(() => {
-    const timer = setInterval(() => {
+    intervalRef.current = window.setInterval(() => {
       setAnimationClass("slide-out");
       setTimeout(() => {
         setSelectedContent(prev => {
@@ -104,9 +110,13 @@ function ToggleView() {
         });
         setAnimationClass("slide-in");
       }, 200);
-    }, 12000); // Change every 3 seconds
+    }, 8000); // 12000 Original
 
-    return () => clearInterval(timer);
+    return () => {
+      if (intervalRef.current !== null) {
+        clearInterval(intervalRef.current); // Clear interval on unmount
+      }
+    };
   }, []);
 
   const renderSelectedContent = () => {

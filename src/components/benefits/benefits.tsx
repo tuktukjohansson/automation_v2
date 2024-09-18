@@ -31,8 +31,12 @@ const Benefits = () => {
   return (
     <div className="benefits-component">
       <h1 className="gradient-title-one">
-        <Gradienttext text={t("orderflowsales.benefits.titlepart1")} />{" "}
-        {t("orderflowsales.benefits.titlepart2")}
+        {t("orderflowsales.benefits.titlepart1")}{" "}
+        <Gradienttext
+          secondGradient={true}
+          text={t("orderflowsales.benefits.titlepart2")}
+        />{" "}
+        {t("orderflowsales.benefits.titlepart3")}
       </h1>
       <div className="benefits">
         <div className="benefit">

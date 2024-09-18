@@ -7,8 +7,11 @@ import Container from "../../../components/container/container.tsx";
 import InformationBox from "../../../components/information-box/information-box.tsx";
 
 // Images
-import AdminTaskImage from "../../../images/other/admin-task.png";
+import Adminwork from "../../../images/components/intelligent-automation/adminwork.png";
+import Chess from "../../../images/components/intelligent-automation/chess.png";
 import AutomationBanner from "../../../images/components/automationbanner.png";
+import Samuel from "../../../images/violet/us/samuel.png";
+import Expert from "../../../components/expert/expert.tsx";
 
 const Automation = () => {
   const { t } = useTranslation();
@@ -38,7 +41,16 @@ const Automation = () => {
             title={t("automation.infobox1.title")}
             description={t("automation.infobox1.description1")}
             description2={t("automation.infobox1.description2")}
-            img={AdminTaskImage}
+            img={Adminwork}
+          />
+        </Container>
+        <Container>
+          <Expert
+            img={Samuel}
+            title={t("components.experts.samuel.title")}
+            description={t("components.experts.samuel.description")}
+            button={t("components.experts.samuel.button")}
+            buttonhref="/contact"
           />
         </Container>
         {/* ----------------------------- Container ----------------------------- */}
@@ -48,7 +60,7 @@ const Automation = () => {
             title={t("automation.infobox2.title")}
             description={t("automation.infobox2.description1")}
             description2={t("automation.infobox2.description2")}
-            img={AdminTaskImage}
+            img={Chess}
           />
         </Container>
       </div>
