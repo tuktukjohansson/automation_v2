@@ -436,7 +436,7 @@
   "footer": {
     "adress": "Kungsgatan 26",
     "location": "111 35 Stockholm, Sweden",
-    "mail": "support@violet.ai",
+    "mail": "support@violetautomation.ai",
     "products": {
       "category": "Produkter",
       "product1": "OrderFlow Sales",
@@ -455,5 +455,8 @@
   "404": {
     "title": "Looks like we are missing some page, or you typed something wrong in the URL, heres a way to get back",
     "button": "Get back home"
+  },
+  "language": {
+    "title": "Välj språk"
   }
 }

@@ -8,7 +8,6 @@ import { useTranslation } from "react-i18next";
 // Images
 import violet_gradient_logo from "../../images/violet/logo/violet_automation_gradient.webp";
 import arrow from "../../images/components/arrow.png";
-import LanguageSwitcher from "../langSwitch/langSwitch.tsx";
 
 const Navbar = () => {
   const { t } = useTranslation();
@@ -199,7 +198,6 @@ const Navbar = () => {
               {t("nav.contact")}
             </Link>
           </div>
-          <LanguageSwitcher />
           <Link className="demo-button" to="/demo">
             {t("nav.button")}
           </Link>

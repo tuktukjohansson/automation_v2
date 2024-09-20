@@ -22,11 +22,13 @@ const Orderflowconfirmation = () => {
         {/* ----------------------------- Container ----------------------------- */}
         <Container>
           <CoolBox
-            titlepart1={t("orderflowsales.computerbox.titlepart1")}
-            titlepart2={t("orderflowsales.computerbox.titlepart2")}
-            description={t("orderflowsales.computerbox.description")}
+            titlepart1={t("orderflowconfirmation.computerbox.titlepart1")}
+            titlepart2={t("orderflowconfirmation.computerbox.titlepart2")}
+            description={t("orderflowconfirmation.computerbox.description")}
           />
-          <BusinessSoftwares description={t("orderflowsales.softwarestext")} />
+          <BusinessSoftwares
+            description={t("orderflowconfirmation.softwarestext")}
+          />
         </Container>
         {/* ----------------------------- Container ----------------------------- */}
         <Container>

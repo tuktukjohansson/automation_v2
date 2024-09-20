@@ -1,18 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import "./langSwitch.scss"; // Importing CSS file
 
 function LanguageSwitcher() {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const [isOpen, setIsOpen] = useState(false);
 
-  const toggleLanguage = () => {
-    const newLanguage = i18n.language === "en" ? "sv" : "en";
-    i18n.changeLanguage(newLanguage);
+  const toggleLanguage = language => {
+    i18n.changeLanguage(language);
+    setIsOpen(false); // Close the menu after selecting a language
+  };
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen); // Toggle the dropdown menu
   };
 
   return (
-    <button onClick={toggleLanguage}>
-      {i18n.language === "en" ? "Switch to Swedish" : "Switch to English"}
-    </button>
+    <div className="switch-container">
+      <button className="language-toggle-button" onClick={toggleDropdown}>
+        {i18n.language === "en" ? "English" : "Svenska"}
+        <span className="arrow">▼</span>
+      </button>
+      {isOpen && (
+        <div className="language-dropdown">
+          <h2>{t("language.title")}</h2>
+          <div className="language-option" onClick={() => toggleLanguage("en")}>
+            English
+          </div>
+          <div className="language-option" onClick={() => toggleLanguage("sv")}>
+            Svenska
+          </div>
+        </div>
+      )}
+    </div>
   );
 }
 

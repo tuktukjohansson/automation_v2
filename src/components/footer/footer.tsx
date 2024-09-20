@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 
 // Images
 import violet_gradient_logo from "../../images/violet/logo/violet_automation_gradient.webp";
+import LanguageSwitcher from "../langSwitch/langSwitch.tsx";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -20,17 +21,17 @@ const Footer = () => {
           </div>
           <div className="middle-content">
             <div className="linkwrapper">
-              <Link to="/products/orderflowsales" className="link">
-                {t("footer.products.product1")}
-              </Link>
-              <Link to="/products/orderflowconfirmation" className="link">
-                {t("footer.products.product2")}
-              </Link>
               <Link to="/services/analytics" className="link">
                 {t("footer.services.product1")}
               </Link>
               <Link to="/services/automation" className="link">
                 {t("footer.services.product2")}
+              </Link>
+              <Link to="/products/orderflowsales" className="link">
+                {t("footer.products.product1")}
+              </Link>
+              <Link to="/products/orderflowconfirmation" className="link">
+                {t("footer.products.product2")}
               </Link>
             </div>
           </div>
@@ -54,7 +55,7 @@ const Footer = () => {
             <div className="description">
               <div>{t("footer.adress")}</div>
               <div>{t("footer.location")}</div>
-              <a className="mail" href="mailto:support@violet.ai">
+              <a className="mail" href="mailto:support@violetautomation.ai">
                 {t("footer.mail")}
               </a>
               <a
@@ -69,6 +70,9 @@ const Footer = () => {
                 LinkedIn
               </a>
             </div>
+          </div>
+          <div>
+            <LanguageSwitcher />
           </div>
         </div>
       </Container>
