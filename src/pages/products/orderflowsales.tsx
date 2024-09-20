@@ -11,9 +11,6 @@ import Benefits from "../../components/benefits/benefits.tsx";
 
 // Styling
 import "./orderflow.scss";
-import Expert from "../../components/expert/expert.tsx";
-import Gustav from "../../images/violet/us/gustav.png";
-
 const Orderflowsales = () => {
   const { t } = useTranslation();
   return (
@@ -35,16 +32,7 @@ const Orderflowsales = () => {
             <ToggleView />
           </div>
         </Container>
-        {/* ----------------------------- Container ----------------------------- */}
-        <Container>
-          <Expert
-            img={Gustav}
-            title={t("components.experts.gustav.title")}
-            description={t("components.experts.gustav.description")}
-            button={t("components.experts.gustav.button")}
-            buttonhref="/contact"
-          />
-        </Container>
+
         {/* ----------------------------- Container ----------------------------- */}
         <Container>
           <Benefits />
