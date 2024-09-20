@@ -35,8 +35,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  color: white;
-  background-color: rgb(76, 76, 76, 0.4);
+
+  background-color: rgba(39, 39, 39, 0.9);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,16 +44,38 @@
   font-size: var(--fontmedium);
   width: 100%;
   height: 100%;
-  z-index: 100;
+  z-index: 1000;
+  .title {
+    color: white;
+  }
 }
 
 .language-option {
+  color: rgb(168, 168, 168);
   padding: 10px;
   text-align: center;
   cursor: pointer;
   transition: background-color 0.2s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.language-option::after {
+  background: none repeat scroll 0 0 transparent;
+  content: "";
+  display: block;
+  height: 2px;
+  margin-top: 38px;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.language-option:hover:after {
+  width: 100%;
 }
 
 .language-option:hover {
-  color: #d8d8d8;
+  color: #ffffff;
 }

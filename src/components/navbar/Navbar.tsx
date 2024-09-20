@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
 import { Sling as Hamburger } from "hamburger-react";
-import { IoMdArrowDropdownCircle } from "react-icons/io";
+
 import { useTranslation } from "react-i18next";
 
 // Images

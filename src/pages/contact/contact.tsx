@@ -27,6 +27,14 @@ const Contact = () => {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(String(email).toLowerCase());
   };
+
+  const handleNameChange = e => {
+    const name = e.target.value;
+    if (name.toLowerCase() === "gunnar fröberg") {
+      form.current.message.value = "Morr";
+    }
+  };
+
   const sendEmail = e => {
     e.preventDefault();
     const email = form.current.user_email.value;
@@ -77,7 +85,12 @@ const Contact = () => {
             <form ref={form} onSubmit={sendEmail}>
               <div className="inputgroup">
                 <label>{t("contact.form.name")}</label>
-                <input type="text" name="user_name" required />
+                <input
+                  type="text"
+                  name="user_name"
+                  onChange={handleNameChange}
+                  required
+                />
               </div>
               <div className="inputgroup">
                 <label>{t("contact.form.email")}</label>

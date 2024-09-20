@@ -23,7 +23,7 @@ function LanguageSwitcher() {
       </button>
       {isOpen && (
         <div className="language-dropdown">
-          <h2>{t("language.title")}</h2>
+          <h2 className="title">{t("language.title")}</h2>
           <div className="language-option" onClick={() => toggleLanguage("en")}>
             English
           </div>
