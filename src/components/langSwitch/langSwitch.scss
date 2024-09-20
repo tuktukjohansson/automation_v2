@@ -14,7 +14,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.1s ease;
+  cursor: pointer;
 }
 
 .language-toggle-button .arrow {
@@ -23,7 +24,7 @@
 }
 
 .language-toggle-button:hover {
-  background-color: #dcdcdc;
+  background-color: #b9b9b9;
 }
 
 .language-toggle-button:focus {
@@ -76,4 +77,5 @@
 
 .language-option:hover {
   color: #ffffff;
+  cursor: pointer;
 }

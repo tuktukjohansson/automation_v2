@@ -30,6 +30,7 @@ const Orderflowconfirmation = () => {
           />
         </Container>
         {/* ----------------------------- Container ----------------------------- */}
+        <div className="scrolltocomponent" id="howdoesitwork" />
         <Container>
           <div className="toggleviewcontainer">
             <ToggleView />

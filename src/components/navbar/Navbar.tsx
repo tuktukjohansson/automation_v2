@@ -32,6 +32,32 @@ const Navbar = () => {
     <>
       <div className={`dropdown-content-mobile ${isOpen ? "open" : ""}`}>
         <div className="dropdown-links-wrapper">
+          <div className="dropdown-link" onClick={toggleProducts}>
+            <div className="dropdown-text">
+              <div className="dropdown-title">{t("nav.services.category")}</div>
+              <img
+                src={arrow}
+                className={`arrow-icon ${isProductOpen ? "open" : ""}`}
+                alt="arrow"
+              ></img>
+            </div>
+            <div className={`products-content ${isProductOpen ? "open" : ""}`}>
+              <Link
+                onClick={toggleMenu}
+                className="products-link"
+                to="/offers/analytics"
+              >
+                {t("nav.services.product1.title")}
+              </Link>
+              <Link
+                onClick={toggleMenu}
+                className="products-link"
+                to="/offers/Automation"
+              >
+                {t("nav.services.product2.title")}
+              </Link>
+            </div>
+          </div>
           <div className="dropdown-link" onClick={toggleServices}>
             <div className="dropdown-text">
               <div className="dropdown-title">{t("nav.products.category")}</div>
@@ -42,49 +68,6 @@ const Navbar = () => {
               ></img>
             </div>
             <div className={`products-content ${isServiceOpen ? "open" : ""}`}>
-              <div className="product-category">PRODUKTER</div>
-              <Link
-                onClick={toggleMenu}
-                className="products-link"
-                to="/offers/orderflowsales"
-              >
-                {t("nav.products.product3.title")}
-              </Link>
-              <Link
-                onClick={toggleMenu}
-                className="products-link"
-                to="/offers/orderflowconfirmation"
-              >
-                {t("nav.products.product4.title")}
-              </Link>
-              <div className="product-category">INFO</div>
-              <Link
-                onClick={toggleMenu}
-                className="products-link"
-                to="/offers/analytics"
-              >
-                {t("nav.products.product1.title")}
-              </Link>
-              <Link
-                onClick={toggleMenu}
-                className="products-link"
-                to="/offers/Automation"
-              >
-                {t("nav.products.product2.title")}
-              </Link>
-            </div>
-          </div>
-          <div className="dropdown-link" onClick={toggleProducts}>
-            <div className="dropdown-text">
-              <div className="dropdown-title">{t("nav.products.category")}</div>
-              <img
-                src={arrow}
-                className={`arrow-icon ${isProductOpen ? "open" : ""}`}
-                alt="arrow"
-              ></img>
-            </div>
-            <div className={`products-content ${isProductOpen ? "open" : ""}`}>
-              <div className="product-category">PRODUKTER</div>
               <Link
                 onClick={toggleMenu}
                 className="products-link"

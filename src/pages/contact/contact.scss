@@ -4,18 +4,35 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 75vh;
+  overflow: hidden;
 
   h1 {
     text-align: left;
   }
-  .blobcontainer {
-    box-sizing: border-box;
-    width: 100% !important;
+
+  .flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .text-container {
+      width: 800px;
+    }
+  }
+
+  .contactform {
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 50px;
     position: relative;
-    height: 100%;
+    box-sizing: border-box;
     .blob3 {
-      left: 10vw;
-      top: 15vh;
+      left: -100px;
+      top: -100px;
       width: 300px;
       height: auto;
       object-fit: contain;
@@ -23,30 +40,15 @@
       z-index: -50;
     }
     .blob4 {
-      left: 40%;
-      top: 60vh;
+      right: -100px;
+      bottom: -100px;
       width: 300px;
       height: auto;
       object-fit: contain;
       position: absolute;
       z-index: -50;
     }
-  }
 
-  .flex-container {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-  }
-
-  .contactform {
-    width: 350px;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 50px;
     form {
       display: flex;
       gap: 40px;
@@ -121,6 +123,9 @@
   }
 }
 @media (max-width: 600px) {
+  .contactpage {
+    height: auto !important;
+  }
   .contactform {
     width: 100% !important;
     padding: 20px !important;

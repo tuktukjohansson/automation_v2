@@ -68,10 +68,6 @@ const Contact = () => {
     <div className="contactpage">
       {/* ----------------------------- Container ----------------------------- */}
       <Container>
-        <div className="blobcontainer">
-          <img className="blob3" src={blob3} />
-          <img className="blob4" src={blob4} />
-        </div>
         <div className="flex-container">
           <Popup show={showPopup} onClose={togglePopup}>
             <h2>{t("contact.popup.title")}</h2>
@@ -82,6 +78,10 @@ const Contact = () => {
             <p>{t("contact.description")}</p>
           </div>
           <div className="contactform">
+            <div className="blobcontainer">
+              <img className="blob3" src={blob3} />
+              <img className="blob4" src={blob4} />
+            </div>
             <form ref={form} onSubmit={sendEmail}>
               <div className="inputgroup">
                 <label>{t("contact.form.name")}</label>
