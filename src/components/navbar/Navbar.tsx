@@ -7,6 +7,8 @@ import { useTranslation } from "react-i18next";
 
 // Images
 import violet_gradient_logo from "../../images/violet/logo/violet_automation_gradient.webp";
+import violet_confirmation from "../../images/violet/products/orderflow_confirmation.png";
+import violet_sales from "../../images/violet/products/orderflow_sales.png";
 import arrow from "../../images/components/arrow.png";
 
 const Navbar = () => {
@@ -129,6 +131,16 @@ const Navbar = () => {
               <div className="dropdown">
                 <div className="dropdown-container">
                   <a className="dropdown-item" href="/services/analytics">
+                    <div className="image-container">
+                      <lord-icon
+                        style={{ width: "60px", height: "60px" }}
+                        src="https://cdn.lordicon.com/pagmnkiz.json"
+                        stroke="bold"
+                        trigger="hover"
+                        colors="primary:#545454,secondary:#848484"
+                      ></lord-icon>
+                    </div>
+
                     <div className="text-container">
                       <div className="title">
                         {t("nav.services.product1.title")}
@@ -141,6 +153,15 @@ const Navbar = () => {
                 </div>
                 <div className="dropdown-container">
                   <a className="dropdown-item" href="/services/automation">
+                    <div className="image-container">
+                      <lord-icon
+                        style={{ width: "60px", height: "60px" }}
+                        src="https://cdn.lordicon.com/tmfbpplq.json"
+                        stroke="bold"
+                        trigger="hover"
+                        colors="primary:#545454,secondary:#848484"
+                      ></lord-icon>
+                    </div>
                     <div className="text-container">
                       <div className="title">
                         {t("nav.services.product2.title")}
@@ -159,6 +180,13 @@ const Navbar = () => {
               <div className="dropdown">
                 <div className="dropdown-container">
                   <a className="dropdown-item" href="/products/orderflowsales">
+                    <div className="image-container">
+                      <img
+                        className="image"
+                        alt="Violet Automation"
+                        src={violet_sales}
+                      />
+                    </div>
                     <div className="text-container">
                       <div className="title">
                         {t("nav.products.product1.title")}
@@ -174,6 +202,13 @@ const Navbar = () => {
                     className="dropdown-item"
                     href="/products/orderflowconfirmation"
                   >
+                    <div className="image-container">
+                      <img
+                        className="image"
+                        alt="Violet Automation"
+                        src={violet_confirmation}
+                      />
+                    </div>
                     <div className="text-container">
                       <div className="title">
                         {t("nav.products.product2.title")}
