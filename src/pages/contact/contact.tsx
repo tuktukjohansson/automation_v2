@@ -78,10 +78,8 @@ const Contact = () => {
             <p>{t("contact.description")}</p>
           </div>
           <div className="contactform">
-            <div className="blobcontainer">
-              <img className="blob3" src={blob3} />
-              <img className="blob4" src={blob4} />
-            </div>
+            <img className="blob3" src={blob3} />
+            <img className="blob4" src={blob4} />
             <form ref={form} onSubmit={sendEmail}>
               <div className="inputgroup">
                 <label>{t("contact.form.name")}</label>
