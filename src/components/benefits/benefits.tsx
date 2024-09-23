@@ -8,6 +8,8 @@ import lottie from "lottie-web";
 import { defineElement } from "@lordicon/element";
 import Gradienttext from "../gradient-text/gradient-text.tsx";
 
+import Clock from "../../lordicons/clock.tsx";
+
 defineElement(lottie.loadAnimation);
 
 declare global {
@@ -126,12 +128,13 @@ const Benefits = () => {
         </div>
         <div className="benefit">
           <div className="lordi">
-            <lord-icon
+            <Clock />
+            {/* <lord-icon
               style={{ width: "100px", height: "100px" }}
               src="/clock.json"
               trigger="hover"
               colors="primary:#2516c7,secondary:#e83a30"
-            ></lord-icon>
+            ></lord-icon> */}
           </div>
           <div className="title">
             {t("orderflowsales.benefits.item6.title")}
