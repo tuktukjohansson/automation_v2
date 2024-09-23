@@ -117,10 +117,10 @@ const Navbar = () => {
                     <div className="image-container">
                       <lord-icon
                         style={{ width: "60px", height: "60px" }}
-                        src="https://cdn.lordicon.com/pagmnkiz.json"
+                        src="https://cdn.lordicon.com/ewoezmtb.json"
                         stroke="bold"
                         trigger="hover"
-                        colors="primary:#545454,secondary:#848484"
+                        colors="primary:#9C9C9C,secondary:#404040"
                       ></lord-icon>
                     </div>
 
@@ -138,11 +138,12 @@ const Navbar = () => {
                   <a className="dropdown-item" href="/services/automation">
                     <div className="image-container">
                       <lord-icon
+                        id="lordicon-animation"
                         style={{ width: "60px", height: "60px" }}
-                        src="https://cdn.lordicon.com/tmfbpplq.json"
+                        src="https://cdn.lordicon.com/cylwpbub.json"
                         stroke="bold"
                         trigger="hover"
-                        colors="primary:#545454,secondary:#848484"
+                        colors="primary:#9C9C9C,secondary:#404040"
                       ></lord-icon>
                     </div>
                     <div className="text-container">

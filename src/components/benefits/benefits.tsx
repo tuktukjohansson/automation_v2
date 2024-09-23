@@ -128,8 +128,7 @@ const Benefits = () => {
           <div className="lordi">
             <lord-icon
               style={{ width: "100px", height: "100px" }}
-              src="https://cdn.lordicon.com/ngfucofr.json"
-              stroke="bold"
+              src="/clock.json"
               trigger="hover"
               colors="primary:#2516c7,secondary:#e83a30"
             ></lord-icon>
