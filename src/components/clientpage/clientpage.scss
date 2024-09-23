@@ -67,10 +67,24 @@
         align-items: center;
         flex-direction: row;
         gap: 40px;
-        .text {
-          font-size: var(--fontsmall);
-          font-weight: 700;
+        .techflex {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          .title {
+            text-align: center;
+            font-size: var(--fontsmall);
+            font-weight: 700;
+          }
+          .description {
+            text-align: center;
+            font-size: var(--fontextrasmall);
+            font-weight: 550;
+          }
         }
+
         .imgtech {
           width: 125px;
           border-radius: 150px;

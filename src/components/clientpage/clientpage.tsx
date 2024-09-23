@@ -25,7 +25,10 @@ const Clientpage = props => {
         <div className="containertwo">
           <div className="quote">“{props.quote}“</div>
           <div className="techcontainer">
-            <div className="text">{props.nameandposition}</div>
+            <div className="techflex">
+              <div className="title">{props.name}</div>
+              <div className="description">{props.position}</div>
+            </div>
             <img className="imgtech" src={props.imgtech} alt="Technician" />
           </div>
         </div>

@@ -323,30 +323,31 @@
     "description": "Här kan ni läsa mer om några av våra kunders fall där vi sorkar loss, sorkar och sorkar ännu mer. Men viktigast av allt så sorkar vi.",
     "gothes": {
       "clientname": "Göthes Industribeslag",
-      "overimgdescription": "Hur AI-assistenter hjälpte Göthes Industribeslag att navigera en pensionsavgång utan att nyanställa",
-      "underimgdescription": "Göthes Industribeslag är en beslagsgrossist i Falun med fokus på lösningar för dörrar. De har implementerat två automationslösningar under 2023 och tar nu steget mot fler automationslösningar med hjälp av generativ AI och smart dokumenttolkning.",
-      "quote": "Lättarbetat och det spar otroligt mycket tid åt oss. Violet Automations tillgänglighet och engagemang har gjort att det alltid känts tryggt och säkert när vi implementerade assistenterna.",
-      "nameandposition": "Simon Thunstedt - Teknisk support",
+      "overimgdescription": "OrderFlow har gett Göthes mer tid med kunderna",
+      "underimgdescription": "Göthes Industribeslag är en beslagsgrossist i Falun med fokus på lösningar åt tillverkare av dörrar, fönster och inredningar. Med OrderFlow har de sparat tid åt sina säljare och sluppit nyanställa i inköpsteamet. Nu tar de steget mot fler automationslösningar med hjälp av generativ AI och smart dokumenttolkning.",
+      "quote": "Lättarbetat och det spar otroligt mycket tid åt oss. Violet Automations tillgänglighet och engagemang har gjort att det alltid känts tryggt och säkert när vi implementerade lösningen.",
+      "name": "Simon Thunstedt",
+      "position": "Projektansvarig och innesäljare, Göthes Industribeslag",
       "discover": "Upptäck hur AI kan automatisera era processer!",
       "challenge": {
         "title": "Utmaningen",
-        "description": "Göthes inköpare och säljare spenderade en hel del tid på manuell registrering av pdf-ordrar och ordererkännanden i sitt affärssystem. Göthes innesälj har en hög efterfrågan på rådgivning och expertis från kunder och administration av ordrar var en tidstjuv. Detta pågick samtidigt som ansvarig för hantering av ordererkännanden gick i pension."
+        "description": "HSB erbjuder sina föreningar att fakturera sina hyresgäster separat för exempelvis varmvattenförbrukning, hushållsel och laddstolpar. Underlaget för faktureringen kommer in i form av en stor mängd filer som behöver läsas in och kontrolleras varje månad innan faktureringen går ut. Administrationen av detta är cyklisk och kunde ofta leda till pikar med hög arbetsbelastning under samma period varje månad i samband med fakturering som tar fokus från den övriga verksamheten."
       },
       "solution": {
         "title": "Lösningen",
-        "description": "Göthes anlitade Violet Automation för två automationslösningar i deras affärssystem Bison. Med hjälp av intelligent dokumenttolkning och RPA gick lösningen live i samband med en senior medarbetares pensionsavgång under vintern 2023. Göthes har under våren kunnat fortsätta med befintlig arbetsstyrka på inköpsavdelningen och innesälj har fått ökad trivsel och mer tid med kunderna. Till hösten startar nya projekt som sparar tid i arbetet med Göthes webshop."
+        "description": "Violet Automation byggde en RPA-automation för inläsning, klarmarkering och sammanfattad rapportering av de inkomna energifilerna. Med automatisk inläsning och rapportering av fel och andra avvikelser kunde fokusera på uppföljning av filer som innehåller fel med föreningarna."
       },
       "result": {
         "title": "Resultat",
-        "description": "Genom OrderFlow automatiserade OrderFlow sin hantering av både kundordrar och ordererkännanden och frigjorde både sälj och inköpsresurser."
+        "description": "Att skriva ordrar tar nu en bråkdel av den tid som det förut tog och majoriteten av ordererkännanden behöver inte längre läsas då de hanteras med full automatik. Göthes har kunnat fortsätta med befintlig arbetsstyrka på inköpsavdelningen och innesälj har fått mer tid med kunderna. Nu är nya intelligenta automationer under utveckling hos Göthes med syfte att spara tid, öka produktivitet och utvidga Göthes affär."
       }
     },
     "hsb": {
       "clientname": "HSB",
-      "overimgdescription": "Hur AI-assistenter hjälpte Göthes Industribeslag att navigera en pensionsavgång utan att nyanställa",
-      "underimgdescription": "Göthes Industribeslag är en beslagsgrossist i Falun med fokus på lösningar för dörrar. De har implementerat två automationslösningar under 2023 och tar nu steget mot fler automationslösningar med hjälp av generativ AI och smart dokumenttolkning.",
-      "quote": "Lättarbetat och det spar otroligt mycket tid åt oss. Violet Automations tillgänglighet och engagemang har gjort att det alltid känts tryggt och säkert när vi implementerade assistenterna.",
-      "nameandposition": "Simon Thunstedt - Teknisk support",
+      "overimgdescription": "Med automatisk ärendehantering sparar HSB tid varje månad ",
+      "underimgdescription": "HSB utvecklar och förvaltar boende för över en miljon människor. Tillsammans med Violet Automation har de automatiserat ärendehantering av individuell mätning och debitering för medlemmar och föreningarna.",
+      "quote": "CITAT CITAT CITAT CITAT CITATCITAT CITAT CITAT CITAT CITATCITAT CITAT CITAT CITAT CITATCITAT CITAT CITAT CITAT CITATCITAT CITAT CITAT CITAT CITAT",
+      "nameandposition": "Linda Karlsson Samordnare Fastighetsadministration",
       "discover": "Upptäck hur AI kan automatisera era processer!",
       "challenge": {
         "title": "Utmaningen",
@@ -358,27 +359,27 @@
       },
       "result": {
         "title": "Resultat",
-        "description": "Vi avlastar HSB med automatisk hantering av olika typer av cykliska medlemsärenden. Med Violet Automations lösningar har HSB sparat många timmar i början av året och varje månad."
+        "description": "Med denna lösning sparas timmar varje månad och pikarna i arbetsbeslastning har jämnats ut. Från administration i en mängd som lämnade lite tid för att adressera grundorsakerna till felaktiga energifiler har HSB nu mer tid över för verksamhetsutveckling och dialog med sina bostadsrättsföreningar och energibolag."
       }
     },
     "didriksons": {
       "clientname": "Didriksons",
-      "overimgdescription": "Hur AI-assistenter hjälpte Göthes Industribeslag att navigera en pensionsavgång utan att nyanställa",
-      "underimgdescription": "Göthes Industribeslag är en beslagsgrossist i Falun med fokus på lösningar för dörrar. De har implementerat två automationslösningar under 2023 och tar nu steget mot fler automationslösningar med hjälp av generativ AI och smart dokumenttolkning.",
-      "quote": "Lättarbetat och det spar otroligt mycket tid åt oss. Violet Automations tillgänglighet och engagemang har gjort att det alltid känts tryggt och säkert när vi implementerade assistenterna.",
-      "nameandposition": "Simon Thunstedt - Teknisk support",
+      "overimgdescription": "Adminstration av Didriksons transaktionsunderlag gick från timmar till minuter i tidsåtgång",
+      "underimgdescription": "Didriksons är en svensk tillverkare av regnkläder jackor. Med Violet Automation har de automatiserat hanteringen av transaktionsunderlag inklusive bokföring och utbetalningar",
+      "quote": "CITAT CITAT CITAT CITAT CITATCITAT CITAT CITAT CITAT CITATCITAT CITAT CITAT CITAT CITATCITAT CITAT CITAT CITAT CITATCITAT CITAT CITAT CITAT CITAT",
+      "nameandposition": "person persson",
       "discover": "Upptäck hur AI kan automatisera era processer!",
       "challenge": {
         "title": "Utmaningen",
-        "description": "Göthes inköpare och säljare spenderade en hel del tid på manuell registrering av pdf-ordrar och ordererkännanden i sitt affärssystem. Göthes innesälj har en hög efterfrågan på rådgivning och expertis från kunder och administration av ordrar var en tidstjuv. Detta pågick samtidigt som ansvarig för hantering av ordererkännanden gick i pension."
+        "description": "Didriksons ekonomiavdelning hanterar varje vecka stora mängder transaktionsunderlag från köp och returer globalt samt valutatransaktioner. Ett tidskrävande arbete, speciellt under högsäsong när volymerna och tidsåtgången ökar markant."
       },
       "solution": {
         "title": "Lösningen",
-        "description": "Göthes anlitade Violet Automation för två automationslösningar i deras affärssystem Bison. Med hjälp av intelligent dokumenttolkning och RPA gick lösningen live i samband med en senior medarbetares pensionsavgång under vintern 2023. Göthes har under våren kunnat fortsätta med befintlig arbetsstyrka på inköpsavdelningen och innesälj har fått ökad trivsel och mer tid med kunderna. Till hösten startar nya projekt som sparar tid i arbetet med Göthes webshop."
+        "description": "Violet Automation skräddarsydde en automationslösning som hämtar transaktionsunderlag från Klarna och Paypal och importerar dessa till Microsoft Dynamics. Vid behov bokförs returer och utbetalningar mot varandra. Ett arbete som genomförs helt automatiskt och rapporteras till berörda medarbetare efter genomförd bokning i Dynamics."
       },
       "result": {
         "title": "Resultat",
-        "description": "Didriksons automation sammanställer transaktionsdata från e-handeln och matar in den i Didriksons affärssystem utan mänsklig mellanhand"
+        "description": "Idag läggs endast tid på att granska den rapport om genomfört arbete samt eventuella avvikelser, som skickas ut till berörda medarbetare. En tidsåtgång på minuter istället för timmar som tidigare lades varje vecka."
       }
     }
   },

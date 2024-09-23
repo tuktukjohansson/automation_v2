@@ -22,7 +22,8 @@ const Gothes = () => {
             overimgdescription={t("clients.gothes.overimgdescription")}
             underimgdescription={t("clients.gothes.underimgdescription")}
             quote={t("clients.gothes.quote")}
-            nameandposition={t("clients.gothes.nameandposition")}
+            name={t("clients.gothes.name")}
+            position={t("clients.gothes.position")}
             discover={t("clients.gothes.discover")}
             challengetitle={t("clients.gothes.challenge.title")}
             challengedescription={t("clients.gothes.challenge.description")}
