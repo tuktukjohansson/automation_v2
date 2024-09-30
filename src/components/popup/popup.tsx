@@ -19,9 +19,11 @@ const Popup: React.FC<PopupProps> = ({ show, onClose, children }) => {
       <div className="popup">
         <div className="popup-content">
           {children}
-          <a href="/" className="home-button">
-            {t("components.buttons.goback")}
-          </a>
+          <div className="buttoncontainer">
+            <a href="/" className="home-button">
+              {t("components.buttons.goback")}
+            </a>
+          </div>
         </div>
       </div>
     </div>

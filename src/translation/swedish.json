@@ -92,30 +92,31 @@
     "title": "Varje resa börjar med ett första steg",
     "description": "Vi är passionerade när det gäller automation och hjälper gärna till att utforska möjligheterna för affärsprocesserna. Kontakta oss, så ser vi var det kan leda.",
     "form": {
-      "name": "Namn*",
-      "email": "Mailadress*",
+      "name": "Namn",
+      "email": "Email",
       "message": "Meddelande"
     },
     "popup": {
-      "title": "Thank You for Your Message!",
-      "description": "Your message has been received. We'll get back to you shortly"
+      "title": "Tack för ditt meddelande!",
+      "description": "Ditt meddelande har mottagits. Vi återkommer till dig inom kort."
     }
   },
   "aboutcomment": "---------------------------- About ----------------------------",
   "about": {
-    "title": "Om Violet Automation",
-    "description": "AI kommer autoamtisera en ny nivå av kunslapsarbete. Omvärldsanalys. Vår lösning på det är snabbt, enkelt och riskfritt och ni köper det på abbonemang.AI kommer autoamtisera en ny nivå av kunslapsarbete. Omvärldsanalys. Vår lösning på det är snabbt, enkelt och riskfritt och ni köper det på abbonemang.",
-    "textinimagebox": {
-      "title": "En titel här 0001",
-      "description": "En description här 00002"
+    "titleanddescription1": {
+      "description": "AI driver den största omvandlingen av kunskapsarbete i modern tid, och öppnar upp enorma möjligheter för företag att öka sin produktivitet och stärka sin konkurrenskraft. Vår mission är att hjälpa våra kunder att snabbt och effektivt dra nytta av dessa möjligheter.",
+      "description2": "Vårt helhetserbjudande täcker hela resan – från att analysera verksamheten för att identifiera både omedelbara förbättringsmöjligheter till att utveckla långsiktiga förändringar som leder till hållbar tillväxt. Vi tar ansvar för att utveckla och implementera lösningar som optimeras löpande, så att våra kunder ständigt kan höja sin effektivitet och fokusera fullt ut på sin kärnverksamhet."
     },
-    "sideimagebox1": {
-      "title": "Värderingar och ledord",
-      "description": "AI kommer autoamtisera en ny nivå av kunslapsarbete. Omvärldsanalys. Vår lösning på det är snabbt, enkelt och riskfritt och ni köper det på abbonemang.AI kommer autoamtisera en ny nivå av kunslapsarbete. Omvärldsanalys. Vår lösning på det är snabbt, enkelt och riskfritt och ni köper det på abbonemang.AI kommer autoamtisera en ny nivå av kunslapsarbete. Omvärldsanalys. Vår lösning på det är snabbt, enkelt och riskfritt och ni köper det på abbonemang.AI kommer autoamtisera en ny nivå av kunslapsarbete. Omvärldsanalys. Vår lösning på det är snabbt, enkelt och riskfritt och ni köper det på abbonemang.AI kommer autoamtisera en ny nivå av kunslapsarbete. Omvärldsanalys. Vår lösning på det är snabbt, enkelt och riskfritt och ni köper det på abbonemang.AI kommer autoamtisera en ny nivå av kunslapsarbete. Omvärldsanalys. Vår lösning på det är snabbt, enkelt och riskfritt och ni köper det på abbonemang."
+    "titleanddescription2": {
+      "title": "Vår syn på AI",
+      "description": "Utvecklingen går väldigt fort och det kommer förändra mycket.Viktigt att man ställer om, annars kommer någon annan gör det."
     },
-    "patrikview": {
-      "name": "Patrik Nyström, CEO",
-      "description": "Vi är alltid på jakt efter talangfulla och drivna kollegor. Violet Automation är måna om ... kultur kultur kultur. Se våra lediga tjänster eller lämna in en spontan-ansökan!"
+    "titleanddescription3": {
+      "title": "Vårt erbjudande",
+      "description": "AI handlar om mycket mer än bara teknik.  Vi vill vara en långsiktig partner  Vi vill hjälpa företag till effektiv transformation för ökad produktivitet, minskade kostnader och innovation. Vi gör det genom att ha djup förståelse för vad som är möjligt att göra med teknik, vi omvärldsbevakar, håller koll på den otroligt snabbt utvecklingen.",
+      "description2": "Vi hjälper våra kunder med analysera deras verksamhet och processer för att hitta både lägst hängande frukter med tydlig ROI samt långsiktiga lösningar.",
+      "description3": "Vi vill vara nära våra kunder och tro mycket på relationen och förstå er kärnaffär",
+      "description4": "Vi implementerar lösningar, förvaltar dem,  optimerar dem och vidareutvecklar."
     }
   },
   "careercomment": "---------------------------- Career ----------------------------",
@@ -161,34 +162,14 @@
     "description1": "Vill du öka produktivitet och trivsel hos dina medarbetare, eliminera kostnader och förbättra er kundupplevelse?",
     "description2": "Violet Automation har en bred erfarenhet av att automatisera processer i olika typer av system. Vi automatiserar stora och små processer och kan hjälpa er att ta nästa steg även med komplexa uppgifter och AI-agenter.",
     "infobox1": {
-      "title": "Adminstrativa uppgifter",
-      "description1": "Maximera effektiviteten i er verksamhet genom att automatisera tidskrävande administrativa uppgifter. Våra skräddarsydda lösningar hanterar allt från datainmatning och genomgång av stora datamängder till avancerad tolkning av texter och dokument. Tänk er ett system som självständigt kan läsa och förstå PDF-filer med avtal, order och fakturor, eller extrahera viktig information från e-postmeddelanden.",
-      "description2": "Vi automatiserar hela arbetsflöden och anpassar lösningen efter era specifika arbetssätt och regler. Resultatet blir en sömlös end-to-end lösning med exceptionellt hög automationsgrad. Oavsett om det gäller fakturahantering, kundserviceärenden eller personaladministration",
-      "tableleft": {
-        "title": "Värde:",
-        "row1": "Hjälp att komma igång och veta vad som ska prioriteras.",
-        "row2": "Inspiration? Öppna ögon för hur man kan göra.",
-        "row3": "Konkreta förslag på vad som kan göras."
-      },
-      "tableright": {
-        "title": "AI Transformation Insights innefattar:",
-        "row1": "Interaktiv workshop för att komma igång. Inspirera, utbilda och aktivera organisationen."
-      }
+      "title": "Automatisering av repetitiva arbetsuppgifter",
+      "description1": "Maximera effektiviteten i er verksamhet genom att automatisera tidskrävande manuella arbetsuppgifter såsom dataregistrering, rapportgenerering, avtalshantering, avstämningar, leveransplanering och andra liknade processer.",
+      "description2": "Vi automatiserar hela arbetsflöden och anpassar lösningen efter era specifika arbetssätt och regler. Resultatet blir en sömlös end-to-end lösning med exceptionellt hög automationsgrad. Oavsett om det gäller fakturahantering, kundserviceärenden eller personaladministration"
     },
     "infobox2": {
-      "title": "",
-      "description1": "",
-      "description2": "",
-      "tableleft": {
-        "title": "",
-        "row1": "",
-        "row2": "",
-        "row3": ""
-      },
-      "tableright": {
-        "title": "",
-        "row1": ""
-      }
+      "title": "AI-agenter – ett helt nytt sätt att arbeta",
+      "description1": "AI-agenter förändrar spelplanen för affärsprocesser genom att kunna automatisera komplexa arbetsuppgifter med många olika undantag och som tidigare krävde mänskligt beslutsfattande. Med hjälp av den senaste den kraftfulla utvecklingen av språkmodeller kan AI-agenter resonera, anpassa sig och lära sig från sin omgivning. De kan agera både självständigt och i samspel med människor, andra system och andra AI-agenter. ",
+      "description2": "AI-agenter handlar om mer än bara automatisering – det är en ny era av intelligens i affärsprocesser som öppnar upp för nya arbetssätt med avsevärda produktivitetsökningar.Vi hjälper er att förstå potentialen i denna nya teknologi och implementera era första agenter där de ger störst effekt för verksamheten. "
     }
   },
   "orderflowsalescomment": "---------------------------- OrderFlow Sales ----------------------------",
@@ -402,6 +383,13 @@
         "description": "Samuel har gedigen erfarenhet av processkartläggning och automation och hjälper er gärna med era frågor kring analys",
         "button": "Boka ett möte"
       }
+    },
+    "callecontainer": {
+      "titlepart1": "Prata med en",
+      "titlepart2": "expert",
+      "gradientdescription": "Paid by Patrik",
+      "description1": "Calle är vår fantastiska Calle, han är expert på allt inom calles expertområden",
+      "description2": "Calle är vår fantastiska Calle, han är expert på allt inom calles expertområden"
     }
   },
   "navcomment": "---------------------------- Nav ----------------------------",

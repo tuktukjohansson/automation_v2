@@ -82,7 +82,10 @@ const Contact = () => {
             <img className="blob4" src={blob4} />
             <form ref={form} onSubmit={sendEmail}>
               <div className="inputgroup">
-                <label>{t("contact.form.name")}</label>
+                <label>
+                  {t("contact.form.name")}
+                  <span>*</span>
+                </label>
                 <input
                   type="text"
                   name="user_name"
@@ -91,7 +94,10 @@ const Contact = () => {
                 />
               </div>
               <div className="inputgroup">
-                <label>{t("contact.form.email")}</label>
+                <label>
+                  {t("contact.form.email")}
+                  <span>*</span>
+                </label>
                 <input type="email" name="user_email" required />
                 {emailError && <p className="error">{emailError}</p>}
               </div>

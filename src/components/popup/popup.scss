@@ -12,17 +12,30 @@
 }
 
 .popup {
+  h2 {
+    font-size: var(--fontmedium) !important;
+  }
+  p {
+    font-size: var(--fontsmall) !important;
+  }
   background-color: white;
-  padding: 20px 20px 35px 20px;
+  display: flex;
+  padding: 10px 20px;
   border-radius: 8px;
   max-width: 500px;
   width: 100%;
   position: relative;
+  justify-content: flex-end;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  .buttoncontainer {
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    justify-content: flex-end;
+  }
 }
 
 .home-button {
-  position: absolute;
   text-decoration: none;
   background-color: rgb(77, 192, 176);
   display: flex;
@@ -34,12 +47,11 @@
   align-items: center;
   width: 100px;
   height: 35px;
-  bottom: 10px;
-  right: 20px;
   border: none;
   font-size: 18px;
   transition: 0.1s ease-in-out;
   cursor: pointer;
+
   &:hover {
     background-color: rgb(57, 145, 133);
     transition: 0.1s ease-in-out;

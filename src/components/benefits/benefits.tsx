@@ -8,7 +8,8 @@ import lottie from "lottie-web";
 import { defineElement } from "@lordicon/element";
 import Gradienttext from "../gradient-text/gradient-text.tsx";
 
-import Clock from "../../lordicons/clock.tsx";
+import Clock from "../../lordicons/icondisplay.tsx";
+import IconDisplay from "../../lordicons/icondisplay.tsx";
 
 defineElement(lottie.loadAnimation);
 
@@ -43,13 +44,7 @@ const Benefits = () => {
       <div className="benefits">
         <div className="benefit">
           <div className="lordi">
-            <lord-icon
-              style={{ width: "100px", height: "100px" }}
-              src="https://cdn.lordicon.com/aqrzgjfy.json"
-              stroke="bold"
-              trigger="hover"
-              colors="primary:#2516c7,secondary:#e83a30"
-            ></lord-icon>
+            <IconDisplay iconType={"clock"} />
           </div>
           <div className="title">
             {t("orderflowsales.benefits.item1.title")}
@@ -60,13 +55,7 @@ const Benefits = () => {
         </div>
         <div className="benefit">
           <div className="lordi">
-            <lord-icon
-              style={{ width: "100px", height: "100px" }}
-              src="https://cdn.lordicon.com/eackfddu.json"
-              stroke="bold"
-              trigger="hover"
-              colors="primary:#2516c7,secondary:#e83a30"
-            ></lord-icon>
+            <IconDisplay iconType={"handshake"} />
           </div>
           <div className="title">
             {t("orderflowsales.benefits.item2.title")}
@@ -77,13 +66,7 @@ const Benefits = () => {
         </div>
         <div className="benefit">
           <div className="lordi">
-            <lord-icon
-              style={{ width: "100px", height: "100px" }}
-              src="https://cdn.lordicon.com/vlrdqeoi.json"
-              stroke="bold"
-              trigger="hover"
-              colors="primary:#2516c7,secondary:#e83a30"
-            ></lord-icon>
+            <IconDisplay iconType={"checkbox"} />
           </div>
           <div className="title">
             {t("orderflowsales.benefits.item3.title")}
@@ -94,13 +77,7 @@ const Benefits = () => {
         </div>
         <div className="benefit">
           <div className="lordi">
-            <lord-icon
-              style={{ width: "100px", height: "100px" }}
-              src="https://cdn.lordicon.com/txahugpp.json"
-              stroke="bold"
-              trigger="hover"
-              colors="primary:#2516c7,secondary:#e83a30"
-            ></lord-icon>
+            <IconDisplay iconType={"puzzle"} />
           </div>
           <div className="title">
             {t("orderflowsales.benefits.item4.title")}
@@ -111,13 +88,7 @@ const Benefits = () => {
         </div>
         <div className="benefit">
           <div className="lordi">
-            <lord-icon
-              style={{ width: "100px", height: "100px" }}
-              src="https://cdn.lordicon.com/bypurkml.json"
-              stroke="bold"
-              trigger="hover"
-              colors="primary:#2516c7,secondary:#e83a30"
-            ></lord-icon>
+            <IconDisplay iconType={"threeavatars"} />
           </div>
           <div className="title">
             {t("orderflowsales.benefits.item5.title")}
@@ -128,13 +99,7 @@ const Benefits = () => {
         </div>
         <div className="benefit">
           <div className="lordi">
-            <Clock />
-            {/* <lord-icon
-              style={{ width: "100px", height: "100px" }}
-              src="/clock.json"
-              trigger="hover"
-              colors="primary:#2516c7,secondary:#e83a30"
-            ></lord-icon> */}
+            <IconDisplay iconType={"speedometer"} />
           </div>
           <div className="title">
             {t("orderflowsales.benefits.item6.title")}

@@ -1,0 +1,30 @@
+.callecontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0px;
+  .image {
+    width: 250px;
+    height: 250px;
+    padding: 0px 100px;
+  }
+  .text-overlay {
+    .gradienttitle {
+      font-size: var(--fontbig);
+      color: white;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .gradientdescription {
+      font-size: var(--fontsmall);
+      margin-bottom: 30px;
+    }
+    .description {
+      font-size: var(--fontsmall);
+      margin-bottom: 10px;
+      color: white;
+    }
+  }
+}

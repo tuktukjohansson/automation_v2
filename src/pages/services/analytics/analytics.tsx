@@ -61,8 +61,6 @@ const Analytics = () => {
             description={t("analytics.infobox2.description1")}
             description2={t("analytics.infobox2.description2")}
             img={Meeting}
-            button={t("analytics.infobox2.button")}
-            buttonhref="https://calendly.com/patrik-violetautomation"
           />
         </Container>
       </div>

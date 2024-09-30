@@ -12,7 +12,7 @@ const Footer = () => {
   const { t } = useTranslation();
   return (
     <div className="footer">
-      <Container>
+      <Container lesspadding={true}>
         <div className="content">
           <div className="left-content">
             <div className="description">

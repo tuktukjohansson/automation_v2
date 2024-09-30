@@ -10,7 +10,7 @@ import InformationBox from "../../../components/information-box/information-box.
 import Adminwork from "../../../images/components/intelligent-automation/adminwork.png";
 import Chess from "../../../images/components/intelligent-automation/chess.png";
 import AutomationBanner from "../../../images/components/automationbanner.png";
-import Samuel from "../../../images/violet/us/samuel.png";
+import Gustav from "../../../images/violet/us/gustav.png";
 import Expert from "../../../components/expert/expert.tsx";
 
 const Automation = () => {
@@ -46,7 +46,7 @@ const Automation = () => {
         </Container>
         <Container>
           <Expert
-            img={Samuel}
+            img={Gustav}
             title={t("components.experts.samuel.title")}
             description={t("components.experts.samuel.description")}
             button={t("components.experts.samuel.button")}
