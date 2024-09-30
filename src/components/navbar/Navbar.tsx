@@ -217,7 +217,7 @@ const Navbar = () => {
               {t("nav.contact")}
             </Link>
           </div>
-          <Link className="demo-button" to="/demo">
+          <Link className="demo-button" to="/contact">
             {t("nav.button")}
           </Link>
           <div className="hamburger-container">
