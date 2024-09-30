@@ -26,6 +26,8 @@
     }
     .description {
       margin-bottom: 10px;
+      color: var(--colordescription);
+      line-height: 1.5;
       font-size: var(--fontsmall);
     }
     .buttoncontainer {

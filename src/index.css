@@ -16,36 +16,26 @@ html {
 }
 
 :root {
-  /* Common Colors */
-  --blue: #1e90ff;
-  --white: #ffffff;
+  /* Gradient Colors */
   --gradient1: #6557ff;
   --gradient2: #aa3fff;
   --gradient3: #f8522e;
   --gradient4: #fcaa4a;
-  --black: #171717;
-  --darkgray: #2d2d2d;
   --gray: #6d6d6d;
-  --lightgray: #a8a8a8;
-  --white: #ffffff;
-  /* Font Families */
-  /* --fontfamilytitle: "Mary Poppins", sans-serif;
-  --fontfamilydescription: "Inter", sans-serif; */
-  /* --fontfamilytitle: "Clarkson", Helvetica, sans-serif; */
+  /* Font colors */
+  --colordescription: #60697b;
+  /* Font families */
   --fontfamilytitle: Epilogue, sans-serif;
   --fontfamilydescription: Epilogue, sans-serif;
-  /* --fontfamilydescription: "Clarkson", Helvetica, sans-serif; */
   /* Font Sizes */
   --fontextrasmall: 16px;
-  --fontsmall: 20px;
+  --fontsmall: 18px;
   --fontmedium: 30px;
   --fontbig: 40px;
   --fontlarge: 55px;
   --fonthuge: 70px;
   /* Margin Nav */
   --navmargin: 100px;
-  /* Colors */
-  --color: #616161;
 }
 
 @media (max-width: 1100px) {

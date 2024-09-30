@@ -40,14 +40,14 @@
     .title {
       margin: 10px 10px 0px 10px;
       font-family: var(--fontfamilytitle);
-      font-size: 25px;
-      font-weight: 550;
+      font-size: var(--fontmedium);
+      font-weight: 500;
     }
     .description {
       margin: 20px 10px 0px 10px;
       font-family: var(--fontfamilydescription);
-      font-size: 20px;
-      color: var(--gray);
+      font-size: var(--fontsmall);
+      color: var(--colordescription);
       display: -webkit-box; /* Required for line-clamp */
       -webkit-line-clamp: 3; /* Number of lines before truncation */
       -webkit-box-orient: vertical; /* Required for line-clamp */

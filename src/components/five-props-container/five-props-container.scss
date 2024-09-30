@@ -38,6 +38,7 @@
           margin: 0px 0px 30px 40px;
           font-weight: 500;
           font-size: var(--fontsmall);
+          color: var(--colordescription);
         }
       }
       &:hover {
@@ -72,6 +73,7 @@
         .description {
           font-size: var(--fontsmall);
           margin-left: 40px;
+          color: var(--colordescription);
           width: 400px;
         }
       }
@@ -131,6 +133,7 @@
             margin: 0px 40px 30px 40px;
             font-weight: 500;
             font-size: var(--fontsmall);
+            color: var(--colordescription);
           }
         }
         .blob {
@@ -169,6 +172,7 @@
             font-weight: 500;
             width: 450px;
             font-size: var(--fontsmall);
+            color: var(--colordescription);
           }
         }
         .blob {

@@ -11,7 +11,6 @@ import Benefits from "../../components/benefits/benefits.tsx";
 
 // Styling
 import "./orderflow.scss";
-import Gustav from "../../images/violet/us/gustav.png";
 
 const Orderflowconfirmation = () => {
   const { t } = useTranslation();

@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px 100px 90px 100px;
+    padding: 100px 200px 200px 200px;
     box-sizing: border-box;
     position: relative;
     height: 600px;
@@ -20,7 +20,7 @@
     .image {
       position: absolute;
       width: 100%;
-      bottom: -150px;
+      bottom: -70px;
     }
     .analytics-title {
       width: 100%;

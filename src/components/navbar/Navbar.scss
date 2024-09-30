@@ -35,7 +35,7 @@
     border-radius: 7px;
     font-size: var(--fontsmall);
     position: relative;
-    color: var(--white);
+    color: white;
     &:hover {
       background: linear-gradient(#e66465, #9198e5);
     }
@@ -254,7 +254,7 @@
     font-family: var(--fontfamilytitle);
     font-size: var(--fontlarge);
 
-    color: var(--black);
+    color: black;
     text-decoration: none;
 
     .arrow-icon {
@@ -268,7 +268,7 @@
   .dropdown-text:hover,
   .products-link:hover,
   .sublink:hover {
-    color: var(--black);
+    color: black;
   }
   .products-link {
     color: var(--gray);

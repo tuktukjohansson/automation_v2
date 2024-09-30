@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
   gap: 30px;
   .box {
     /* From https://css.glass */
@@ -29,6 +28,8 @@
       font-size: var(--fontsmall);
       margin-top: 10px;
       max-width: 400px;
+      font-weight: 300;
+      color: var(--colordescription);
     }
   }
 }

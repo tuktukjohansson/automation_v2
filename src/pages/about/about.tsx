@@ -38,8 +38,6 @@ const About = () => {
             description4={t("about.titleanddescription3.description4")}
           />
         </Container>
-        {/* ----------------------------- Container ----------------------------- */}
-        <Container></Container>
       </div>
     </>
   );

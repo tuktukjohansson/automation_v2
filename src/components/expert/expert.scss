@@ -9,10 +9,12 @@
     flex-direction: column;
     gap: 10px;
     .title {
-      font-size: var(--fontbig);
+      font-size: var(--fontmedium);
     }
     .description {
+      color: var(--colordescription);
       font-size: var(--fontsmall);
+      line-height: 1.7;
     }
     .buttoncontainer {
       margin-top: 30px;
