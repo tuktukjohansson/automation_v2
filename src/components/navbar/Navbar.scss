@@ -123,6 +123,10 @@
                 object-fit: contain;
               }
             }
+            .description {
+              color: var(--colordescription);
+              font-size: var(--fontsmall);
+            }
             .title {
               font-size: var(--fontmedium);
               font-weight: 500;
