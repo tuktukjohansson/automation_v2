@@ -1,4 +1,4 @@
-.oscar-är-sämst {
+.cool-box {
   width: 100%;
   height: 600px;
   background-image: url("../../images/components/backgroundblob.webp");
@@ -63,7 +63,7 @@
 }
 
 @media (max-width: 1400px) {
-  .oscar-är-sämst {
+  .cool-box {
     .imagecontainer {
       .image {
         width: 500px;
@@ -73,7 +73,7 @@
   }
 }
 @media (max-width: 1250px) {
-  .oscar-är-sämst {
+  .cool-box {
     .imagecontainer {
       .image {
         width: 450px;
@@ -83,7 +83,7 @@
   }
 }
 @media (max-width: 1100px) {
-  .oscar-är-sämst {
+  .cool-box {
     background-position: -200px;
     height: 700px;
     background-size: cover;
@@ -96,7 +96,7 @@
   }
 }
 @media (max-width: 850px) {
-  .oscar-är-sämst {
+  .cool-box {
     background-position: -200px;
     height: 500px;
     background-size: cover;
@@ -120,7 +120,7 @@
   }
 }
 @media (max-width: 800px) {
-  .oscar-är-sämst {
+  .cool-box {
     .imagecontainer {
       .image {
         width: 300px;
@@ -130,7 +130,7 @@
   }
 }
 @media (max-width: 700px) {
-  .oscar-är-sämst {
+  .cool-box {
     .title {
       line-height: 50px;
     }
@@ -141,7 +141,7 @@
   }
 }
 @media (max-width: 550px) {
-  .oscar-är-sämst {
+  .cool-box {
     align-items: start;
     height: 450px;
     .imagecontainer {

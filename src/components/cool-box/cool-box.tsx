@@ -10,7 +10,7 @@ const CoolBox = props => {
   const { t } = useTranslation();
 
   return (
-    <div className="oscar-är-sämst">
+    <div className="cool-box">
       <div className="textbox">
         <div className="titlecontainer">
           <div className="title">{props.titlepart1}</div>
